@@ -1,0 +1,71 @@
+# Engagement — nichayathartham
+#
+# STATUS: DRAFT, pending OWNER-1 sign-off (SPEC FR-V2). Tag key in
+# rules/wedding.yaml.
+
+event: engagement
+label: Engagement / nichayathartham
+short: Engagement
+blurb: >-
+  Dates for a nichayathartham. The rules are looser than the wedding's — the
+  month blocks and combustion periods still apply, but the nakshatra list is
+  wider and Saturday is not excluded.
+
+criteria:
+
+  allow_nakshatra:
+    basis: >-
+      [standard] The wedding set plus the softer benefic nakshatras normally
+      admitted for the engagement: Ashwini, Mrigasheersham, Punarpoosam,
+      Poosam, Chithirai, Thiruvonam, Avittam and Sadhayam.
+    values:
+      - Ashwini
+      - Rohini
+      - Mrigasheersham
+      - Punarpoosam
+      - Poosam
+      - Magham
+      - Uthiram
+      - Hastham
+      - Chithirai
+      - Swathi
+      - Anusham
+      - Moolam
+      - Uthiradam
+      - Thiruvonam
+      - Avittam
+      - Sadhayam
+      - Uthirattathi
+      - Revathi
+
+  block_tithi:
+    basis: >-
+      [standard] Rikta tithis plus Ashtami and Amavasai. Pournami is
+      permitted for an engagement in most houses, unlike the wedding.
+    values: [Chathurthi, Ashtami, Navami, Chathurdasi, Amavasai]
+
+  allow_weekday:
+    basis: >-
+      [standard] Tuesday avoided. [varies] Saturday is commonly accepted for
+      a nichayathartham even where it is refused for the muhurtham.
+    values: [Sunday, Monday, Wednesday, Thursday, Friday, Saturday]
+
+  block_tamil_month:
+    basis: >-
+      [standard] The same three months are avoided for the engagement, since
+      it is a step in the same marriage sequence.
+    values: [Aadi, Purattasi, Margazhi]
+
+  block_combust:
+    basis: >-
+      [standard] Sukra and Guru moudhyam apply to the whole marriage
+      sequence, engagement included.
+    values: [venus, jupiter]
+
+  block_eclipse_days:
+    basis: "[standard] Grahan day and the day either side."
+    window_days: 1
+
+warn:
+  rahu_kalam:
+    basis: "[standard] Keep the ceremony out of rahu kalam."

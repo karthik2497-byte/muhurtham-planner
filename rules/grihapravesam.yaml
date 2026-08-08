@@ -1,0 +1,73 @@
+# Housewarming — griha pravesam
+#
+# STATUS: DRAFT, pending OWNER-1 sign-off (SPEC FR-V2). Tag key in
+# rules/wedding.yaml.
+
+event: grihapravesam
+label: Griha pravesam (housewarming)
+short: Housewarming
+blurb: >-
+  Dates for entering a new home. The fixed and soft nakshatras are preferred,
+  the growing (shukla) fortnight is preferred, and the same three months are
+  avoided. Diaspora note: closing dates rarely bend, so the list is deliberately
+  wider than the wedding's.
+
+criteria:
+
+  allow_nakshatra:
+    basis: >-
+      [standard] The dhruva (fixed) nakshatras — Rohini, Uthiram, Uthiradam,
+      Uthirattathi — and the mridu (soft) ones — Mrigasheersham, Chithirai,
+      Anusham, Revathi — are the classical griha pravesam set, with Hastham,
+      Swathi, Poosam, Thiruvonam and Avittam commonly added.
+    values:
+      - Rohini
+      - Mrigasheersham
+      - Poosam
+      - Uthiram
+      - Hastham
+      - Chithirai
+      - Swathi
+      - Anusham
+      - Uthiradam
+      - Thiruvonam
+      - Avittam
+      - Uthirattathi
+      - Revathi
+
+  block_tithi:
+    basis: >-
+      [standard] Rikta tithis, Ashtami, Amavasai and Pournami are avoided for
+      griha pravesam.
+    values: [Chathurthi, Ashtami, Navami, Chathurdasi, Amavasai, Pournami]
+
+  allow_paksha:
+    basis: >-
+      [varies] Shukla paksha (the waxing fortnight) is preferred for entering
+      a house — the growing moon read as the growing household. Some families
+      accept the first days of krishna paksha; if OWNER-1 confirms, remove
+      this criterion and the count roughly doubles.
+    values: [shukla]
+
+  allow_weekday:
+    basis: >-
+      [standard] Tuesday and Saturday are both avoided for griha pravesam.
+      Thursday and Friday are the most favoured.
+    values: [Sunday, Monday, Wednesday, Thursday, Friday]
+
+  block_tamil_month:
+    basis: >-
+      [standard] Aadi, Purattasi and Margazhi are avoided. [varies] Some
+      houses also avoid Aippasi for a housewarming — left in for now; a
+      question for OWNER-1.
+    values: [Aadi, Purattasi, Margazhi]
+
+  block_eclipse_days:
+    basis: "[standard] Grahan day and the day either side."
+    window_days: 1
+
+warn:
+  rahu_kalam:
+    basis: >-
+      [standard] The entry into the house is timed outside rahu kalam;
+      the milk-boiling is usually set right after sunrise.

@@ -1,0 +1,73 @@
+# Baby shower — seemantham / valaikappu
+#
+# STATUS: DRAFT, pending OWNER-1 sign-off (SPEC FR-V2). Tag key in
+# rules/wedding.yaml.
+
+event: seemantham
+label: Seemantham / valaikappu
+short: Baby shower
+blurb: >-
+  Dates for a seemantham or valaikappu. Traditionally held in the fifth,
+  seventh or ninth month of pregnancy, so the window is fixed by the pregnancy
+  and the family picks the best date inside it — use the month filter on the
+  page rather than reading the whole year.
+
+criteria:
+
+  allow_nakshatra:
+    basis: >-
+      [standard] The soft and benefic nakshatras associated with the
+      seemantham: Rohini, Mrigasheersham, Punarpoosam, Poosam, Uthiram,
+      Hastham, Chithirai, Swathi, Anusham, Thiruvonam, Uthirattathi, Revathi.
+      Ayilyam, Moolam, Kettai and Visakam are specifically avoided.
+    values:
+      - Rohini
+      - Mrigasheersham
+      - Punarpoosam
+      - Poosam
+      - Uthiram
+      - Hastham
+      - Chithirai
+      - Swathi
+      - Anusham
+      - Uthiradam
+      - Thiruvonam
+      - Uthirattathi
+      - Revathi
+
+  block_tithi:
+    basis: >-
+      [standard] Rikta tithis, Ashtami, Amavasai. [varies] Pournami is
+      favoured by many families for valaikappu rather than avoided, so it is
+      permitted here.
+    values: [Chathurthi, Ashtami, Navami, Chathurdasi, Amavasai]
+
+  allow_paksha:
+    basis: >-
+      [standard] Shukla paksha is preferred for seemantham — the waxing moon
+      for a growing child is the reason usually given.
+    values: [shukla]
+
+  allow_weekday:
+    basis: >-
+      [standard] Tuesday and Saturday avoided; Monday, Wednesday, Thursday
+      and Friday are the usual choices.
+    values: [Sunday, Monday, Wednesday, Thursday, Friday]
+
+  block_tamil_month:
+    basis: >-
+      [varies] Aadi and Margazhi are commonly avoided for family functions.
+      Purattasi is NOT blocked here — unlike weddings, a seemantham in
+      Purattasi is widely accepted, and the pregnancy window does not wait.
+      Flagged for OWNER-1 as the most likely correction in this file.
+    values: [Aadi, Margazhi]
+
+  block_eclipse_days:
+    basis: >-
+      [standard] Grahan is avoided especially strictly during pregnancy;
+      window widened to two days either side accordingly.
+    window_days: 2
+
+warn:
+  rahu_kalam:
+    basis: "[standard] Keep the ceremony out of rahu kalam."

@@ -1,0 +1,40 @@
+name: CI
+
+# DEPLOYMENT.md item 6: the Python PIPELINE is not in CI — it runs annually on
+# the owner's machine and is reviewed as a git diff. What CI guards is that the
+# COMMITTED data still satisfies the schema, is still reproducible from the
+# pinned ephemeris, and still builds a site whose links and titles hold up.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          # Matches the venv the committed data/ was generated with. The numbers
+          # come from the C library so any 3.x would agree, but the determinism
+          # check compares byte for byte and there is no reason to gamble on it.
+          python-version: '3.14'
+      - name: Install pinned deps
+        run: python -m pip install --quiet -r requirements.txt
+      - name: Unit tests
+        run: python pipeline/tests/test_core.py
+      - name: Schema, determinism, rules
+        run: python pipeline/validate.py
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build and check
+        working-directory: site
+        run: npm run check

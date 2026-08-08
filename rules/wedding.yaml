@@ -1,0 +1,88 @@
+# Wedding muhurtham — thirumana muhurtham
+#
+# STATUS: DRAFT. Every criterion below is drafted from standard published
+# Tamil practice and MUST be reviewed and signed off by OWNER-1 (SPEC FR-V2)
+# before launch. The site does not publish until verification/REPORT.md
+# records that sign-off.
+#
+# Confidence tags on each `basis` line:
+#   [standard]  agreed across mainstream Tamil panchangams; low review risk
+#   [varies]    families and sampradayams differ; owner must confirm the house
+#               convention, and the methodology page names the choice publicly
+
+event: wedding
+label: Wedding muhurtham
+short: Wedding
+blurb: >-
+  Dates a Tamil family would normally consider for a wedding, computed at your
+  city's sunrise. The strictest of the five lists — three whole months, both
+  planetary combustion periods and the rikta tithis are excluded, so a thin
+  year is a correct result, not a broken one.
+
+criteria:
+
+  allow_nakshatra:
+    basis: >-
+      [standard] The eleven nakshatras conventionally admitted for vivaha
+      muhurtham. Rohini, Mrigasheersham, Magham, Uthiram, Hastham, Swathi,
+      Anusham, Moolam, Uthiradam, Uthirattathi and Revathi appear on
+      essentially every Tamil list. Some houses also admit Poosam and
+      Thiruvonam — see allow_nakshatra_optional.
+    values:
+      - Rohini
+      - Mrigasheersham
+      - Magham
+      - Uthiram
+      - Hastham
+      - Swathi
+      - Anusham
+      - Moolam
+      - Uthiradam
+      - Uthirattathi
+      - Revathi
+
+  block_tithi:
+    basis: >-
+      [standard] The rikta tithis (Chathurthi, Navami, Chathurdasi) plus
+      Ashtami, Amavasai and Pournami are avoided for weddings.
+      [varies] Some families do permit Pournami; if OWNER-1 confirms the house
+      permits it, delete the one line and re-run — the date count rises
+      noticeably.
+    values: [Chathurthi, Ashtami, Navami, Chathurdasi, Amavasai, Pournami]
+
+  allow_weekday:
+    basis: >-
+      [standard] Tuesday (Chevvai) is avoided for weddings. Saturday is
+      avoided by most Tamil families for the muhurtham itself.
+      [varies] A minority admit Saturday; that is the second knob to raise
+      the count if the year comes out too thin.
+    values: [Sunday, Monday, Wednesday, Thursday, Friday]
+
+  block_tamil_month:
+    basis: >-
+      [standard] No weddings in Aadi, Purattasi or Margazhi in Tamil practice.
+      This is the single largest filter — it removes a quarter of the year and
+      is the rule most diaspora sites omit, which is why their lists look
+      generously wrong.
+    values: [Aadi, Purattasi, Margazhi]
+
+  block_combust:
+    basis: >-
+      [standard] Sukra moudhyam (Venus combust) and Guru moudhyam (Jupiter
+      combust) suspend weddings for the duration. Orbs are set in
+      pipeline/core.py COMBUST_ORB (Venus 10 deg direct / 8 retrograde,
+      Jupiter 11) — the conventional muhurtham values.
+    values: [venus, jupiter]
+
+  block_eclipse_days:
+    basis: >-
+      [standard] A grahan and the day either side are avoided. Penumbral
+      lunar eclipses are not counted as grahan (see core.eclipse_instants).
+    window_days: 1
+
+warn:
+  rahu_kalam:
+    basis: >-
+      [standard] The muhurtham instant itself is kept out of rahu kalam,
+      yamagandam and gulikai. The date can still be good — the family picks
+      the hour with their purohit, so this is shown as a caution, not a filter.

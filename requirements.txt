@@ -1,0 +1,7 @@
+# Pinned. The committed data/ was produced with exactly these versions, and
+# pipeline/validate.py fails CI if a re-run no longer reproduces it byte for
+# byte — so bumping a pin is a deliberate act with a data diff attached.
+pyswisseph==2.10.3.2
+PyYAML==6.0.3
+jsonschema==4.26.0
+fpdf2==2.8.7

@@ -1,0 +1,5248 @@
+{
+ "engagement": {
+  "label": "Engagement / nichayathartham",
+  "short": "Engagement",
+  "blurb": "Dates for a nichayathartham. The rules are looser than the wedding's — the month blocks and combustion periods still apply, but the nakshatra list is wider and Saturday is not excluded.",
+  "count": 92,
+  "dates": [
+   {
+    "date": "2027-01-15",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-16T05:21+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-01-15T19:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:59",
+    "sunset": "20:09",
+    "rahu_kalam": [
+     "11:17",
+     "13:04"
+    ],
+    "reason": "Revathi nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-01-20",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-01-20T21:47+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-01-20T10:11+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:03",
+    "sunset": "20:07",
+    "rahu_kalam": [
+     "13:05",
+     "14:51"
+    ],
+    "reason": "Mrigasheersham nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-01-22",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-01-22T15:55+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-01-22T23:17+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:05",
+    "sunset": "20:06",
+    "rahu_kalam": [
+     "11:21",
+     "13:06"
+    ],
+    "reason": "Punarpoosam nakshatram, Pournami, Friday"
+   },
+   {
+    "date": "2027-01-23",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Thai",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-01-23T13:01+11:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-01-23T19:43+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:06",
+    "sunset": "20:06",
+    "rahu_kalam": [
+     "09:36",
+     "11:21"
+    ],
+    "reason": "Poosam nakshatram, Prathamai, Saturday"
+   },
+   {
+    "date": "2027-01-25",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Thai",
+    "nakshatra": "Magham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-01-25T08:11+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-01-25T13:40+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:08",
+    "sunset": "20:05",
+    "rahu_kalam": [
+     "07:53",
+     "09:37"
+    ],
+    "reason": "Magham nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-01-27",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-28T05:26+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-01-27T10:03+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:10",
+    "sunset": "20:04",
+    "rahu_kalam": [
+     "13:07",
+     "14:51"
+    ],
+    "reason": "Hastham nakshatram, Panchami, Wednesday"
+   },
+   {
+    "date": "2027-01-28",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-29T06:02+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-01-28T09:24+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:11",
+    "sunset": "20:03",
+    "rahu_kalam": [
+     "14:51",
+     "16:35"
+    ],
+    "reason": "Chithirai nakshatram, Sashti, Thursday"
+   },
+   {
+    "date": "2027-01-29",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-30T07:24+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-01-29T09:33+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:12",
+    "sunset": "20:02",
+    "rahu_kalam": [
+     "11:24",
+     "13:07"
+    ],
+    "reason": "Swathi nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-02-01",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Thai",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-01T11:58+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-02-01T14:11+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:15",
+    "sunset": "20:00",
+    "rahu_kalam": [
+     "07:58",
+     "09:42"
+    ],
+    "reason": "Anusham nakshatram, Dasami, Monday"
+   },
+   {
+    "date": "2027-02-03",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-02-03T17:56+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-02-03T19:20+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:17",
+    "sunset": "19:59",
+    "rahu_kalam": [
+     "13:08",
+     "14:51"
+    ],
+    "reason": "Moolam nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-02-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-12T11:12+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-02-12T08:48+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:26",
+    "sunset": "19:51",
+    "rahu_kalam": [
+     "11:28",
+     "13:09"
+    ],
+    "reason": "Revathi nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-02-13",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Maasi",
+    "nakshatra": "Ashwini",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-13T11:26+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-02-13T08:29+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:27",
+    "sunset": "19:50",
+    "rahu_kalam": [
+     "09:48",
+     "11:28"
+    ],
+    "reason": "Ashwini nakshatram, Sashti, Saturday"
+   },
+   {
+    "date": "2027-02-17",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-17T07:08+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-02-17T23:02+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:31",
+    "sunset": "19:46",
+    "rahu_kalam": [
+     "13:08",
+     "14:48"
+    ],
+    "reason": "Mrigasheersham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-02-18",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-02-19T02:36+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-02-18T19:58+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:32",
+    "sunset": "19:45",
+    "rahu_kalam": [
+     "14:47",
+     "16:27"
+    ],
+    "reason": "Punarpoosam nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-02-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-02-20T00:05+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-02-19T16:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:33",
+    "sunset": "19:44",
+    "rahu_kalam": [
+     "11:29",
+     "13:08"
+    ],
+    "reason": "Poosam nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-02-21",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Maasi",
+    "nakshatra": "Magham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-02-21T19:21+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-02-21T10:23+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:35",
+    "sunset": "19:41",
+    "rahu_kalam": [
+     "18:03",
+     "19:41"
+    ],
+    "reason": "Magham nakshatram, Pournami, Sunday"
+   },
+   {
+    "date": "2027-02-25",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-02-25T15:03+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-02-26T01:48+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:38",
+    "sunset": "19:37",
+    "rahu_kalam": [
+     "14:45",
+     "16:22"
+    ],
+    "reason": "Chithirai nakshatram, Panchami, Thursday"
+   },
+   {
+    "date": "2027-02-26",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-02-26T15:43+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-02-27T02:13+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:39",
+    "sunset": "19:36",
+    "rahu_kalam": [
+     "11:30",
+     "13:07"
+    ],
+    "reason": "Swathi nakshatram, Sashti, Friday"
+   },
+   {
+    "date": "2027-03-04",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-05T07:05+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-03-04T12:54+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:44",
+    "sunset": "19:28",
+    "rahu_kalam": [
+     "14:42",
+     "16:17"
+    ],
+    "reason": "Uthiradam nakshatram, Ekadasi, Thursday"
+   },
+   {
+    "date": "2027-03-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-05T07:05+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-03-05T15:24+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:45",
+    "sunset": "19:27",
+    "rahu_kalam": [
+     "11:31",
+     "13:06"
+    ],
+    "reason": "Uthiradam nakshatram, Dwadasi, Friday"
+   },
+   {
+    "date": "2027-03-06",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Maasi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-06T09:50+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-03-06T17:34+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:46",
+    "sunset": "19:26",
+    "rahu_kalam": [
+     "09:56",
+     "11:31"
+    ],
+    "reason": "Thiruvonam nakshatram, Thrayodasi, Saturday"
+   },
+   {
+    "date": "2027-03-10",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-10T16:22+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-03-10T21:23+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:49",
+    "sunset": "19:20",
+    "rahu_kalam": [
+     "13:05",
+     "14:39"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwithiyai, Wednesday"
+   },
+   {
+    "date": "2027-03-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-11T16:50+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-03-11T21:07+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:50",
+    "sunset": "19:19",
+    "rahu_kalam": [
+     "14:38",
+     "16:12"
+    ],
+    "reason": "Revathi nakshatram, Thrithiyai, Thursday"
+   },
+   {
+    "date": "2027-03-15",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-15T14:56+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-03-15T16:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "19:14",
+    "rahu_kalam": [
+     "08:26",
+     "09:58"
+    ],
+    "reason": "Rohini nakshatram, Sapthami, Monday"
+   },
+   {
+    "date": "2027-03-18",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-18T10:37+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-03-18T09:51+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:56",
+    "sunset": "19:10",
+    "rahu_kalam": [
+     "14:34",
+     "16:06"
+    ],
+    "reason": "Punarpoosam nakshatram, Dasami, Thursday"
+   },
+   {
+    "date": "2027-03-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Panguni",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-19T08:51+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-03-19T07:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:56",
+    "sunset": "19:08",
+    "rahu_kalam": [
+     "11:31",
+     "13:02"
+    ],
+    "reason": "Poosam nakshatram, Ekadasi, Friday"
+   },
+   {
+    "date": "2027-03-22",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-23T02:16+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-03-22T21:43+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:59",
+    "sunset": "19:04",
+    "rahu_kalam": [
+     "08:29",
+     "10:00"
+    ],
+    "reason": "Uthiram nakshatram, Pournami, Monday"
+   },
+   {
+    "date": "2027-03-24",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-25T00:55+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-03-24T18:44+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:00",
+    "sunset": "19:02",
+    "rahu_kalam": [
+     "13:01",
+     "14:31"
+    ],
+    "reason": "Chithirai nakshatram, Dwithiyai, Wednesday"
+   },
+   {
+    "date": "2027-03-25",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-03-26T01:09+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-03-25T18:08+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:01",
+    "sunset": "19:00",
+    "rahu_kalam": [
+     "14:30",
+     "16:00"
+    ],
+    "reason": "Swathi nakshatram, Thrithiyai, Thursday"
+   },
+   {
+    "date": "2027-03-27",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Panguni",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-28T03:45+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-03-27T19:03+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:02",
+    "sunset": "18:58",
+    "rahu_kalam": [
+     "10:01",
+     "11:31"
+    ],
+    "reason": "Anusham nakshatram, Panchami, Saturday"
+   },
+   {
+    "date": "2027-03-29",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-30T08:48+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-03-29T22:41+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:04",
+    "sunset": "18:55",
+    "rahu_kalam": [
+     "08:33",
+     "10:02"
+    ],
+    "reason": "Moolam nakshatram, Sapthami, Monday"
+   },
+   {
+    "date": "2027-04-01",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-04-01T14:55+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-04-02T06:15+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:06",
+    "sunset": "18:51",
+    "rahu_kalam": [
+     "14:27",
+     "15:55"
+    ],
+    "reason": "Uthiradam nakshatram, Dasami, Thursday"
+   },
+   {
+    "date": "2027-04-02",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Panguni",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-04-02T17:46+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-04-03T08:22+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:07",
+    "sunset": "18:49",
+    "rahu_kalam": [
+     "11:30",
+     "12:58"
+    ],
+    "reason": "Thiruvonam nakshatram, Ekadasi, Friday"
+   },
+   {
+    "date": "2027-04-03",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Panguni",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-04-03T20:12+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-04-03T08:22+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:08",
+    "sunset": "18:48",
+    "rahu_kalam": [
+     "10:03",
+     "11:30"
+    ],
+    "reason": "Avittam nakshatram, Ekadasi, Saturday"
+   },
+   {
+    "date": "2027-04-04",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Sadhayam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-04T21:03+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-04-04T08:57+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:08",
+    "sunset": "17:47",
+    "rahu_kalam": [
+     "16:19",
+     "17:47"
+    ],
+    "reason": "Sadhayam nakshatram, Dwadasi, Sunday"
+   },
+   {
+    "date": "2027-04-08",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Ashwini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-08T22:29+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-04-08T08:59+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:11",
+    "sunset": "17:42",
+    "rahu_kalam": [
+     "13:23",
+     "14:49"
+    ],
+    "reason": "Ashwini nakshatram, Prathamai, Thursday"
+   },
+   {
+    "date": "2027-04-11",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-11T19:23+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-04-12T02:10+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "16:12",
+     "17:38"
+    ],
+    "reason": "Rohini nakshatram, Panchami, Sunday"
+   },
+   {
+    "date": "2027-04-12",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-12T18:04+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-04-13T00:05+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:36",
+    "rahu_kalam": [
+     "07:40",
+     "09:05"
+    ],
+    "reason": "Mrigasheersham nakshatram, Sashti, Monday"
+   },
+   {
+    "date": "2027-04-17",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Magham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-17T11:38+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-04-17T13:58+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:18",
+    "sunset": "17:30",
+    "rahu_kalam": [
+     "09:06",
+     "10:30"
+    ],
+    "reason": "Magham nakshatram, Ekadasi, Saturday"
+   },
+   {
+    "date": "2027-04-19",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-19T09:45+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-04-19T10:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:20",
+    "sunset": "17:28",
+    "rahu_kalam": [
+     "07:43",
+     "09:07"
+    ],
+    "reason": "Uthiram nakshatram, Thrayodasi, Monday"
+   },
+   {
+    "date": "2027-04-21",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-21T08:58+10:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-04-21T08:27+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:21",
+    "sunset": "17:26",
+    "rahu_kalam": [
+     "11:53",
+     "13:16"
+    ],
+    "reason": "Chithirai nakshatram, Pournami, Wednesday"
+   },
+   {
+    "date": "2027-04-22",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-22T09:14+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-04-22T08:00+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:22",
+    "sunset": "17:24",
+    "rahu_kalam": [
+     "13:16",
+     "14:39"
+    ],
+    "reason": "Swathi nakshatram, Prathamai, Thursday"
+   },
+   {
+    "date": "2027-04-24",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-24T11:27+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-04-24T08:51+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:23",
+    "sunset": "17:22",
+    "rahu_kalam": [
+     "09:08",
+     "10:30"
+    ],
+    "reason": "Anusham nakshatram, Thrithiyai, Saturday"
+   },
+   {
+    "date": "2027-04-26",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-04-26T16:00+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-04-26T12:07+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:25",
+    "sunset": "17:20",
+    "rahu_kalam": [
+     "07:47",
+     "09:09"
+    ],
+    "reason": "Moolam nakshatram, Panchami, Monday"
+   },
+   {
+    "date": "2027-04-28",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-28T22:00+10:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-04-28T17:01+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:26",
+    "sunset": "17:18",
+    "rahu_kalam": [
+     "11:52",
+     "13:13"
+    ],
+    "reason": "Uthiradam nakshatram, Sapthami, Wednesday"
+   },
+   {
+    "date": "2027-05-01",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Sadhayam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-05-02T05:46+10:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-05-01T23:24+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:29",
+    "sunset": "17:15",
+    "rahu_kalam": [
+     "09:10",
+     "10:31"
+    ],
+    "reason": "Sadhayam nakshatram, Dasami, Saturday"
+   },
+   {
+    "date": "2027-05-08",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-05-09T02:23+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-05-08T16:13+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:34",
+    "sunset": "17:08",
+    "rahu_kalam": [
+     "09:12",
+     "10:32"
+    ],
+    "reason": "Rohini nakshatram, Dwithiyai, Saturday"
+   },
+   {
+    "date": "2027-05-09",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-05-10T00:29+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-05-09T13:33+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:35",
+    "sunset": "17:07",
+    "rahu_kalam": [
+     "15:48",
+     "17:07"
+    ],
+    "reason": "Mrigasheersham nakshatram, Thrithiyai, Sunday"
+   },
+   {
+    "date": "2027-05-12",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-05-12T19:26+10:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-05-13T03:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:37",
+    "sunset": "17:05",
+    "rahu_kalam": [
+     "11:51",
+     "13:09"
+    ],
+    "reason": "Poosam nakshatram, Sapthami, Wednesday"
+   },
+   {
+    "date": "2027-05-16",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-16T16:05+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-05-16T21:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:40",
+    "sunset": "17:02",
+    "rahu_kalam": [
+     "15:44",
+     "17:02"
+    ],
+    "reason": "Uthiram nakshatram, Ekadasi, Sunday"
+   },
+   {
+    "date": "2027-05-17",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-17T15:59+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-05-17T20:58+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:41",
+    "sunset": "17:01",
+    "rahu_kalam": [
+     "07:58",
+     "09:16"
+    ],
+    "reason": "Hastham nakshatram, Dwadasi, Monday"
+   },
+   {
+    "date": "2027-05-21",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-21T19:21+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-05-21T21:53+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:43",
+    "sunset": "16:59",
+    "rahu_kalam": [
+     "10:34",
+     "11:51"
+    ],
+    "reason": "Anusham nakshatram, Prathamai, Friday"
+   },
+   {
+    "date": "2027-05-23",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-05-23T23:47+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-05-24T01:12+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:45",
+    "sunset": "16:58",
+    "rahu_kalam": [
+     "15:41",
+     "16:58"
+    ],
+    "reason": "Moolam nakshatram, Thrithiyai, Sunday"
+   },
+   {
+    "date": "2027-05-26",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-05-27T08:49+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-05-27T08:35+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:47",
+    "sunset": "16:56",
+    "rahu_kalam": [
+     "11:52",
+     "13:08"
+    ],
+    "reason": "Thiruvonam nakshatram, Sashti, Wednesday"
+   },
+   {
+    "date": "2027-05-27",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-05-27T08:49+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-05-27T08:35+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:47",
+    "sunset": "16:56",
+    "rahu_kalam": [
+     "13:08",
+     "14:24"
+    ],
+    "reason": "Thiruvonam nakshatram, Sashti, Thursday"
+   },
+   {
+    "date": "2027-05-28",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-05-28T11:44+10:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-05-28T10:56+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:48",
+    "sunset": "16:55",
+    "rahu_kalam": [
+     "10:36",
+     "11:52"
+    ],
+    "reason": "Avittam nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-05-31",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-31T17:05+10:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-05-31T14:32+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:50",
+    "sunset": "16:54",
+    "rahu_kalam": [
+     "08:06",
+     "09:21"
+    ],
+    "reason": "Uthirattathi nakshatram, Dasami, Monday"
+   },
+   {
+    "date": "2027-06-02",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Ashwini",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-06-02T16:46+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-06-02T12:59+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:51",
+    "sunset": "16:54",
+    "rahu_kalam": [
+     "11:52",
+     "13:08"
+    ],
+    "reason": "Ashwini nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-06-05",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-06-05T11:32+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-06-06T02:29+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "09:23",
+     "10:38"
+    ],
+    "reason": "Rohini nakshatram, Prathamai, Saturday"
+   },
+   {
+    "date": "2027-06-06",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-06-06T09:07+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-06-06T23:11+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "15:38",
+     "16:53"
+    ],
+    "reason": "Mrigasheersham nakshatram, Dwithiyai, Sunday"
+   },
+   {
+    "date": "2027-06-07",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-06-08T04:15+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-06-07T19:56+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:54",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "08:09",
+     "09:24"
+    ],
+    "reason": "Punarpoosam nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-06-10",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Magham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-10T22:54+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-06-10T11:41+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:55",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "13:09",
+     "14:23"
+    ],
+    "reason": "Magham nakshatram, Sashti, Thursday"
+   },
+   {
+    "date": "2027-06-14",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-14T21:58+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-06-15T06:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:57",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "08:11",
+     "09:26"
+    ],
+    "reason": "Chithirai nakshatram, Ekadasi, Monday"
+   },
+   {
+    "date": "2027-06-17",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-18T02:00+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-06-17T07:50+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "13:10",
+     "14:24"
+    ],
+    "reason": "Anusham nakshatram, Thrayodasi, Thursday"
+   },
+   {
+    "date": "2027-06-19",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aani",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-06-20T06:43+10:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-06-19T10:44+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:59",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "09:27",
+     "10:42"
+    ],
+    "reason": "Moolam nakshatram, Pournami, Saturday"
+   },
+   {
+    "date": "2027-06-24",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-06-24T18:51+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-06-24T22:40+10:00",
+    "paksha": "krishna",
+    "sunrise": "07:00",
+    "sunset": "16:54",
+    "rahu_kalam": [
+     "13:11",
+     "14:26"
+    ],
+    "reason": "Avittam nakshatram, Panchami, Thursday"
+   },
+   {
+    "date": "2027-06-25",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aani",
+    "nakshatra": "Sadhayam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-25T21:37+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-06-26T00:47+10:00",
+    "paksha": "krishna",
+    "sunrise": "07:00",
+    "sunset": "16:55",
+    "rahu_kalam": [
+     "10:43",
+     "11:57"
+    ],
+    "reason": "Sadhayam nakshatram, Sashti, Friday"
+   },
+   {
+    "date": "2027-07-02",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aani",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-07-02T21:56+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-07-02T19:53+10:00",
+    "paksha": "krishna",
+    "sunrise": "07:00",
+    "sunset": "16:57",
+    "rahu_kalam": [
+     "10:44",
+     "11:59"
+    ],
+    "reason": "Rohini nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-07-05",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aani",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-07-05T13:49+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-07-05T09:21+10:00",
+    "paksha": "shukla",
+    "sunrise": "07:00",
+    "sunset": "16:58",
+    "rahu_kalam": [
+     "08:15",
+     "09:30"
+    ],
+    "reason": "Punarpoosam nakshatram, Prathamai, Monday"
+   },
+   {
+    "date": "2027-10-20",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-10-21T04:00+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-10-20T20:49+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:08",
+    "sunset": "19:12",
+    "rahu_kalam": [
+     "12:40",
+     "14:18"
+    ],
+    "reason": "Mrigasheersham nakshatram, Panchami, Wednesday"
+   },
+   {
+    "date": "2027-10-22",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-10-23T01:55+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-10-22T17:26+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:05",
+    "sunset": "19:14",
+    "rahu_kalam": [
+     "11:01",
+     "12:40"
+    ],
+    "reason": "Punarpoosam nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-10-25",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Magham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-10-25T21:39+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-10-25T11:10+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:02",
+    "sunset": "19:16",
+    "rahu_kalam": [
+     "07:41",
+     "09:21"
+    ],
+    "reason": "Magham nakshatram, Dasami, Monday"
+   },
+   {
+    "date": "2027-10-27",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-10-27T18:31+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-10-27T06:34+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:00",
+    "sunset": "19:18",
+    "rahu_kalam": [
+     "12:39",
+     "14:19"
+    ],
+    "reason": "Uthiram nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-10-30",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-10-30T15:13+11:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-10-30T23:22+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:57",
+    "sunset": "19:21",
+    "rahu_kalam": [
+     "09:18",
+     "10:58"
+    ],
+    "reason": "Swathi nakshatram, Prathamai, Saturday"
+   },
+   {
+    "date": "2027-11-01",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-01T15:27+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-11-01T22:46+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:55",
+    "sunset": "19:22",
+    "rahu_kalam": [
+     "07:36",
+     "09:17"
+    ],
+    "reason": "Anusham nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-11-03",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-03T18:27+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-11-04T01:02+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:53",
+    "sunset": "19:24",
+    "rahu_kalam": [
+     "12:38",
+     "14:20"
+    ],
+    "reason": "Moolam nakshatram, Panchami, Wednesday"
+   },
+   {
+    "date": "2027-11-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-11-05T23:49+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-11-06T05:39+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:51",
+    "sunset": "19:26",
+    "rahu_kalam": [
+     "10:57",
+     "12:39"
+    ],
+    "reason": "Uthiradam nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-11-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-11T12:31+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-11-11T15:37+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:46",
+    "sunset": "19:32",
+    "rahu_kalam": [
+     "14:22",
+     "16:05"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-11-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-12T13:25+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-11-12T15:51+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:45",
+    "sunset": "19:33",
+    "rahu_kalam": [
+     "10:56",
+     "12:39"
+    ],
+    "reason": "Revathi nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-11-17",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-11-17T10:12+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-11-17T09:12+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:42",
+    "sunset": "19:37",
+    "rahu_kalam": [
+     "12:40",
+     "14:24"
+    ],
+    "reason": "Mrigasheersham nakshatram, Thrithiyai, Wednesday"
+   },
+   {
+    "date": "2027-11-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-11-19T07:22+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-11-20T02:50+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:41",
+    "sunset": "19:39",
+    "rahu_kalam": [
+     "10:55",
+     "12:40"
+    ],
+    "reason": "Punarpoosam nakshatram, Sashti, Friday"
+   },
+   {
+    "date": "2027-11-20",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-11-20T05:57+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-11-21T00:47+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:40",
+    "sunset": "19:40",
+    "rahu_kalam": [
+     "09:10",
+     "10:55"
+    ],
+    "reason": "Poosam nakshatram, Sapthami, Saturday"
+   },
+   {
+    "date": "2027-11-24",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-11-25T00:23+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-11-24T17:41+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:39",
+    "sunset": "19:44",
+    "rahu_kalam": [
+     "12:41",
+     "14:27"
+    ],
+    "reason": "Hastham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-11-25",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-11-25T23:47+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-11-25T16:21+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:38",
+    "sunset": "19:45",
+    "rahu_kalam": [
+     "14:27",
+     "16:13"
+    ],
+    "reason": "Chithirai nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-11-26",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-11-26T23:29+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-11-26T15:18+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:38",
+    "sunset": "19:46",
+    "rahu_kalam": [
+     "10:56",
+     "12:42"
+    ],
+    "reason": "Swathi nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-12-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-12-03T08:00+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-12-03T21:43+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:52",
+    "rahu_kalam": [
+     "10:57",
+     "12:44"
+    ],
+    "reason": "Uthiradam nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-12-04",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-12-04T11:03+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-12-05T00:26+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:53",
+    "rahu_kalam": [
+     "09:11",
+     "10:58"
+    ],
+    "reason": "Thiruvonam nakshatram, Sashti, Saturday"
+   },
+   {
+    "date": "2027-12-05",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-12-05T14:11+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-12-06T03:07+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:54",
+    "rahu_kalam": [
+     "18:07",
+     "19:54"
+    ],
+    "reason": "Avittam nakshatram, Sapthami, Sunday"
+   },
+   {
+    "date": "2027-12-09",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-09T22:57+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-12-09T08:29+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:57",
+    "rahu_kalam": [
+     "14:34",
+     "16:22"
+    ],
+    "reason": "Revathi nakshatram, Dasami, Thursday"
+   },
+   {
+    "date": "2027-12-10",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Ashwini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-10T23:24+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-12-10T08:50+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:37",
+    "sunset": "19:58",
+    "rahu_kalam": [
+     "11:00",
+     "12:47"
+    ],
+    "reason": "Ashwini nakshatram, Ekadasi, Friday"
+   },
+   {
+    "date": "2027-12-13",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-13T20:45+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-12-14T03:08+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:37",
+    "sunset": "20:00",
+    "rahu_kalam": [
+     "07:25",
+     "09:13"
+    ],
+    "reason": "Rohini nakshatram, Pournami, Monday"
+   },
+   {
+    "date": "2027-12-16",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-12-16T14:43+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-12-16T18:52+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:38",
+    "sunset": "20:02",
+    "rahu_kalam": [
+     "14:38",
+     "16:26"
+    ],
+    "reason": "Punarpoosam nakshatram, Thrithiyai, Thursday"
+   }
+  ]
+ },
+ "grihapravesam": {
+  "label": "Griha pravesam (housewarming)",
+  "short": "Housewarming",
+  "blurb": "Dates for entering a new home. The fixed and soft nakshatras are preferred, the growing (shukla) fortnight is preferred, and the same three months are avoided. Diaspora note: closing dates rarely bend, so the list is deliberately wider than the wedding's.",
+  "count": 34,
+  "dates": [
+   {
+    "date": "2027-01-15",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-16T05:21+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-01-15T19:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:59",
+    "sunset": "20:09",
+    "rahu_kalam": [
+     "11:17",
+     "13:04"
+    ],
+    "reason": "Revathi nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-01-20",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-01-20T21:47+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-01-20T10:11+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:03",
+    "sunset": "20:07",
+    "rahu_kalam": [
+     "13:05",
+     "14:51"
+    ],
+    "reason": "Mrigasheersham nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-02-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-12T11:12+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-02-12T08:48+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:26",
+    "sunset": "19:51",
+    "rahu_kalam": [
+     "11:28",
+     "13:09"
+    ],
+    "reason": "Revathi nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-02-17",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-17T07:08+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-02-17T23:02+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:31",
+    "sunset": "19:46",
+    "rahu_kalam": [
+     "13:08",
+     "14:48"
+    ],
+    "reason": "Mrigasheersham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-02-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-02-20T00:05+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-02-19T16:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:33",
+    "sunset": "19:44",
+    "rahu_kalam": [
+     "11:29",
+     "13:08"
+    ],
+    "reason": "Poosam nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-03-10",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-10T16:22+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-03-10T21:23+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:49",
+    "sunset": "19:20",
+    "rahu_kalam": [
+     "13:05",
+     "14:39"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwithiyai, Wednesday"
+   },
+   {
+    "date": "2027-03-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-11T16:50+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-03-11T21:07+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:50",
+    "sunset": "19:19",
+    "rahu_kalam": [
+     "14:38",
+     "16:12"
+    ],
+    "reason": "Revathi nakshatram, Thrithiyai, Thursday"
+   },
+   {
+    "date": "2027-03-15",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-15T14:56+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-03-15T16:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "19:14",
+    "rahu_kalam": [
+     "08:26",
+     "09:58"
+    ],
+    "reason": "Rohini nakshatram, Sapthami, Monday"
+   },
+   {
+    "date": "2027-03-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Panguni",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-19T08:51+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-03-19T07:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:56",
+    "sunset": "19:08",
+    "rahu_kalam": [
+     "11:31",
+     "13:02"
+    ],
+    "reason": "Poosam nakshatram, Ekadasi, Friday"
+   },
+   {
+    "date": "2027-04-11",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-11T19:23+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-04-12T02:10+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "16:12",
+     "17:38"
+    ],
+    "reason": "Rohini nakshatram, Panchami, Sunday"
+   },
+   {
+    "date": "2027-04-12",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-12T18:04+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-04-13T00:05+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:36",
+    "rahu_kalam": [
+     "07:40",
+     "09:05"
+    ],
+    "reason": "Mrigasheersham nakshatram, Sashti, Monday"
+   },
+   {
+    "date": "2027-04-19",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-19T09:45+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-04-19T10:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:20",
+    "sunset": "17:28",
+    "rahu_kalam": [
+     "07:43",
+     "09:07"
+    ],
+    "reason": "Uthiram nakshatram, Thrayodasi, Monday"
+   },
+   {
+    "date": "2027-05-09",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-05-10T00:29+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-05-09T13:33+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:35",
+    "sunset": "17:07",
+    "rahu_kalam": [
+     "15:48",
+     "17:07"
+    ],
+    "reason": "Mrigasheersham nakshatram, Thrithiyai, Sunday"
+   },
+   {
+    "date": "2027-05-12",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-05-12T19:26+10:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-05-13T03:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:37",
+    "sunset": "17:05",
+    "rahu_kalam": [
+     "11:51",
+     "13:09"
+    ],
+    "reason": "Poosam nakshatram, Sapthami, Wednesday"
+   },
+   {
+    "date": "2027-05-16",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-16T16:05+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-05-16T21:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:40",
+    "sunset": "17:02",
+    "rahu_kalam": [
+     "15:44",
+     "17:02"
+    ],
+    "reason": "Uthiram nakshatram, Ekadasi, Sunday"
+   },
+   {
+    "date": "2027-05-17",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-17T15:59+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-05-17T20:58+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:41",
+    "sunset": "17:01",
+    "rahu_kalam": [
+     "07:58",
+     "09:16"
+    ],
+    "reason": "Hastham nakshatram, Dwadasi, Monday"
+   },
+   {
+    "date": "2027-06-06",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-06-06T09:07+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-06-06T23:11+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "15:38",
+     "16:53"
+    ],
+    "reason": "Mrigasheersham nakshatram, Dwithiyai, Sunday"
+   },
+   {
+    "date": "2027-06-14",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-14T21:58+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-06-15T06:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:57",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "08:11",
+     "09:26"
+    ],
+    "reason": "Chithirai nakshatram, Ekadasi, Monday"
+   },
+   {
+    "date": "2027-06-17",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-18T02:00+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-06-17T07:50+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "13:10",
+     "14:24"
+    ],
+    "reason": "Anusham nakshatram, Thrayodasi, Thursday"
+   },
+   {
+    "date": "2027-07-09",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aani",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-07-10T03:46+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-07-09T18:34+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:59",
+    "sunset": "17:00",
+    "rahu_kalam": [
+     "10:45",
+     "12:00"
+    ],
+    "reason": "Uthiram nakshatram, Sashti, Friday"
+   },
+   {
+    "date": "2027-07-14",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-07-15T07:48+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-07-14T17:40+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "17:03",
+    "rahu_kalam": [
+     "12:01",
+     "13:16"
+    ],
+    "reason": "Anusham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-07-15",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-07-15T07:48+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-07-15T19:11+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "17:04",
+    "rahu_kalam": [
+     "13:17",
+     "14:32"
+    ],
+    "reason": "Anusham nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-09-02",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aavani",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-02T22:06+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-09-02T21:20+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:12",
+    "sunset": "17:37",
+    "rahu_kalam": [
+     "13:20",
+     "14:46"
+    ],
+    "reason": "Uthiram nakshatram, Dwithiyai, Thursday"
+   },
+   {
+    "date": "2027-09-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aavani",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-03T20:23+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-09-03T18:49+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:11",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "10:29",
+     "11:54"
+    ],
+    "reason": "Hastham nakshatram, Thrithiyai, Friday"
+   },
+   {
+    "date": "2027-09-05",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Aavani",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-05T19:00+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-09-05T15:47+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:08",
+    "sunset": "17:39",
+    "rahu_kalam": [
+     "16:13",
+     "17:39"
+    ],
+    "reason": "Swathi nakshatram, Panchami, Sunday"
+   },
+   {
+    "date": "2027-09-12",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Aavani",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-09-12T07:28+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-09-13T02:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:59",
+    "sunset": "17:44",
+    "rahu_kalam": [
+     "16:16",
+     "17:44"
+    ],
+    "reason": "Uthiradam nakshatram, Dwadasi, Sunday"
+   },
+   {
+    "date": "2027-09-13",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aavani",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-09-13T10:35+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-09-14T05:10+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:58",
+    "sunset": "17:45",
+    "rahu_kalam": [
+     "07:26",
+     "08:54"
+    ],
+    "reason": "Thiruvonam nakshatram, Thrayodasi, Monday"
+   },
+   {
+    "date": "2027-11-01",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-01T15:27+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-11-01T22:46+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:55",
+    "sunset": "19:22",
+    "rahu_kalam": [
+     "07:36",
+     "09:17"
+    ],
+    "reason": "Anusham nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-11-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-11-05T23:49+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-11-06T05:39+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:51",
+    "sunset": "19:26",
+    "rahu_kalam": [
+     "10:57",
+     "12:39"
+    ],
+    "reason": "Uthiradam nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-11-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-11T12:31+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-11-11T15:37+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:46",
+    "sunset": "19:32",
+    "rahu_kalam": [
+     "14:22",
+     "16:05"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-11-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-12T13:25+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-11-12T15:51+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:45",
+    "sunset": "19:33",
+    "rahu_kalam": [
+     "10:56",
+     "12:39"
+    ],
+    "reason": "Revathi nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-12-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-12-03T08:00+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-12-03T21:43+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:52",
+    "rahu_kalam": [
+     "10:57",
+     "12:44"
+    ],
+    "reason": "Uthiradam nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-12-05",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-12-05T14:11+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-12-06T03:07+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:54",
+    "rahu_kalam": [
+     "18:07",
+     "19:54"
+    ],
+    "reason": "Avittam nakshatram, Sapthami, Sunday"
+   },
+   {
+    "date": "2027-12-09",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-09T22:57+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-12-09T08:29+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:57",
+    "rahu_kalam": [
+     "14:34",
+     "16:22"
+    ],
+    "reason": "Revathi nakshatram, Dasami, Thursday"
+   }
+  ]
+ },
+ "seemantham": {
+  "label": "Seemantham / valaikappu",
+  "short": "Baby shower",
+  "blurb": "Dates for a seemantham or valaikappu. Traditionally held in the fifth, seventh or ninth month of pregnancy, so the window is fixed by the pregnancy and the family picks the best date inside it — use the month filter on the page rather than reading the whole year.",
+  "count": 44,
+  "dates": [
+   {
+    "date": "2027-01-15",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-16T05:21+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-01-15T19:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:59",
+    "sunset": "20:09",
+    "rahu_kalam": [
+     "11:17",
+     "13:04"
+    ],
+    "reason": "Revathi nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-01-20",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-01-20T21:47+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-01-20T10:11+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:03",
+    "sunset": "20:07",
+    "rahu_kalam": [
+     "13:05",
+     "14:51"
+    ],
+    "reason": "Mrigasheersham nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-01-22",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-01-22T15:55+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-01-22T23:17+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:05",
+    "sunset": "20:06",
+    "rahu_kalam": [
+     "11:21",
+     "13:06"
+    ],
+    "reason": "Punarpoosam nakshatram, Pournami, Friday"
+   },
+   {
+    "date": "2027-02-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-12T11:12+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-02-12T08:48+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:26",
+    "sunset": "19:51",
+    "rahu_kalam": [
+     "11:28",
+     "13:09"
+    ],
+    "reason": "Revathi nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-02-17",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-17T07:08+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-02-17T23:02+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:31",
+    "sunset": "19:46",
+    "rahu_kalam": [
+     "13:08",
+     "14:48"
+    ],
+    "reason": "Mrigasheersham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-02-18",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-02-19T02:36+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-02-18T19:58+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:32",
+    "sunset": "19:45",
+    "rahu_kalam": [
+     "14:47",
+     "16:27"
+    ],
+    "reason": "Punarpoosam nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-02-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-02-20T00:05+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-02-19T16:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:33",
+    "sunset": "19:44",
+    "rahu_kalam": [
+     "11:29",
+     "13:08"
+    ],
+    "reason": "Poosam nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-03-10",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-10T16:22+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-03-10T21:23+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:49",
+    "sunset": "19:20",
+    "rahu_kalam": [
+     "13:05",
+     "14:39"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwithiyai, Wednesday"
+   },
+   {
+    "date": "2027-03-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-11T16:50+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-03-11T21:07+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:50",
+    "sunset": "19:19",
+    "rahu_kalam": [
+     "14:38",
+     "16:12"
+    ],
+    "reason": "Revathi nakshatram, Thrithiyai, Thursday"
+   },
+   {
+    "date": "2027-03-15",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-15T14:56+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-03-15T16:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "19:14",
+    "rahu_kalam": [
+     "08:26",
+     "09:58"
+    ],
+    "reason": "Rohini nakshatram, Sapthami, Monday"
+   },
+   {
+    "date": "2027-03-18",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-18T10:37+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-03-18T09:51+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:56",
+    "sunset": "19:10",
+    "rahu_kalam": [
+     "14:34",
+     "16:06"
+    ],
+    "reason": "Punarpoosam nakshatram, Dasami, Thursday"
+   },
+   {
+    "date": "2027-03-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Panguni",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-19T08:51+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-03-19T07:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:56",
+    "sunset": "19:08",
+    "rahu_kalam": [
+     "11:31",
+     "13:02"
+    ],
+    "reason": "Poosam nakshatram, Ekadasi, Friday"
+   },
+   {
+    "date": "2027-03-22",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-23T02:16+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-03-22T21:43+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:59",
+    "sunset": "19:04",
+    "rahu_kalam": [
+     "08:29",
+     "10:00"
+    ],
+    "reason": "Uthiram nakshatram, Pournami, Monday"
+   },
+   {
+    "date": "2027-04-11",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-11T19:23+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-04-12T02:10+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "16:12",
+     "17:38"
+    ],
+    "reason": "Rohini nakshatram, Panchami, Sunday"
+   },
+   {
+    "date": "2027-04-12",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-12T18:04+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-04-13T00:05+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:36",
+    "rahu_kalam": [
+     "07:40",
+     "09:05"
+    ],
+    "reason": "Mrigasheersham nakshatram, Sashti, Monday"
+   },
+   {
+    "date": "2027-04-19",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-19T09:45+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-04-19T10:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:20",
+    "sunset": "17:28",
+    "rahu_kalam": [
+     "07:43",
+     "09:07"
+    ],
+    "reason": "Uthiram nakshatram, Thrayodasi, Monday"
+   },
+   {
+    "date": "2027-04-21",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-21T08:58+10:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-04-21T08:27+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:21",
+    "sunset": "17:26",
+    "rahu_kalam": [
+     "11:53",
+     "13:16"
+    ],
+    "reason": "Chithirai nakshatram, Pournami, Wednesday"
+   },
+   {
+    "date": "2027-05-09",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-05-10T00:29+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-05-09T13:33+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:35",
+    "sunset": "17:07",
+    "rahu_kalam": [
+     "15:48",
+     "17:07"
+    ],
+    "reason": "Mrigasheersham nakshatram, Thrithiyai, Sunday"
+   },
+   {
+    "date": "2027-05-12",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-05-12T19:26+10:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-05-13T03:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:37",
+    "sunset": "17:05",
+    "rahu_kalam": [
+     "11:51",
+     "13:09"
+    ],
+    "reason": "Poosam nakshatram, Sapthami, Wednesday"
+   },
+   {
+    "date": "2027-05-16",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-16T16:05+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-05-16T21:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:40",
+    "sunset": "17:02",
+    "rahu_kalam": [
+     "15:44",
+     "17:02"
+    ],
+    "reason": "Uthiram nakshatram, Ekadasi, Sunday"
+   },
+   {
+    "date": "2027-05-17",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-17T15:59+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-05-17T20:58+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:41",
+    "sunset": "17:01",
+    "rahu_kalam": [
+     "07:58",
+     "09:16"
+    ],
+    "reason": "Hastham nakshatram, Dwadasi, Monday"
+   },
+   {
+    "date": "2027-06-06",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-06-06T09:07+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-06-06T23:11+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "15:38",
+     "16:53"
+    ],
+    "reason": "Mrigasheersham nakshatram, Dwithiyai, Sunday"
+   },
+   {
+    "date": "2027-06-07",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-06-08T04:15+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-06-07T19:56+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:54",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "08:09",
+     "09:24"
+    ],
+    "reason": "Punarpoosam nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-06-14",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-14T21:58+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-06-15T06:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:57",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "08:11",
+     "09:26"
+    ],
+    "reason": "Chithirai nakshatram, Ekadasi, Monday"
+   },
+   {
+    "date": "2027-06-17",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-18T02:00+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-06-17T07:50+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "13:10",
+     "14:24"
+    ],
+    "reason": "Anusham nakshatram, Thrayodasi, Thursday"
+   },
+   {
+    "date": "2027-07-05",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aani",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-07-05T13:49+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-07-05T09:21+10:00",
+    "paksha": "shukla",
+    "sunrise": "07:00",
+    "sunset": "16:58",
+    "rahu_kalam": [
+     "08:15",
+     "09:30"
+    ],
+    "reason": "Punarpoosam nakshatram, Prathamai, Monday"
+   },
+   {
+    "date": "2027-07-09",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aani",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-07-10T03:46+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-07-09T18:34+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:59",
+    "sunset": "17:00",
+    "rahu_kalam": [
+     "10:45",
+     "12:00"
+    ],
+    "reason": "Uthiram nakshatram, Sashti, Friday"
+   },
+   {
+    "date": "2027-07-14",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-07-15T07:48+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-07-14T17:40+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "17:03",
+    "rahu_kalam": [
+     "12:01",
+     "13:16"
+    ],
+    "reason": "Anusham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-07-15",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-07-15T07:48+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-07-15T19:11+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "17:04",
+    "rahu_kalam": [
+     "13:17",
+     "14:32"
+    ],
+    "reason": "Anusham nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-09-02",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aavani",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-02T22:06+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-09-02T21:20+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:12",
+    "sunset": "17:37",
+    "rahu_kalam": [
+     "13:20",
+     "14:46"
+    ],
+    "reason": "Uthiram nakshatram, Dwithiyai, Thursday"
+   },
+   {
+    "date": "2027-09-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aavani",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-03T20:23+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-09-03T18:49+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:11",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "10:29",
+     "11:54"
+    ],
+    "reason": "Hastham nakshatram, Thrithiyai, Friday"
+   },
+   {
+    "date": "2027-09-05",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Aavani",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-05T19:00+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-09-05T15:47+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:08",
+    "sunset": "17:39",
+    "rahu_kalam": [
+     "16:13",
+     "17:39"
+    ],
+    "reason": "Swathi nakshatram, Panchami, Sunday"
+   },
+   {
+    "date": "2027-09-12",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Aavani",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-09-12T07:28+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-09-13T02:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:59",
+    "sunset": "17:44",
+    "rahu_kalam": [
+     "16:16",
+     "17:44"
+    ],
+    "reason": "Uthiradam nakshatram, Dwadasi, Sunday"
+   },
+   {
+    "date": "2027-09-13",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aavani",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-09-13T10:35+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-09-14T05:10+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:58",
+    "sunset": "17:45",
+    "rahu_kalam": [
+     "07:26",
+     "08:54"
+    ],
+    "reason": "Thiruvonam nakshatram, Thrayodasi, Monday"
+   },
+   {
+    "date": "2027-10-01",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Purattasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-10-01T06:41+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-10-01T10:05+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:32",
+    "sunset": "17:57",
+    "rahu_kalam": [
+     "10:12",
+     "11:45"
+    ],
+    "reason": "Hastham nakshatram, Prathamai, Friday"
+   },
+   {
+    "date": "2027-10-10",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Purattasi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-10-10T18:55+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-10-10T17:11+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:20",
+    "sunset": "19:04",
+    "rahu_kalam": [
+     "17:28",
+     "19:04"
+    ],
+    "reason": "Thiruvonam nakshatram, Dasami, Sunday"
+   },
+   {
+    "date": "2027-10-15",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Purattasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-10-16T04:59+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-10-16T00:46+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "19:08",
+    "rahu_kalam": [
+     "11:04",
+     "12:41"
+    ],
+    "reason": "Revathi nakshatram, Pournami, Friday"
+   },
+   {
+    "date": "2027-11-01",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-01T15:27+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-11-01T22:46+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:55",
+    "sunset": "19:22",
+    "rahu_kalam": [
+     "07:36",
+     "09:17"
+    ],
+    "reason": "Anusham nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-11-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-11-05T23:49+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-11-06T05:39+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:51",
+    "sunset": "19:26",
+    "rahu_kalam": [
+     "10:57",
+     "12:39"
+    ],
+    "reason": "Uthiradam nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-11-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-11T12:31+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-11-11T15:37+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:46",
+    "sunset": "19:32",
+    "rahu_kalam": [
+     "14:22",
+     "16:05"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-11-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-12T13:25+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-11-12T15:51+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:45",
+    "sunset": "19:33",
+    "rahu_kalam": [
+     "10:56",
+     "12:39"
+    ],
+    "reason": "Revathi nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-12-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-12-03T08:00+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-12-03T21:43+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:52",
+    "rahu_kalam": [
+     "10:57",
+     "12:44"
+    ],
+    "reason": "Uthiradam nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-12-09",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-09T22:57+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-12-09T08:29+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:57",
+    "rahu_kalam": [
+     "14:34",
+     "16:22"
+    ],
+    "reason": "Revathi nakshatram, Dasami, Thursday"
+   },
+   {
+    "date": "2027-12-13",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-13T20:45+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-12-14T03:08+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:37",
+    "sunset": "20:00",
+    "rahu_kalam": [
+     "07:25",
+     "09:13"
+    ],
+    "reason": "Rohini nakshatram, Pournami, Monday"
+   }
+  ]
+ },
+ "venture": {
+  "label": "New venture / shop opening",
+  "short": "New venture",
+  "blurb": "Dates for opening a shop, office or business. The chara (movable) and kshipra (swift) nakshatras are preferred — the traditional reasoning is that a venture wants momentum, the opposite of the fixed nakshatras you want for a house.",
+  "count": 57,
+  "dates": [
+   {
+    "date": "2027-01-09",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Margazhi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-01-09T17:46+11:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-01-09T10:04+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:53",
+    "sunset": "20:10",
+    "rahu_kalam": [
+     "09:27",
+     "11:14"
+    ],
+    "reason": "Uthiradam nakshatram, Prathamai, Saturday"
+   },
+   {
+    "date": "2027-01-10",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Margazhi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-01-10T20:42+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-01-10T12:37+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:54",
+    "sunset": "20:10",
+    "rahu_kalam": [
+     "18:23",
+     "20:10"
+    ],
+    "reason": "Thiruvonam nakshatram, Dwithiyai, Sunday"
+   },
+   {
+    "date": "2027-01-11",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Margazhi",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-01-11T23:23+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-01-11T14:58+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:55",
+    "sunset": "20:10",
+    "rahu_kalam": [
+     "07:42",
+     "09:29"
+    ],
+    "reason": "Avittam nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-01-14",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Margazhi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-15T04:49+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-01-14T19:29+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:58",
+    "sunset": "20:09",
+    "rahu_kalam": [
+     "14:50",
+     "16:36"
+    ],
+    "reason": "Uthirattathi nakshatram, Sashti, Thursday"
+   },
+   {
+    "date": "2027-01-15",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-16T05:21+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-01-15T19:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:59",
+    "sunset": "20:09",
+    "rahu_kalam": [
+     "11:17",
+     "13:04"
+    ],
+    "reason": "Revathi nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-01-22",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-01-22T15:55+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-01-22T23:17+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:05",
+    "sunset": "20:06",
+    "rahu_kalam": [
+     "11:21",
+     "13:06"
+    ],
+    "reason": "Punarpoosam nakshatram, Pournami, Friday"
+   },
+   {
+    "date": "2027-02-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-12T11:12+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-02-12T08:48+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:26",
+    "sunset": "19:51",
+    "rahu_kalam": [
+     "11:28",
+     "13:09"
+    ],
+    "reason": "Revathi nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-02-13",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Maasi",
+    "nakshatra": "Ashwini",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-13T11:26+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-02-13T08:29+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:27",
+    "sunset": "19:50",
+    "rahu_kalam": [
+     "09:48",
+     "11:28"
+    ],
+    "reason": "Ashwini nakshatram, Sashti, Saturday"
+   },
+   {
+    "date": "2027-02-18",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-02-19T02:36+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-02-18T19:58+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:32",
+    "sunset": "19:45",
+    "rahu_kalam": [
+     "14:47",
+     "16:27"
+    ],
+    "reason": "Punarpoosam nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-02-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-02-20T00:05+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-02-19T16:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:33",
+    "sunset": "19:44",
+    "rahu_kalam": [
+     "11:29",
+     "13:08"
+    ],
+    "reason": "Poosam nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-03-10",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-10T16:22+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-03-10T21:23+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:49",
+    "sunset": "19:20",
+    "rahu_kalam": [
+     "13:05",
+     "14:39"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwithiyai, Wednesday"
+   },
+   {
+    "date": "2027-03-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-11T16:50+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-03-11T21:07+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:50",
+    "sunset": "19:19",
+    "rahu_kalam": [
+     "14:38",
+     "16:12"
+    ],
+    "reason": "Revathi nakshatram, Thrithiyai, Thursday"
+   },
+   {
+    "date": "2027-03-15",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-15T14:56+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-03-15T16:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "19:14",
+    "rahu_kalam": [
+     "08:26",
+     "09:58"
+    ],
+    "reason": "Rohini nakshatram, Sapthami, Monday"
+   },
+   {
+    "date": "2027-03-18",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-18T10:37+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-03-18T09:51+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:56",
+    "sunset": "19:10",
+    "rahu_kalam": [
+     "14:34",
+     "16:06"
+    ],
+    "reason": "Punarpoosam nakshatram, Dasami, Thursday"
+   },
+   {
+    "date": "2027-03-19",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Panguni",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-19T08:51+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-03-19T07:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:56",
+    "sunset": "19:08",
+    "rahu_kalam": [
+     "11:31",
+     "13:02"
+    ],
+    "reason": "Poosam nakshatram, Ekadasi, Friday"
+   },
+   {
+    "date": "2027-03-22",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-23T02:16+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-03-22T21:43+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:59",
+    "sunset": "19:04",
+    "rahu_kalam": [
+     "08:29",
+     "10:00"
+    ],
+    "reason": "Uthiram nakshatram, Pournami, Monday"
+   },
+   {
+    "date": "2027-04-08",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Ashwini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-08T22:29+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-04-08T08:59+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:11",
+    "sunset": "17:42",
+    "rahu_kalam": [
+     "13:23",
+     "14:49"
+    ],
+    "reason": "Ashwini nakshatram, Prathamai, Thursday"
+   },
+   {
+    "date": "2027-04-11",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-11T19:23+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-04-12T02:10+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "16:12",
+     "17:38"
+    ],
+    "reason": "Rohini nakshatram, Panchami, Sunday"
+   },
+   {
+    "date": "2027-04-19",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-19T09:45+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-04-19T10:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:20",
+    "sunset": "17:28",
+    "rahu_kalam": [
+     "07:43",
+     "09:07"
+    ],
+    "reason": "Uthiram nakshatram, Thrayodasi, Monday"
+   },
+   {
+    "date": "2027-04-21",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-21T08:58+10:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-04-21T08:27+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:21",
+    "sunset": "17:26",
+    "rahu_kalam": [
+     "11:53",
+     "13:16"
+    ],
+    "reason": "Chithirai nakshatram, Pournami, Wednesday"
+   },
+   {
+    "date": "2027-05-08",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-05-09T02:23+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-05-08T16:13+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:34",
+    "sunset": "17:08",
+    "rahu_kalam": [
+     "09:12",
+     "10:32"
+    ],
+    "reason": "Rohini nakshatram, Dwithiyai, Saturday"
+   },
+   {
+    "date": "2027-05-12",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-05-12T19:26+10:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-05-13T03:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:37",
+    "sunset": "17:05",
+    "rahu_kalam": [
+     "11:51",
+     "13:09"
+    ],
+    "reason": "Poosam nakshatram, Sapthami, Wednesday"
+   },
+   {
+    "date": "2027-05-16",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-16T16:05+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-05-16T21:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:40",
+    "sunset": "17:02",
+    "rahu_kalam": [
+     "15:44",
+     "17:02"
+    ],
+    "reason": "Uthiram nakshatram, Ekadasi, Sunday"
+   },
+   {
+    "date": "2027-05-17",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-17T15:59+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-05-17T20:58+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:41",
+    "sunset": "17:01",
+    "rahu_kalam": [
+     "07:58",
+     "09:16"
+    ],
+    "reason": "Hastham nakshatram, Dwadasi, Monday"
+   },
+   {
+    "date": "2027-06-05",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-06-05T11:32+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-06-06T02:29+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "09:23",
+     "10:38"
+    ],
+    "reason": "Rohini nakshatram, Prathamai, Saturday"
+   },
+   {
+    "date": "2027-06-07",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-06-08T04:15+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-06-07T19:56+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:54",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "08:09",
+     "09:24"
+    ],
+    "reason": "Punarpoosam nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-06-14",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-14T21:58+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-06-15T06:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:57",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "08:11",
+     "09:26"
+    ],
+    "reason": "Chithirai nakshatram, Ekadasi, Monday"
+   },
+   {
+    "date": "2027-06-17",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-18T02:00+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-06-17T07:50+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "13:10",
+     "14:24"
+    ],
+    "reason": "Anusham nakshatram, Thrayodasi, Thursday"
+   },
+   {
+    "date": "2027-07-05",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aani",
+    "nakshatra": "Punarpoosam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-07-05T13:49+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-07-05T09:21+10:00",
+    "paksha": "shukla",
+    "sunrise": "07:00",
+    "sunset": "16:58",
+    "rahu_kalam": [
+     "08:15",
+     "09:30"
+    ],
+    "reason": "Punarpoosam nakshatram, Prathamai, Monday"
+   },
+   {
+    "date": "2027-07-09",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aani",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-07-10T03:46+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-07-09T18:34+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:59",
+    "sunset": "17:00",
+    "rahu_kalam": [
+     "10:45",
+     "12:00"
+    ],
+    "reason": "Uthiram nakshatram, Sashti, Friday"
+   },
+   {
+    "date": "2027-07-10",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aani",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-07-11T03:21+10:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-07-10T17:07+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:59",
+    "sunset": "17:01",
+    "rahu_kalam": [
+     "09:30",
+     "10:45"
+    ],
+    "reason": "Hastham nakshatram, Sapthami, Saturday"
+   },
+   {
+    "date": "2027-07-14",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-07-15T07:48+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-07-14T17:40+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "17:03",
+    "rahu_kalam": [
+     "12:01",
+     "13:16"
+    ],
+    "reason": "Anusham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-07-15",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-07-15T07:48+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-07-15T19:11+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "17:04",
+    "rahu_kalam": [
+     "13:17",
+     "14:32"
+    ],
+    "reason": "Anusham nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-09-02",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aavani",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-02T22:06+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-09-02T21:20+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:12",
+    "sunset": "17:37",
+    "rahu_kalam": [
+     "13:20",
+     "14:46"
+    ],
+    "reason": "Uthiram nakshatram, Dwithiyai, Thursday"
+   },
+   {
+    "date": "2027-09-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aavani",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-03T20:23+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-09-03T18:49+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:11",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "10:29",
+     "11:54"
+    ],
+    "reason": "Hastham nakshatram, Thrithiyai, Friday"
+   },
+   {
+    "date": "2027-09-05",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Aavani",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-09-05T19:00+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-09-05T15:47+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:08",
+    "sunset": "17:39",
+    "rahu_kalam": [
+     "16:13",
+     "17:39"
+    ],
+    "reason": "Swathi nakshatram, Panchami, Sunday"
+   },
+   {
+    "date": "2027-09-11",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aavani",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-09-12T07:28+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-09-12T00:06+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:00",
+    "sunset": "17:43",
+    "rahu_kalam": [
+     "08:56",
+     "10:24"
+    ],
+    "reason": "Uthiradam nakshatram, Ekadasi, Saturday"
+   },
+   {
+    "date": "2027-09-12",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Aavani",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-09-12T07:28+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-09-13T02:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:59",
+    "sunset": "17:44",
+    "rahu_kalam": [
+     "16:16",
+     "17:44"
+    ],
+    "reason": "Uthiradam nakshatram, Dwadasi, Sunday"
+   },
+   {
+    "date": "2027-09-13",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aavani",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-09-13T10:35+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-09-14T05:10+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:58",
+    "sunset": "17:45",
+    "rahu_kalam": [
+     "07:26",
+     "08:54"
+    ],
+    "reason": "Thiruvonam nakshatram, Thrayodasi, Monday"
+   },
+   {
+    "date": "2027-10-01",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Purattasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-10-01T06:41+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-10-01T10:05+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:32",
+    "sunset": "17:57",
+    "rahu_kalam": [
+     "10:12",
+     "11:45"
+    ],
+    "reason": "Hastham nakshatram, Prathamai, Friday"
+   },
+   {
+    "date": "2027-10-02",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Purattasi",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-10-03T05:33+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-10-02T08:03+10:00",
+    "paksha": "shukla",
+    "sunrise": "05:31",
+    "sunset": "17:58",
+    "rahu_kalam": [
+     "08:38",
+     "10:11"
+    ],
+    "reason": "Swathi nakshatram, Dwithiyai, Saturday"
+   },
+   {
+    "date": "2027-10-10",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Purattasi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-10-10T18:55+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-10-10T17:11+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:20",
+    "sunset": "19:04",
+    "rahu_kalam": [
+     "17:28",
+     "19:04"
+    ],
+    "reason": "Thiruvonam nakshatram, Dasami, Sunday"
+   },
+   {
+    "date": "2027-10-11",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Purattasi",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-10-11T21:51+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-10-11T19:39+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:19",
+    "sunset": "19:05",
+    "rahu_kalam": [
+     "07:55",
+     "09:30"
+    ],
+    "reason": "Avittam nakshatram, Ekadasi, Monday"
+   },
+   {
+    "date": "2027-10-15",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Purattasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-10-16T04:59+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-10-16T00:46+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "19:08",
+    "rahu_kalam": [
+     "11:04",
+     "12:41"
+    ],
+    "reason": "Revathi nakshatram, Pournami, Friday"
+   },
+   {
+    "date": "2027-10-30",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-10-30T15:13+11:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-10-30T23:22+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:57",
+    "sunset": "19:21",
+    "rahu_kalam": [
+     "09:18",
+     "10:58"
+    ],
+    "reason": "Swathi nakshatram, Prathamai, Saturday"
+   },
+   {
+    "date": "2027-11-01",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-01T15:27+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-11-01T22:46+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:55",
+    "sunset": "19:22",
+    "rahu_kalam": [
+     "07:36",
+     "09:17"
+    ],
+    "reason": "Anusham nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-11-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-11-05T23:49+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-11-06T05:39+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:51",
+    "sunset": "19:26",
+    "rahu_kalam": [
+     "10:57",
+     "12:39"
+    ],
+    "reason": "Uthiradam nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-11-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-11T12:31+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-11-11T15:37+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:46",
+    "sunset": "19:32",
+    "rahu_kalam": [
+     "14:22",
+     "16:05"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-11-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-12T13:25+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-11-12T15:51+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:45",
+    "sunset": "19:33",
+    "rahu_kalam": [
+     "10:56",
+     "12:39"
+    ],
+    "reason": "Revathi nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-12-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-12-03T08:00+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-12-03T21:43+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:52",
+    "rahu_kalam": [
+     "10:57",
+     "12:44"
+    ],
+    "reason": "Uthiradam nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-12-04",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-12-04T11:03+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-12-05T00:26+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:53",
+    "rahu_kalam": [
+     "09:11",
+     "10:58"
+    ],
+    "reason": "Thiruvonam nakshatram, Sashti, Saturday"
+   },
+   {
+    "date": "2027-12-05",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-12-05T14:11+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-12-06T03:07+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:54",
+    "rahu_kalam": [
+     "18:07",
+     "19:54"
+    ],
+    "reason": "Avittam nakshatram, Sapthami, Sunday"
+   },
+   {
+    "date": "2027-12-09",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-09T22:57+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-12-09T08:29+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:57",
+    "rahu_kalam": [
+     "14:34",
+     "16:22"
+    ],
+    "reason": "Revathi nakshatram, Dasami, Thursday"
+   },
+   {
+    "date": "2027-12-10",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Ashwini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-10T23:24+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-12-10T08:50+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:37",
+    "sunset": "19:58",
+    "rahu_kalam": [
+     "11:00",
+     "12:47"
+    ],
+    "reason": "Ashwini nakshatram, Ekadasi, Friday"
+   },
+   {
+    "date": "2027-12-13",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-13T20:45+11:00",
+    "tithi": "Pournami",
+    "tithi_end": "2027-12-14T03:08+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:37",
+    "sunset": "20:00",
+    "rahu_kalam": [
+     "07:25",
+     "09:13"
+    ],
+    "reason": "Rohini nakshatram, Pournami, Monday"
+   },
+   {
+    "date": "2027-12-30",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Margazhi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-12-30T15:37+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-12-30T11:10+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:45",
+    "sunset": "20:09",
+    "rahu_kalam": [
+     "14:45",
+     "16:33"
+    ],
+    "reason": "Uthiradam nakshatram, Dwithiyai, Thursday"
+   },
+   {
+    "date": "2027-12-31",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Margazhi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-12-31T18:36+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-12-31T13:42+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:46",
+    "sunset": "20:09",
+    "rahu_kalam": [
+     "11:09",
+     "12:57"
+    ],
+    "reason": "Thiruvonam nakshatram, Thrithiyai, Friday"
+   }
+  ]
+ },
+ "wedding": {
+  "label": "Wedding muhurtham",
+  "short": "Wedding",
+  "blurb": "Dates a Tamil family would normally consider for a wedding, computed at your city's sunrise. The strictest of the five lists — three whole months, both planetary combustion periods and the rikta tithis are excluded, so a thin year is a correct result, not a broken one.",
+  "count": 47,
+  "dates": [
+   {
+    "date": "2027-01-15",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-16T05:21+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-01-15T19:44+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:59",
+    "sunset": "20:09",
+    "rahu_kalam": [
+     "11:17",
+     "13:04"
+    ],
+    "reason": "Revathi nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-01-20",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-01-20T21:47+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-01-20T10:11+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:03",
+    "sunset": "20:07",
+    "rahu_kalam": [
+     "13:05",
+     "14:51"
+    ],
+    "reason": "Mrigasheersham nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-01-25",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Thai",
+    "nakshatra": "Magham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-01-25T08:11+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-01-25T13:40+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:08",
+    "sunset": "20:05",
+    "rahu_kalam": [
+     "07:53",
+     "09:37"
+    ],
+    "reason": "Magham nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-01-27",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-28T05:26+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-01-27T10:03+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:10",
+    "sunset": "20:04",
+    "rahu_kalam": [
+     "13:07",
+     "14:51"
+    ],
+    "reason": "Hastham nakshatram, Panchami, Wednesday"
+   },
+   {
+    "date": "2027-01-29",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-01-30T07:24+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-01-29T09:33+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:12",
+    "sunset": "20:02",
+    "rahu_kalam": [
+     "11:24",
+     "13:07"
+    ],
+    "reason": "Swathi nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-02-01",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Thai",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-01T11:58+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-02-01T14:11+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:15",
+    "sunset": "20:00",
+    "rahu_kalam": [
+     "07:58",
+     "09:42"
+    ],
+    "reason": "Anusham nakshatram, Dasami, Monday"
+   },
+   {
+    "date": "2027-02-03",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-02-03T17:56+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-02-03T19:20+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:17",
+    "sunset": "19:59",
+    "rahu_kalam": [
+     "13:08",
+     "14:51"
+    ],
+    "reason": "Moolam nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-02-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-12T11:12+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-02-12T08:48+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:26",
+    "sunset": "19:51",
+    "rahu_kalam": [
+     "11:28",
+     "13:09"
+    ],
+    "reason": "Revathi nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-02-17",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-02-17T07:08+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-02-17T23:02+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:31",
+    "sunset": "19:46",
+    "rahu_kalam": [
+     "13:08",
+     "14:48"
+    ],
+    "reason": "Mrigasheersham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-02-26",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-02-26T15:43+11:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-02-27T02:13+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:39",
+    "sunset": "19:36",
+    "rahu_kalam": [
+     "11:30",
+     "13:07"
+    ],
+    "reason": "Swathi nakshatram, Sashti, Friday"
+   },
+   {
+    "date": "2027-03-04",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-05T07:05+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-03-04T12:54+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:44",
+    "sunset": "19:28",
+    "rahu_kalam": [
+     "14:42",
+     "16:17"
+    ],
+    "reason": "Uthiradam nakshatram, Ekadasi, Thursday"
+   },
+   {
+    "date": "2027-03-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-03-05T07:05+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-03-05T15:24+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:45",
+    "sunset": "19:27",
+    "rahu_kalam": [
+     "11:31",
+     "13:06"
+    ],
+    "reason": "Uthiradam nakshatram, Dwadasi, Friday"
+   },
+   {
+    "date": "2027-03-10",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-10T16:22+11:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-03-10T21:23+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:49",
+    "sunset": "19:20",
+    "rahu_kalam": [
+     "13:05",
+     "14:39"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwithiyai, Wednesday"
+   },
+   {
+    "date": "2027-03-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-11T16:50+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-03-11T21:07+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:50",
+    "sunset": "19:19",
+    "rahu_kalam": [
+     "14:38",
+     "16:12"
+    ],
+    "reason": "Revathi nakshatram, Thrithiyai, Thursday"
+   },
+   {
+    "date": "2027-03-15",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-03-15T14:56+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-03-15T16:21+11:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "19:14",
+    "rahu_kalam": [
+     "08:26",
+     "09:58"
+    ],
+    "reason": "Rohini nakshatram, Sapthami, Monday"
+   },
+   {
+    "date": "2027-03-25",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-03-26T01:09+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-03-25T18:08+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:01",
+    "sunset": "19:00",
+    "rahu_kalam": [
+     "14:30",
+     "16:00"
+    ],
+    "reason": "Swathi nakshatram, Thrithiyai, Thursday"
+   },
+   {
+    "date": "2027-03-29",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-03-30T08:48+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-03-29T22:41+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:04",
+    "sunset": "18:55",
+    "rahu_kalam": [
+     "08:33",
+     "10:02"
+    ],
+    "reason": "Moolam nakshatram, Sapthami, Monday"
+   },
+   {
+    "date": "2027-04-01",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-04-01T14:55+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-04-02T06:15+11:00",
+    "paksha": "krishna",
+    "sunrise": "07:06",
+    "sunset": "18:51",
+    "rahu_kalam": [
+     "14:27",
+     "15:55"
+    ],
+    "reason": "Uthiradam nakshatram, Dasami, Thursday"
+   },
+   {
+    "date": "2027-04-11",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-11T19:23+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-04-12T02:10+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "16:12",
+     "17:38"
+    ],
+    "reason": "Rohini nakshatram, Panchami, Sunday"
+   },
+   {
+    "date": "2027-04-12",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-12T18:04+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-04-13T00:05+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:14",
+    "sunset": "17:36",
+    "rahu_kalam": [
+     "07:40",
+     "09:05"
+    ],
+    "reason": "Mrigasheersham nakshatram, Sashti, Monday"
+   },
+   {
+    "date": "2027-04-19",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-19T09:45+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-04-19T10:38+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:20",
+    "sunset": "17:28",
+    "rahu_kalam": [
+     "07:43",
+     "09:07"
+    ],
+    "reason": "Uthiram nakshatram, Thrayodasi, Monday"
+   },
+   {
+    "date": "2027-04-22",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-04-22T09:14+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-04-22T08:00+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:22",
+    "sunset": "17:24",
+    "rahu_kalam": [
+     "13:16",
+     "14:39"
+    ],
+    "reason": "Swathi nakshatram, Prathamai, Thursday"
+   },
+   {
+    "date": "2027-04-26",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-04-26T16:00+10:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-04-26T12:07+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:25",
+    "sunset": "17:20",
+    "rahu_kalam": [
+     "07:47",
+     "09:09"
+    ],
+    "reason": "Moolam nakshatram, Panchami, Monday"
+   },
+   {
+    "date": "2027-04-28",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-04-28T22:00+10:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-04-28T17:01+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:26",
+    "sunset": "17:18",
+    "rahu_kalam": [
+     "11:52",
+     "13:13"
+    ],
+    "reason": "Uthiradam nakshatram, Sapthami, Wednesday"
+   },
+   {
+    "date": "2027-05-09",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-05-10T00:29+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-05-09T13:33+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:35",
+    "sunset": "17:07",
+    "rahu_kalam": [
+     "15:48",
+     "17:07"
+    ],
+    "reason": "Mrigasheersham nakshatram, Thrithiyai, Sunday"
+   },
+   {
+    "date": "2027-05-16",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-16T16:05+10:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-05-16T21:43+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:40",
+    "sunset": "17:02",
+    "rahu_kalam": [
+     "15:44",
+     "17:02"
+    ],
+    "reason": "Uthiram nakshatram, Ekadasi, Sunday"
+   },
+   {
+    "date": "2027-05-17",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-17T15:59+10:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-05-17T20:58+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:41",
+    "sunset": "17:01",
+    "rahu_kalam": [
+     "07:58",
+     "09:16"
+    ],
+    "reason": "Hastham nakshatram, Dwadasi, Monday"
+   },
+   {
+    "date": "2027-05-21",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-21T19:21+10:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2027-05-21T21:53+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:43",
+    "sunset": "16:59",
+    "rahu_kalam": [
+     "10:34",
+     "11:51"
+    ],
+    "reason": "Anusham nakshatram, Prathamai, Friday"
+   },
+   {
+    "date": "2027-05-23",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-05-23T23:47+10:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-05-24T01:12+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:45",
+    "sunset": "16:58",
+    "rahu_kalam": [
+     "15:41",
+     "16:58"
+    ],
+    "reason": "Moolam nakshatram, Thrithiyai, Sunday"
+   },
+   {
+    "date": "2027-05-31",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-05-31T17:05+10:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-05-31T14:32+10:00",
+    "paksha": "krishna",
+    "sunrise": "06:50",
+    "sunset": "16:54",
+    "rahu_kalam": [
+     "08:06",
+     "09:21"
+    ],
+    "reason": "Uthirattathi nakshatram, Dasami, Monday"
+   },
+   {
+    "date": "2027-06-06",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-06-06T09:07+10:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2027-06-06T23:11+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:53",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "15:38",
+     "16:53"
+    ],
+    "reason": "Mrigasheersham nakshatram, Dwithiyai, Sunday"
+   },
+   {
+    "date": "2027-06-10",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Magham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-10T22:54+10:00",
+    "tithi": "Sashti",
+    "tithi_end": "2027-06-10T11:41+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:55",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "13:09",
+     "14:23"
+    ],
+    "reason": "Magham nakshatram, Sashti, Thursday"
+   },
+   {
+    "date": "2027-06-17",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-06-18T02:00+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-06-17T07:50+10:00",
+    "paksha": "shukla",
+    "sunrise": "06:58",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "13:10",
+     "14:24"
+    ],
+    "reason": "Anusham nakshatram, Thrayodasi, Thursday"
+   },
+   {
+    "date": "2027-07-02",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aani",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-07-02T21:56+10:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-07-02T19:53+10:00",
+    "paksha": "krishna",
+    "sunrise": "07:00",
+    "sunset": "16:57",
+    "rahu_kalam": [
+     "10:44",
+     "11:59"
+    ],
+    "reason": "Rohini nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-10-20",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-10-21T04:00+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-10-20T20:49+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:08",
+    "sunset": "19:12",
+    "rahu_kalam": [
+     "12:40",
+     "14:18"
+    ],
+    "reason": "Mrigasheersham nakshatram, Panchami, Wednesday"
+   },
+   {
+    "date": "2027-10-25",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Magham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-10-25T21:39+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-10-25T11:10+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:02",
+    "sunset": "19:16",
+    "rahu_kalam": [
+     "07:41",
+     "09:21"
+    ],
+    "reason": "Magham nakshatram, Dasami, Monday"
+   },
+   {
+    "date": "2027-10-27",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-10-27T18:31+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-10-27T06:34+11:00",
+    "paksha": "krishna",
+    "sunrise": "06:00",
+    "sunset": "19:18",
+    "rahu_kalam": [
+     "12:39",
+     "14:19"
+    ],
+    "reason": "Uthiram nakshatram, Dwadasi, Wednesday"
+   },
+   {
+    "date": "2027-11-01",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-01T15:27+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-11-01T22:46+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:55",
+    "sunset": "19:22",
+    "rahu_kalam": [
+     "07:36",
+     "09:17"
+    ],
+    "reason": "Anusham nakshatram, Thrithiyai, Monday"
+   },
+   {
+    "date": "2027-11-03",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-03T18:27+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-11-04T01:02+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:53",
+    "sunset": "19:24",
+    "rahu_kalam": [
+     "12:38",
+     "14:20"
+    ],
+    "reason": "Moolam nakshatram, Panchami, Wednesday"
+   },
+   {
+    "date": "2027-11-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-11-05T23:49+11:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2027-11-06T05:39+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:51",
+    "sunset": "19:26",
+    "rahu_kalam": [
+     "10:57",
+     "12:39"
+    ],
+    "reason": "Uthiradam nakshatram, Sapthami, Friday"
+   },
+   {
+    "date": "2027-11-11",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-11T12:31+11:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2027-11-11T15:37+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:46",
+    "sunset": "19:32",
+    "rahu_kalam": [
+     "14:22",
+     "16:05"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwadasi, Thursday"
+   },
+   {
+    "date": "2027-11-12",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2027-11-12T13:25+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-11-12T15:51+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:45",
+    "sunset": "19:33",
+    "rahu_kalam": [
+     "10:56",
+     "12:39"
+    ],
+    "reason": "Revathi nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-11-17",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-11-17T10:12+11:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2027-11-17T09:12+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:42",
+    "sunset": "19:37",
+    "rahu_kalam": [
+     "12:40",
+     "14:24"
+    ],
+    "reason": "Mrigasheersham nakshatram, Thrithiyai, Wednesday"
+   },
+   {
+    "date": "2027-11-24",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-11-25T00:23+11:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2027-11-24T17:41+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:39",
+    "sunset": "19:44",
+    "rahu_kalam": [
+     "12:41",
+     "14:27"
+    ],
+    "reason": "Hastham nakshatram, Ekadasi, Wednesday"
+   },
+   {
+    "date": "2027-11-26",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2027-11-26T23:29+11:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2027-11-26T15:18+11:00",
+    "paksha": "krishna",
+    "sunrise": "05:38",
+    "sunset": "19:46",
+    "rahu_kalam": [
+     "10:56",
+     "12:42"
+    ],
+    "reason": "Swathi nakshatram, Thrayodasi, Friday"
+   },
+   {
+    "date": "2027-12-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2027-12-03T08:00+11:00",
+    "tithi": "Panchami",
+    "tithi_end": "2027-12-03T21:43+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:52",
+    "rahu_kalam": [
+     "10:57",
+     "12:44"
+    ],
+    "reason": "Uthiradam nakshatram, Panchami, Friday"
+   },
+   {
+    "date": "2027-12-09",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2027-12-09T22:57+11:00",
+    "tithi": "Dasami",
+    "tithi_end": "2027-12-09T08:29+11:00",
+    "paksha": "shukla",
+    "sunrise": "05:36",
+    "sunset": "19:57",
+    "rahu_kalam": [
+     "14:34",
+     "16:22"
+    ],
+    "reason": "Revathi nakshatram, Dasami, Thursday"
+   }
+  ]
+ }
+}

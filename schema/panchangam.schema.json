@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://muhurtham-planner/schema/panchangam.schema.json",
+  "title": "Panchangam city-year",
+  "description": "The contract between pipeline/compute.py and the Astro site. CI validates every data/<year>/<city>.json against this, so either side can be worked on independently.",
+  "type": "object",
+  "required": ["city", "year", "generated_with", "eclipses", "days"],
+  "additionalProperties": false,
+  "properties": {
+    "city": {
+      "type": "object",
+      "required": ["slug", "name", "country", "lat", "lon", "tz"],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "short": { "type": "string" },
+        "country": { "type": "string" },
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+        "elevation_m": { "type": "number" },
+        "tz": { "type": "string" }
+      }
+    },
+    "year": { "type": "integer", "minimum": 2020, "maximum": 2100 },
+    "generated_with": {
+      "type": "object",
+      "required": ["swisseph", "ephemeris", "ayanamsa", "day_boundary"],
+      "properties": {
+        "swisseph": { "type": "string" },
+        "ephemeris": { "enum": ["moshier", "swieph", "jpl"] },
+        "ayanamsa": { "enum": ["lahiri"] },
+        "day_boundary": { "const": "local sunrise" },
+        "sunrise_convention": { "type": "string" }
+      }
+    },
+    "eclipses": {
+      "type": "object",
+      "description": "local ISO date -> list of grahan kinds falling on it",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "enum": ["solar", "lunar"] }
+      }
+    },
+    "days": {
+      "type": "array",
+      "minItems": 365,
+      "maxItems": 366,
+      "items": {
+        "type": "object",
+        "required": [
+          "date", "weekday", "sunrise", "sunset", "tithi", "tithi_end",
+          "paksha", "nakshatra", "nakshatra_pada", "nakshatra_end", "yoga",
+          "yoga_end", "karana", "sun_rasi", "moon_rasi", "tamil_month",
+          "rahu_kalam", "yamagandam", "gulikai", "venus_combust",
+          "jupiter_combust"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "weekday": { "type": "integer", "minimum": 0, "maximum": 6, "description": "Sunday=0" },
+          "sunrise": { "$ref": "#/$defs/clock" },
+          "sunset": { "$ref": "#/$defs/clock" },
+          "tithi": { "type": "integer", "minimum": 1, "maximum": 30 },
+          "tithi_end": { "type": "string" },
+          "paksha": { "type": "integer", "minimum": 0, "maximum": 1, "description": "0=shukla, 1=krishna" },
+          "nakshatra": { "type": "integer", "minimum": 1, "maximum": 27 },
+          "nakshatra_pada": { "type": "integer", "minimum": 1, "maximum": 4 },
+          "nakshatra_end": { "type": "string" },
+          "yoga": { "type": "integer", "minimum": 1, "maximum": 27 },
+          "yoga_end": { "type": "string" },
+          "karana": { "type": "integer", "minimum": 1, "maximum": 60 },
+          "sun_rasi": { "type": "integer", "minimum": 1, "maximum": 12 },
+          "moon_rasi": { "type": "integer", "minimum": 1, "maximum": 12 },
+          "tamil_month": { "type": "integer", "minimum": 1, "maximum": 12 },
+          "rahu_kalam": { "$ref": "#/$defs/window" },
+          "yamagandam": { "$ref": "#/$defs/window" },
+          "gulikai": { "$ref": "#/$defs/window" },
+          "venus_combust": { "type": "boolean" },
+          "jupiter_combust": { "type": "boolean" },
+          "eclipse": {
+            "type": "array",
+            "items": { "enum": ["solar", "lunar"] }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "clock": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+    "window": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "$ref": "#/$defs/clock" }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+# New venture — office, shop or business opening
+#
+# STATUS: DRAFT, pending OWNER-1 sign-off (SPEC FR-V2). Tag key in
+# rules/wedding.yaml.
+
+event: venture
+label: New venture / shop opening
+short: New venture
+blurb: >-
+  Dates for opening a shop, office or business. The chara (movable) and
+  kshipra (swift) nakshatras are preferred — the traditional reasoning is that
+  a venture wants momentum, the opposite of the fixed nakshatras you want for a
+  house.
+
+criteria:
+
+  allow_nakshatra:
+    basis: >-
+      [standard] Kshipra (Ashwini, Poosam, Hastham) and chara (Punarpoosam,
+      Swathi, Thiruvonam, Avittam, Sadhayam) nakshatras, plus the general
+      benefics Rohini, Uthiram, Chithirai, Anusham, Uthiradam, Uthirattathi
+      and Revathi.
+    values:
+      - Ashwini
+      - Rohini
+      - Punarpoosam
+      - Poosam
+      - Uthiram
+      - Hastham
+      - Chithirai
+      - Swathi
+      - Anusham
+      - Uthiradam
+      - Thiruvonam
+      - Avittam
+      - Sadhayam
+      - Uthirattathi
+      - Revathi
+
+  block_tithi:
+    basis: "[standard] Rikta tithis, Ashtami and Amavasai."
+    values: [Chathurthi, Ashtami, Navami, Chathurdasi, Amavasai]
+
+  allow_paksha:
+    basis: >-
+      [standard] Shukla paksha for a new undertaking — a waxing start.
+    values: [shukla]
+
+  allow_weekday:
+    basis: >-
+      [standard] Tuesday avoided. [varies] Saturday is accepted for a shop
+      opening by many trading families, so it stays in; Sunday too.
+    values: [Sunday, Monday, Wednesday, Thursday, Friday, Saturday]
+
+  block_tamil_month:
+    basis: >-
+      [varies] Only Aadi is blocked. Purattasi and Margazhi restrict weddings,
+      not commerce, and Margazhi in particular carries no bar on opening a
+      shop. Owner should confirm — this is the file's main open question.
+    values: [Aadi]
+
+  block_eclipse_days:
+    basis: "[standard] Grahan day and the day either side."
+    window_days: 1
+
+warn:
+  rahu_kalam:
+    basis: >-
+      [standard] The opening moment is kept out of rahu kalam — for a shop
+      this is the rule people actually observe most visibly.

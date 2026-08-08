@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "new-jersey",
+    "name": "New York / New Jersey",
+    "short": "New Jersey",
+    "country": "USA",
+    "lat": 40.7357,
+    "lon": -74.1724,
+    "elevation_m": 10,
+    "tz": "America/New_York"
+  },
+  {
+    "slug": "bay-area",
+    "name": "San Francisco Bay Area",
+    "short": "Bay Area",
+    "country": "USA",
+    "lat": 37.5485,
+    "lon": -121.9886,
+    "elevation_m": 8,
+    "tz": "America/Los_Angeles"
+  },
+  {
+    "slug": "chicago",
+    "name": "Chicago",
+    "short": "Chicago",
+    "country": "USA",
+    "lat": 41.8781,
+    "lon": -87.6298,
+    "elevation_m": 181,
+    "tz": "America/Chicago"
+  },
+  {
+    "slug": "dallas",
+    "name": "Dallas",
+    "short": "Dallas",
+    "country": "USA",
+    "lat": 32.7767,
+    "lon": -96.7970,
+    "elevation_m": 131,
+    "tz": "America/Chicago"
+  },
+  {
+    "slug": "toronto",
+    "name": "Toronto",
+    "short": "Toronto",
+    "country": "Canada",
+    "lat": 43.6532,
+    "lon": -79.3832,
+    "elevation_m": 76,
+    "tz": "America/Toronto"
+  },
+  {
+    "slug": "london",
+    "name": "London",
+    "short": "London",
+    "country": "UK",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "elevation_m": 11,
+    "tz": "Europe/London"
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "short": "Singapore",
+    "country": "Singapore",
+    "lat": 1.3521,
+    "lon": 103.8198,
+    "elevation_m": 15,
+    "tz": "Asia/Singapore"
+  },
+  {
+    "slug": "sydney",
+    "name": "Sydney",
+    "short": "Sydney",
+    "country": "Australia",
+    "lat": -33.8688,
+    "lon": 151.2093,
+    "elevation_m": 19,
+    "tz": "Australia/Sydney"
+  },
+  {
+    "slug": "melbourne",
+    "name": "Melbourne",
+    "short": "Melbourne",
+    "country": "Australia",
+    "lat": -37.8136,
+    "lon": 144.9631,
+    "elevation_m": 31,
+    "tz": "Australia/Melbourne"
+  },
+  {
+    "slug": "dubai",
+    "name": "Dubai",
+    "short": "Dubai",
+    "country": "UAE",
+    "lat": 25.2048,
+    "lon": 55.2708,
+    "elevation_m": 16,
+    "tz": "Asia/Dubai"
+  },
+  {
+    "slug": "kuala-lumpur",
+    "name": "Kuala Lumpur",
+    "short": "Kuala Lumpur",
+    "country": "Malaysia",
+    "lat": 3.1390,
+    "lon": 101.6869,
+    "elevation_m": 56,
+    "tz": "Asia/Kuala_Lumpur"
+  },
+  {
+    "slug": "chennai",
+    "name": "Chennai",
+    "short": "Chennai",
+    "country": "India",
+    "lat": 13.0827,
+    "lon": 80.2707,
+    "elevation_m": 6,
+    "tz": "Asia/Kolkata"
+  }
+]
