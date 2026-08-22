@@ -73,11 +73,22 @@ for (const file of htmls) {
 const sample = join(OUT, '2027', 'chennai', 'wedding', 'index.html');
 if (existsSync(sample)) {
   const html = readFileSync(sample, 'utf8');
-  const rows = [...html.matchAll(/<tr data-date="(\d{4}-\d{2}-\d{2})" data-title="([^"]+)" data-desc="([^"]+)"/g)];
+  const rows = [...html.matchAll(/<tr[^>]*\sdata-date="(\d{4}-\d{2}-\d{2})" data-title="([^"]+)" data-desc="([^"]+)"/g)];
   if (rows.length < 10) fail(`sample event page has only ${rows.length} .ics rows`);
   if (rows.some((r) => !r[3].includes('rahu kalam'))) fail('an .ics description lost its rahu kalam note');
   if ((html.match(/<button class="ics"/g) || []).length !== rows.length)
     fail('.ics button count does not match row count');
+
+  // Optional dates must ship hidden and must have a switch that reveals them.
+  // A relaxed date rendered visible is the one failure mode that would publish
+  // a looser list than the owner signed off on.
+  const opt = [...html.matchAll(/<tr class="opt"([^>]*)>/g)].map((m) => m[1]);
+  if (!opt.length) fail('sample event page has no optional rows — toggles lost');
+  if (opt.some((a) => !a.includes(' hidden '))) fail('an optional row renders visible by default');
+  const boxes = [...html.matchAll(/<input type="checkbox" name="(\w+)"/g)].map((m) => m[1]);
+  const needs = new Set(opt.flatMap((a) => (a.match(/data-needs="([^"]+)"/) || [, ''])[1].split(' ')));
+  for (const key of needs)
+    if (!boxes.includes(key)) fail(`optional rows need '${key}' but no switch offers it`);
 } else {
   fail('sample page /2027/chennai/wedding/ missing');
 }

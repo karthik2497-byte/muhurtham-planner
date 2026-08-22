@@ -96,10 +96,19 @@ export function eventPage({ year, city, event, data, events, cities }) {
     { label: data.short, href: `/${year}/${city.slug}/${event}/` },
   ];
 
-  const groups = groupByMonth(data.dates);
+  // Optional dates sit in the same month tables, in date order, hidden until
+  // the visitor switches their relaxation on. Rendering them in place rather
+  // than in a separate block is the point — "is there anything in April?" is
+  // the question being asked, and a second table further down does not answer
+  // it. They are marked, so nobody mistakes one for a default date.
+  const optional = data.optional || [];
+  const relaxations = data.relaxations || {};
+  const all = [...data.dates, ...optional].sort((a, b) => a.date.localeCompare(b.date));
+
+  const groups = groupByMonth(all);
   const tables = groups.map(([month, rows]) => `
-<section class="month">
-  <h3>${esc(month)} <span class="count">${rows.length} date${rows.length === 1 ? '' : 's'}</span></h3>
+<section class="month" data-strict="${rows.filter((r) => !r.needs).length}">
+  <h3>${esc(month)} <span class="count">${rows.filter((r) => !r.needs).length} date${rows.filter((r) => !r.needs).length === 1 ? '' : 's'}</span></h3>
   <div class="scroll">
   <table>
     <thead><tr>
@@ -108,8 +117,8 @@ export function eventPage({ year, city, event, data, events, cities }) {
       <th scope="col">Avoid (rahu kalam)</th><th scope="col"><span class="sr">Calendar</span></th>
     </tr></thead>
     <tbody>
-${rows.map((r) => `      <tr data-date="${r.date}" data-title="${esc(label)} — ${esc(cityName)}" data-desc="${esc(`${r.reason}. Sunrise ${r.sunrise}, sunset ${r.sunset}. Avoid rahu kalam ${r.rahu_kalam[0]}–${r.rahu_kalam[1]}. ${PUROHIT_LINE}`)}">
-        <td><time datetime="${r.date}">${pretty(r.date)}</time></td>
+${rows.map((r) => `      <tr${r.needs ? ` class="opt" hidden data-needs="${r.needs.join(' ')}"` : ''} data-date="${r.date}" data-title="${esc(label)} — ${esc(cityName)}" data-desc="${esc(`${r.reason}. Sunrise ${r.sunrise}, sunset ${r.sunset}. Avoid rahu kalam ${r.rahu_kalam[0]}–${r.rahu_kalam[1]}. ${PUROHIT_LINE}`)}">
+        <td><time datetime="${r.date}">${pretty(r.date)}</time>${r.needs ? ' <span class="tag">optional</span>' : ''}</td>
         <td>${esc(r.weekday)} <span class="ta">${esc(r.weekday_tamil)}</span></td>
         <td>${esc(r.nakshatra)} <span class="pada">pada ${r.nakshatra_pada}</span></td>
         <td>${esc(r.tithi)} <span class="ta">${esc(r.paksha)}</span></td>
@@ -120,6 +129,25 @@ ${rows.map((r) => `      <tr data-date="${r.date}" data-title="${esc(label)} —
   </table>
   </div>
 </section>`).join('\n');
+
+  // Only offer a switch that would actually reveal something in this city-year.
+  // A checkbox that does nothing is worse than no checkbox — it reads as broken.
+  const offered = Object.entries(relaxations)
+    .filter(([key]) => optional.some((d) => d.needs.includes(key)));
+  const optionsPanel = offered.length ? `
+<form class="opts" id="opts">
+  <h2>Your family may also accept these</h2>
+  <p>These are the rules Tamil families genuinely differ on. The dates above follow
+  the stricter reading, which is what most houses keep. Switch one on to see the
+  extra dates it opens up — they appear in the tables, marked
+  <span class="tag">optional</span>. Check any of them with your purohit.</p>
+  ${offered.map(([key, r]) => `<label>
+    <input type="checkbox" name="${key}">
+    <span><strong>${esc(r.label)}</strong> — ${esc(r.note)}
+    <em>${optional.filter((d) => d.needs.includes(key)).length} more date${
+      optional.filter((d) => d.needs.includes(key)).length === 1 ? '' : 's'}</em></span>
+  </label>`).join('')}
+</form>` : '';
 
   const others = Object.entries(events)
     .filter(([slug]) => slug !== event)
@@ -163,10 +191,11 @@ ${rows.map((r) => `      <tr data-date="${r.date}" data-title="${esc(label)} —
 ${breadcrumbs(crumbs)}
 <h1>${esc(label)} dates ${year} in ${esc(cityName)}</h1>
 <p class="lede">${esc(data.blurb)}</p>
-<p class="meta"><strong>${data.count}</strong> dates in ${year}, computed at ${esc(cityName)} sunrise.
+<p class="meta"><strong id="total">${data.count}</strong> dates in ${year}, computed at ${esc(cityName)} sunrise.
 ${data.count === 0 ? 'None this year — see the explanation below.' : ''}</p>
 ${purohit()}
-${data.count ? tables : '<p class="empty">No dates qualify in this city for this year under the rules on the <a href="/how-dates-are-computed/">methodology page</a>. That is a real result, not a missing file — the month blocks and the planetary combustion periods can close out a whole year.</p>'}
+${optionsPanel}
+${all.length ? tables : '<p class="empty">No dates qualify in this city for this year under the rules on the <a href="/how-dates-are-computed/">methodology page</a>. That is a real result, not a missing file — the month blocks and the planetary combustion periods can close out a whole year.</p>'}
 ${storeBanner(event)}
 ${emailCapture(city, year)}
 <section class="explain">
@@ -191,7 +220,8 @@ ${emailCapture(city, year)}
     path: `/${year}/${city.slug}/${event}/`,
     body,
     jsonld: [breadcrumbLd(crumbs), faq],
-    scripts: '<script src="/ics.js" defer></script>',
+    scripts: `<script src="/ics.js" defer></script>${
+      offered.length ? '\n<script src="/options.js" defer></script>' : ''}`,
   });
 }
 
@@ -353,6 +383,11 @@ and months are avoided — and every rule records where it comes from. The lists
 against family practice before publication, and where families genuinely differ the page
 says so rather than pretending there is one answer. The rules are public, so anything you
 disagree with, you can see and tell us about.</p>
+<p>Where a rule is one families split on — Pournami and Saturday for a wedding, the waning
+fortnight for a housewarming — the date lists follow the stricter reading, and the looser
+one is offered as a switch on the page itself. Turning it on adds dates, each marked
+<span class="tag">optional</span>. Nothing is hidden either way: both readings are in the
+published rule files, with the reason for each.</p>
 ${rulesSummary}
 
 <h2>Cross-checking</h2>

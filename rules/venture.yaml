@@ -54,10 +54,12 @@ criteria:
 
   block_tamil_month:
     basis: >-
-      [varies] Only Aadi is blocked. Purattasi and Margazhi restrict weddings,
-      not commerce, and Margazhi in particular carries no bar on opening a
-      shop. Owner should confirm — this is the file's main open question.
-    values: [Aadi]
+      [standard] Aadi is avoided for a new undertaking. [varies] OWNER-1
+      reviewed the other two and split them: Margazhi is blocked, since it is
+      widely treated as a month for observance rather than for new starts;
+      Purattasi is not, because it restricts marriage rather than commerce and
+      trading families open shops in it.
+    values: [Aadi, Margazhi]
 
   block_eclipse_days:
     basis: "[standard] Grahan day and the day either side."

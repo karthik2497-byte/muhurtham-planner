@@ -139,11 +139,11 @@ button:hover, .btn:hover { border-color: var(--accent); color: var(--accent); }
 
 /* --- widget, capture, banner -------------------------------------------- */
 
-.widget, .capture, .banner, .explain, .scope {
+.widget, .capture, .banner, .explain, .scope, .opts {
   background: var(--card); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 1.1rem 1.2rem; margin: 1.6rem 0;
 }
-.widget h2, .capture h2, .explain h2, .scope h2 { margin-top: 0; }
+.widget h2, .capture h2, .explain h2, .scope h2, .opts h2 { margin-top: 0; }
 .scope p { font-size: .95rem; margin: .5rem 0; }
 .scope p strong { font-family: ui-sans-serif, system-ui, sans-serif; font-size: .93em; }
 /* Reserve the widget's height so the fetch cannot shift the page (CLS). */
@@ -178,3 +178,24 @@ button:hover, .btn:hover { border-color: var(--accent); color: var(--accent); }
   body { font-size: 16px; }
   th, td { padding: .5rem .45rem; }
 }
+
+/* --- optional-date switches ---------------------------------------------- */
+/* Deliberately quiet: the default list is the recommendation, and these are a
+   second opinion the visitor asks for. Loud styling would invite the click. */
+.opts > p { font-size: .95rem; color: var(--ink-soft); margin: .4rem 0 1rem; }
+.opts label {
+  display: flex; gap: .6rem; align-items: flex-start;
+  padding: .6rem; border-radius: 8px; cursor: pointer; font-size: .95rem;
+}
+.opts label:hover { background: var(--accent-soft); }
+.opts input { margin-top: .35rem; width: 1.05rem; height: 1.05rem; accent-color: var(--accent); flex: none; }
+.opts strong { font-family: ui-sans-serif, system-ui, sans-serif; font-size: .93em; }
+.opts em { display: block; font-style: normal; font-size: .85rem; color: var(--ink-soft); }
+
+.tag {
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: .68rem;
+  letter-spacing: .04em; text-transform: uppercase; vertical-align: middle;
+  color: var(--gold); border: 1px solid var(--gold); border-radius: 999px;
+  padding: .05rem .4rem; white-space: nowrap;
+}
+tr.opt td:first-child { border-left: 3px solid var(--gold); }

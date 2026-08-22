@@ -84,15 +84,25 @@ YAML and the pipeline is re-run; output files are never hand-edited.
 The drafted rules carry confidence tags. The `[varies]` ones are the ones
 that need a decision; these are the specific open questions:
 
-| # | File | Question | Decision |
+| # | File | Question | Decision (OWNER-1, 2026-08-22) |
 |---|---|---|---|
-| 1 | wedding.yaml | Is **Pournami** excluded for weddings in the house convention? | |
-| 2 | wedding.yaml | Is **Saturday** acceptable for a muhurtham? | |
-| 3 | wedding.yaml | Should **Poosam** and **Thiruvonam** be added to the nakshatra list? | |
-| 4 | grihapravesam.yaml | Is **krishna paksha** ever acceptable for a housewarming? (This one roughly doubles the list.) | |
-| 5 | grihapravesam.yaml | Is **Aippasi** avoided for housewarmings? | |
-| 6 | seemantham.yaml | Is **Purattasi** acceptable for a seemantham? (Currently allowed.) | |
-| 7 | venture.yaml | Are **Purattasi** and **Margazhi** acceptable for a shop opening? (Currently allowed.) | |
+| 1 | wedding.yaml | Is **Pournami** excluded for weddings in the house convention? | **Yes, excluded.** Offered as an opt-in switch. |
+| 2 | wedding.yaml | Is **Saturday** acceptable for a muhurtham? | **No.** Offered as an opt-in switch. |
+| 3 | wedding.yaml | Should **Poosam** and **Thiruvonam** be added to the nakshatra list? | **No** — the eleven stand. Both offered as one opt-in switch. |
+| 4 | grihapravesam.yaml | Is **krishna paksha** ever acceptable for a housewarming? (This one roughly doubles the list.) | **Shukla only** by default. Offered as an opt-in switch, since a closing date rarely moves. |
+| 5 | grihapravesam.yaml | Is **Aippasi** avoided for housewarmings? | **No** — left allowed. |
+| 6 | seemantham.yaml | Is **Purattasi** acceptable for a seemantham? (Currently allowed.) | **Yes** — left allowed. |
+| 7 | venture.yaml | Are **Purattasi** and **Margazhi** acceptable for a shop opening? (Currently allowed.) | **Split: Margazhi blocked, Purattasi allowed.** Marriage bars do not transfer to commerce, but Margazhi is a month of observance rather than new starts. |
+
+### Where families differ, both readings ship
+
+Questions 1–4 are the ones with no single Tamil answer. Rather than pick one and
+hide the other, the strict reading is the published default and the looser one
+is a switch on the page (`relaxations:` in the rules YAML). The rule that
+matters for this gate: **an optional date is never counted in a headline
+number, never in the PDF, and never in the verification sample** — everything
+signed off below is the strict list. `site/scripts/check-build.mjs` fails the
+build if an optional date ever renders visible by default.
 
 Sanity numbers as drafted, Chennai 2027 — a reviewer should recognise these
 as plausible before reading a single date:
@@ -103,7 +113,7 @@ as plausible before reading a single date:
 | Engagement | 93 |
 | Griha pravesam | 34 |
 | Seemantham | 43 |
-| New venture | 61 |
+| New venture | 55 |
 
 Wedding dates fall to zero in Aadi, Purattasi and Margazhi (the month rule)
 and also in Aavani, because Sukra moudhyam runs 2027-07-07 → 2027-09-17 and

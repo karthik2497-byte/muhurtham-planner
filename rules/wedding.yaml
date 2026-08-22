@@ -80,6 +80,46 @@ criteria:
       lunar eclipses are not counted as grahan (see core.eclipse_instants).
     window_days: 1
 
+# Off by default, offered to the visitor as a switch. Each of these is a rule
+# where Tamil families genuinely differ; OWNER-1 confirmed the strict reading as
+# the house convention, and rather than hide the other reading the page lets the
+# visitor turn it on for themselves. Optional dates are never counted in the
+# headline number, never in the PDF, and always labelled on the page.
+relaxations:
+
+  pournami:
+    label: Pournami (full moon)
+    note: >-
+      Some families do hold a muhurtham on Pournami. Off by default because
+      most Tamil houses avoid it.
+    basis: >-
+      [varies] Pournami is excluded by the majority Tamil convention and by
+      this site's default, but a real minority permits it.
+    patch:
+      block_tithi: {remove: [Pournami]}
+
+  saturday:
+    label: Saturday
+    note: >-
+      Most Tamil families avoid Saturday for the muhurtham itself. A minority
+      accept it, usually for a morning ceremony.
+    basis: >-
+      [varies] Saturday is refused for the muhurtham by most Tamil families
+      and admitted by a minority.
+    patch:
+      allow_weekday: {add: [Saturday]}
+
+  extra_nakshatra:
+    label: Poosam and Thiruvonam nakshatram
+    note: >-
+      Two nakshatras admitted for weddings by some houses and not others.
+      Ask your purohit before using these dates.
+    basis: >-
+      [varies] Poosam and Thiruvonam appear on some Tamil wedding lists but
+      not on the eleven-nakshatra list this site defaults to.
+    patch:
+      allow_nakshatra: {add: [Poosam, Thiruvonam]}
+
 warn:
   rahu_kalam:
     basis: >-

@@ -2236,7 +2236,719 @@
     ],
     "reason": "Avittam nakshatram, Panchami, Monday"
    }
-  ]
+  ],
+  "optional": [
+   {
+    "date": "2026-01-14",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Thai",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-01-14T16:33-05:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2026-01-14T07:23-05:00",
+    "paksha": "krishna",
+    "sunrise": "07:18",
+    "sunset": "16:53",
+    "rahu_kalam": [
+     "12:05",
+     "13:17"
+    ],
+    "reason": "Anusham nakshatram, Ekadasi, Wednesday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-02-06",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Thai",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-02-06T13:54-05:00",
+    "tithi": "Panchami",
+    "tithi_end": "2026-02-06T14:49-05:00",
+    "paksha": "krishna",
+    "sunrise": "07:01",
+    "sunset": "17:20",
+    "rahu_kalam": [
+     "10:53",
+     "12:10"
+    ],
+    "reason": "Hastham nakshatram, Panchami, Friday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-02-08",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Thai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-02-08T18:32-05:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2026-02-08T18:31-05:00",
+    "paksha": "krishna",
+    "sunrise": "06:58",
+    "sunset": "17:23",
+    "rahu_kalam": [
+     "16:05",
+     "17:23"
+    ],
+    "reason": "Swathi nakshatram, Sapthami, Sunday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-03-05",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Maasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-03-05T23:00-05:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2026-03-05T06:34-05:00",
+    "paksha": "krishna",
+    "sunrise": "06:24",
+    "sunset": "17:52",
+    "rahu_kalam": [
+     "13:34",
+     "15:00"
+    ],
+    "reason": "Hastham nakshatram, Dwithiyai, Thursday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-03-06",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Maasi",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-03-07T00:45-05:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2026-03-06T07:23-05:00",
+    "paksha": "krishna",
+    "sunrise": "06:22",
+    "sunset": "17:53",
+    "rahu_kalam": [
+     "10:41",
+     "12:08"
+    ],
+    "reason": "Chithirai nakshatram, Thrithiyai, Friday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-03-09",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Maasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-03-10T09:35-04:00",
+    "tithi": "Sashti",
+    "tithi_end": "2026-03-09T13:57-04:00",
+    "paksha": "krishna",
+    "sunrise": "07:17",
+    "sunset": "18:57",
+    "rahu_kalam": [
+     "08:45",
+     "10:12"
+    ],
+    "reason": "Anusham nakshatram, Sashti, Monday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-03-15",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-03-15T20:26-04:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2026-03-16T00:11-04:00",
+    "paksha": "krishna",
+    "sunrise": "07:07",
+    "sunset": "19:03",
+    "rahu_kalam": [
+     "17:34",
+     "19:03"
+    ],
+    "reason": "Thiruvonam nakshatram, Dwadasi, Sunday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-03-16",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-03-16T20:52-04:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2026-03-16T23:53-04:00",
+    "paksha": "krishna",
+    "sunrise": "07:06",
+    "sunset": "19:04",
+    "rahu_kalam": [
+     "08:36",
+     "10:05"
+    ],
+    "reason": "Avittam nakshatram, Thrayodasi, Monday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-04-02",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-04-02T08:08-04:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2026-04-02T23:12-04:00",
+    "paksha": "krishna",
+    "sunrise": "06:38",
+    "sunset": "19:22",
+    "rahu_kalam": [
+     "14:36",
+     "16:11"
+    ],
+    "reason": "Hastham nakshatram, Prathamai, Thursday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-04-03",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Panguni",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-04-03T09:55-04:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2026-04-04T00:39-04:00",
+    "paksha": "krishna",
+    "sunrise": "06:36",
+    "sunset": "19:23",
+    "rahu_kalam": [
+     "11:24",
+     "13:00"
+    ],
+    "reason": "Chithirai nakshatram, Dwithiyai, Friday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-04-06",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-04-06T17:26-04:00",
+    "tithi": "Panchami",
+    "tithi_end": "2026-04-07T07:05-04:00",
+    "paksha": "krishna",
+    "sunrise": "06:31",
+    "sunset": "19:26",
+    "rahu_kalam": [
+     "08:08",
+     "09:45"
+    ],
+    "reason": "Anusham nakshatram, Panchami, Monday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-04-12",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-04-13T06:33-04:00",
+    "tithi": "Dasami",
+    "tithi_end": "2026-04-12T15:47-04:00",
+    "paksha": "krishna",
+    "sunrise": "06:22",
+    "sunset": "19:33",
+    "rahu_kalam": [
+     "17:54",
+     "19:33"
+    ],
+    "reason": "Avittam nakshatram, Dasami, Sunday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-04-13",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Panguni",
+    "nakshatra": "Avittam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-04-13T06:33-04:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2026-04-13T15:39-04:00",
+    "paksha": "krishna",
+    "sunrise": "06:20",
+    "sunset": "19:34",
+    "rahu_kalam": [
+     "07:59",
+     "09:39"
+    ],
+    "reason": "Avittam nakshatram, Ekadasi, Monday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-04-15",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-04-16T04:29-04:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2026-04-15T13:01-04:00",
+    "paksha": "krishna",
+    "sunrise": "06:17",
+    "sunset": "19:36",
+    "rahu_kalam": [
+     "12:57",
+     "14:36"
+    ],
+    "reason": "Uthirattathi nakshatram, Thrayodasi, Wednesday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-05-03",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-05-04T00:28-04:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2026-05-03T17:32-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:52",
+    "sunset": "19:55",
+    "rahu_kalam": [
+     "18:09",
+     "19:55"
+    ],
+    "reason": "Anusham nakshatram, Dwithiyai, Sunday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-05-08",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-05-08T11:50-04:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2026-05-09T04:33-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:46",
+    "sunset": "20:00",
+    "rahu_kalam": [
+     "11:06",
+     "12:53"
+    ],
+    "reason": "Uthiradam nakshatram, Sapthami, Friday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-05-13",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-05-13T14:47-04:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2026-05-14T01:51-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:41",
+    "sunset": "20:05",
+    "rahu_kalam": [
+     "12:53",
+     "14:41"
+    ],
+    "reason": "Uthirattathi nakshatram, Dwadasi, Wednesday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-05-14",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-05-14T13:04-04:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2026-05-14T23:01-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:40",
+    "sunset": "20:06",
+    "rahu_kalam": [
+     "14:41",
+     "16:29"
+    ],
+    "reason": "Revathi nakshatram, Thrayodasi, Thursday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-05-31",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-05-31T06:42-04:00",
+    "tithi": "Prathamai",
+    "tithi_end": "2026-06-01T07:07-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:27",
+    "sunset": "20:21",
+    "rahu_kalam": [
+     "18:29",
+     "20:21"
+    ],
+    "reason": "Anusham nakshatram, Prathamai, Sunday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-06-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-06-05T20:33-04:00",
+    "tithi": "Panchami",
+    "tithi_end": "2026-06-05T15:50-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:25",
+    "sunset": "20:24",
+    "rahu_kalam": [
+     "11:03",
+     "12:55"
+    ],
+    "reason": "Thiruvonam nakshatram, Panchami, Friday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-06-10",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-06-10T22:46-04:00",
+    "tithi": "Dasami",
+    "tithi_end": "2026-06-10T15:28-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:24",
+    "sunset": "20:27",
+    "rahu_kalam": [
+     "12:56",
+     "14:49"
+    ],
+    "reason": "Revathi nakshatram, Dasami, Wednesday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-07-01",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-07-01T23:57-04:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2026-07-02T00:08-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:28",
+    "sunset": "20:32",
+    "rahu_kalam": [
+     "13:00",
+     "14:53"
+    ],
+    "reason": "Uthiradam nakshatram, Dwithiyai, Wednesday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-07-02",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-07-03T02:16-04:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2026-07-03T01:50-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:29",
+    "sunset": "20:31",
+    "rahu_kalam": [
+     "14:53",
+     "16:46"
+    ],
+    "reason": "Thiruvonam nakshatram, Thrithiyai, Thursday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-07-12",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Aani",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-07-12T20:11-04:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2026-07-12T13:00-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:35",
+    "sunset": "20:28",
+    "rahu_kalam": [
+     "18:36",
+     "20:28"
+    ],
+    "reason": "Mrigasheersham nakshatram, Thrayodasi, Sunday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-08-30",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Aavani",
+    "nakshatra": "Uthirattathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-08-30T18:15-04:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2026-08-30T23:21-04:00",
+    "paksha": "krishna",
+    "sunrise": "06:21",
+    "sunset": "19:32",
+    "rahu_kalam": [
+     "17:53",
+     "19:32"
+    ],
+    "reason": "Uthirattathi nakshatram, Thrithiyai, Sunday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-10-29T01:41-04:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2026-10-28T15:37-04:00",
+    "paksha": "krishna",
+    "sunrise": "07:22",
+    "sunset": "17:58",
+    "rahu_kalam": [
+     "12:40",
+     "13:59"
+    ],
+    "reason": "Rohini nakshatram, Thrithiyai, Wednesday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-11-05T17:26-05:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2026-11-06T00:01-05:00",
+    "paksha": "krishna",
+    "sunrise": "06:31",
+    "sunset": "16:48",
+    "rahu_kalam": [
+     "12:57",
+     "14:14"
+    ],
+    "reason": "Uthiram nakshatram, Dwadasi, Thursday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-11-06",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Aippasi",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-11-06T18:13-05:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2026-11-07T00:18-05:00",
+    "paksha": "krishna",
+    "sunrise": "06:32",
+    "sunset": "16:47",
+    "rahu_kalam": [
+     "10:23",
+     "11:40"
+    ],
+    "reason": "Hastham nakshatram, Thrayodasi, Friday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-11-25",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-11-25T10:06-05:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2026-11-26T02:45-05:00",
+    "paksha": "krishna",
+    "sunrise": "06:54",
+    "sunset": "16:32",
+    "rahu_kalam": [
+     "11:43",
+     "12:55"
+    ],
+    "reason": "Rohini nakshatram, Dwithiyai, Wednesday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-11-26",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Mrigasheersham",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-11-26T07:17-05:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2026-11-26T23:19-05:00",
+    "paksha": "krishna",
+    "sunrise": "06:55",
+    "sunset": "16:31",
+    "rahu_kalam": [
+     "12:55",
+     "14:07"
+    ],
+    "reason": "Mrigasheersham nakshatram, Thrithiyai, Thursday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-12-03",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-12-03T23:53-05:00",
+    "tithi": "Dasami",
+    "tithi_end": "2026-12-03T12:34-05:00",
+    "paksha": "krishna",
+    "sunrise": "07:03",
+    "sunset": "16:29",
+    "rahu_kalam": [
+     "12:57",
+     "14:08"
+    ],
+    "reason": "Hastham nakshatram, Dasami, Thursday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   },
+   {
+    "date": "2026-12-04",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Chithirai",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-12-05T01:19-05:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2026-12-04T13:15-05:00",
+    "paksha": "krishna",
+    "sunrise": "07:04",
+    "sunset": "16:29",
+    "rahu_kalam": [
+     "10:36",
+     "11:46"
+    ],
+    "reason": "Chithirai nakshatram, Ekadasi, Friday",
+    "needs": [
+     "krishna_paksha"
+    ]
+   }
+  ],
+  "relaxations": {
+   "krishna_paksha": {
+    "label": "Waning fortnight (krishna paksha)",
+    "note": "The waxing fortnight is preferred for entering a house. Families whose closing date will not move often use the waning one instead — this roughly doubles the list."
+   }
+  }
  },
  "seemantham": {
   "label": "Seemantham / valaikappu",
@@ -2972,27 +3684,8 @@
   "label": "New venture / shop opening",
   "short": "New venture",
   "blurb": "Dates for opening a shop, office or business. The chara (movable) and kshipra (swift) nakshatras are preferred — the traditional reasoning is that a venture wants momentum, the opposite of the fixed nakshatras you want for a house.",
-  "count": 55,
+  "count": 53,
   "dates": [
-   {
-    "date": "2026-01-01",
-    "weekday": "Thursday",
-    "weekday_tamil": "Vyazhan",
-    "tamil_month": "Margazhi",
-    "nakshatra": "Rohini",
-    "nakshatra_pada": 4,
-    "nakshatra_end": "2026-01-01T12:18-05:00",
-    "tithi": "Thrayodasi",
-    "tithi_end": "2026-01-01T11:52-05:00",
-    "paksha": "shukla",
-    "sunrise": "07:20",
-    "sunset": "16:40",
-    "rahu_kalam": [
-     "13:10",
-     "14:20"
-    ],
-    "reason": "Rohini nakshatram, Thrayodasi, Thursday"
-   },
    {
     "date": "2026-01-19",
     "weekday": "Monday",
@@ -3999,25 +4692,6 @@
      "09:32"
     ],
     "reason": "Avittam nakshatram, Panchami, Monday"
-   },
-   {
-    "date": "2026-12-19",
-    "weekday": "Saturday",
-    "weekday_tamil": "Sani",
-    "tamil_month": "Margazhi",
-    "nakshatra": "Ashwini",
-    "nakshatra_pada": 1,
-    "nakshatra_end": "2026-12-20T04:25-05:00",
-    "tithi": "Dasami",
-    "tithi_end": "2026-12-19T11:39-05:00",
-    "paksha": "shukla",
-    "sunrise": "07:15",
-    "sunset": "16:31",
-    "rahu_kalam": [
-     "09:34",
-     "10:44"
-    ],
-    "reason": "Ashwini nakshatram, Dasami, Saturday"
    }
   ]
  },
@@ -4825,6 +5499,531 @@
     ],
     "reason": "Moolam nakshatram, Dwithiyai, Thursday"
    }
-  ]
+  ],
+  "optional": [
+   {
+    "date": "2026-02-21",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Maasi",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-02-21T08:37-05:00",
+    "tithi": "Panchami",
+    "tithi_end": "2026-02-22T00:40-05:00",
+    "paksha": "shukla",
+    "sunrise": "06:42",
+    "sunset": "17:38",
+    "rahu_kalam": [
+     "09:26",
+     "10:48"
+    ],
+    "reason": "Revathi nakshatram, Panchami, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-02-28",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Maasi",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-02-28T22:04-05:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2026-02-28T10:13-05:00",
+    "paksha": "shukla",
+    "sunrise": "06:31",
+    "sunset": "17:47",
+    "rahu_kalam": [
+     "09:20",
+     "10:45"
+    ],
+    "reason": "Poosam nakshatram, Dwadasi, Saturday",
+    "needs": [
+     "saturday",
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-03-14",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Panguni",
+    "nakshatra": "Uthiradam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-03-14T19:19-04:00",
+    "tithi": "Ekadasi",
+    "tithi_end": "2026-03-14T23:47-04:00",
+    "paksha": "krishna",
+    "sunrise": "07:09",
+    "sunset": "19:02",
+    "rahu_kalam": [
+     "10:07",
+     "11:36"
+    ],
+    "reason": "Uthiradam nakshatram, Ekadasi, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-03-15",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Panguni",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-03-15T20:26-04:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2026-03-16T00:11-04:00",
+    "paksha": "krishna",
+    "sunrise": "07:07",
+    "sunset": "19:03",
+    "rahu_kalam": [
+     "17:34",
+     "19:03"
+    ],
+    "reason": "Thiruvonam nakshatram, Dwadasi, Sunday",
+    "needs": [
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-03-27",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Panguni",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-03-28T05:20-04:00",
+    "tithi": "Dasami",
+    "tithi_end": "2026-03-27T23:16-04:00",
+    "paksha": "shukla",
+    "sunrise": "06:48",
+    "sunset": "19:16",
+    "rahu_kalam": [
+     "11:28",
+     "13:02"
+    ],
+    "reason": "Poosam nakshatram, Dasami, Friday",
+    "needs": [
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-04-01",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Panguni",
+    "nakshatra": "Uthiram",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-04-01T06:47-04:00",
+    "tithi": "Pournami",
+    "tithi_end": "2026-04-01T22:12-04:00",
+    "paksha": "shukla",
+    "sunrise": "06:39",
+    "sunset": "19:21",
+    "rahu_kalam": [
+     "13:00",
+     "14:36"
+    ],
+    "reason": "Uthiram nakshatram, Pournami, Wednesday",
+    "needs": [
+     "pournami"
+    ]
+   },
+   {
+    "date": "2026-04-04",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Panguni",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 4,
+    "nakshatra_end": "2026-04-04T12:05-04:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2026-04-05T02:30-04:00",
+    "paksha": "krishna",
+    "sunrise": "06:34",
+    "sunset": "19:24",
+    "rahu_kalam": [
+     "09:47",
+     "11:23"
+    ],
+    "reason": "Swathi nakshatram, Thrithiyai, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-05-01",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Chithirai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-05-01T19:05-04:00",
+    "tithi": "Pournami",
+    "tithi_end": "2026-05-01T13:23-04:00",
+    "paksha": "shukla",
+    "sunrise": "05:54",
+    "sunset": "19:53",
+    "rahu_kalam": [
+     "11:09",
+     "12:54"
+    ],
+    "reason": "Swathi nakshatram, Pournami, Friday",
+    "needs": [
+     "pournami"
+    ]
+   },
+   {
+    "date": "2026-05-21",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-05-21T17:19-04:00",
+    "tithi": "Sashti",
+    "tithi_end": "2026-05-21T20:55-04:00",
+    "paksha": "shukla",
+    "sunrise": "05:34",
+    "sunset": "20:13",
+    "rahu_kalam": [
+     "14:43",
+     "16:33"
+    ],
+    "reason": "Poosam nakshatram, Sashti, Thursday",
+    "needs": [
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-05-30",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-05-31T06:42-04:00",
+    "tithi": "Pournami",
+    "tithi_end": "2026-05-31T04:45-04:00",
+    "paksha": "shukla",
+    "sunrise": "05:28",
+    "sunset": "20:20",
+    "rahu_kalam": [
+     "09:11",
+     "11:02"
+    ],
+    "reason": "Anusham nakshatram, Pournami, Saturday",
+    "needs": [
+     "pournami",
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-06-05",
+    "weekday": "Friday",
+    "weekday_tamil": "Velli",
+    "tamil_month": "Vaikasi",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-06-05T20:33-04:00",
+    "tithi": "Panchami",
+    "tithi_end": "2026-06-05T15:50-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:25",
+    "sunset": "20:24",
+    "rahu_kalam": [
+     "11:03",
+     "12:55"
+    ],
+    "reason": "Thiruvonam nakshatram, Panchami, Friday",
+    "needs": [
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-06-17",
+    "weekday": "Wednesday",
+    "weekday_tamil": "Budhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-06-18T02:02-04:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2026-06-17T12:09-04:00",
+    "paksha": "shukla",
+    "sunrise": "05:24",
+    "sunset": "20:30",
+    "rahu_kalam": [
+     "12:57",
+     "14:50"
+    ],
+    "reason": "Poosam nakshatram, Thrithiyai, Wednesday",
+    "needs": [
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-06-27",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aani",
+    "nakshatra": "Anusham",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-06-27T12:41-04:00",
+    "tithi": "Thrayodasi",
+    "tithi_end": "2026-06-27T15:13-04:00",
+    "paksha": "shukla",
+    "sunrise": "05:27",
+    "sunset": "20:32",
+    "rahu_kalam": [
+     "09:13",
+     "11:06"
+    ],
+    "reason": "Anusham nakshatram, Thrayodasi, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-06-29",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Aani",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-06-29T18:33-04:00",
+    "tithi": "Pournami",
+    "tithi_end": "2026-06-29T19:56-04:00",
+    "paksha": "shukla",
+    "sunrise": "05:28",
+    "sunset": "20:32",
+    "rahu_kalam": [
+     "07:21",
+     "09:14"
+    ],
+    "reason": "Moolam nakshatram, Pournami, Monday",
+    "needs": [
+     "pournami"
+    ]
+   },
+   {
+    "date": "2026-07-02",
+    "weekday": "Thursday",
+    "weekday_tamil": "Vyazhan",
+    "tamil_month": "Aani",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-07-03T02:16-04:00",
+    "tithi": "Thrithiyai",
+    "tithi_end": "2026-07-03T01:50-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:29",
+    "sunset": "20:31",
+    "rahu_kalam": [
+     "14:53",
+     "16:46"
+    ],
+    "reason": "Thiruvonam nakshatram, Thrithiyai, Thursday",
+    "needs": [
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-07-11",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aani",
+    "nakshatra": "Rohini",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-07-11T22:59-04:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2026-07-11T16:34-04:00",
+    "paksha": "krishna",
+    "sunrise": "05:35",
+    "sunset": "20:29",
+    "rahu_kalam": [
+     "09:18",
+     "11:10"
+    ],
+    "reason": "Rohini nakshatram, Dwadasi, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-08-22",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aavani",
+    "nakshatra": "Moolam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-08-23T08:14-04:00",
+    "tithi": "Dasami",
+    "tithi_end": "2026-08-22T16:30-04:00",
+    "paksha": "shukla",
+    "sunrise": "06:13",
+    "sunset": "19:44",
+    "rahu_kalam": [
+     "09:36",
+     "11:17"
+    ],
+    "reason": "Moolam nakshatram, Dasami, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-09-12",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Aavani",
+    "nakshatra": "Hastham",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-09-13T03:37-04:00",
+    "tithi": "Dwithiyai",
+    "tithi_end": "2026-09-12T21:38-04:00",
+    "paksha": "shukla",
+    "sunrise": "06:34",
+    "sunset": "19:10",
+    "rahu_kalam": [
+     "09:43",
+     "11:17"
+    ],
+    "reason": "Hastham nakshatram, Dwithiyai, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-11-16",
+    "weekday": "Monday",
+    "weekday_tamil": "Thingal",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 3,
+    "nakshatra_end": "2026-11-16T15:47-05:00",
+    "tithi": "Sapthami",
+    "tithi_end": "2026-11-16T17:50-05:00",
+    "paksha": "shukla",
+    "sunrise": "06:44",
+    "sunset": "16:38",
+    "rahu_kalam": [
+     "07:58",
+     "09:12"
+    ],
+    "reason": "Thiruvonam nakshatram, Sapthami, Monday",
+    "needs": [
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-11-21",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Revathi",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-11-21T19:25-05:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2026-11-21T18:27-05:00",
+    "paksha": "shukla",
+    "sunrise": "06:50",
+    "sunset": "16:34",
+    "rahu_kalam": [
+     "09:16",
+     "10:29"
+    ],
+    "reason": "Revathi nakshatram, Dwadasi, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-11-28",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Poosam",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-11-29T00:29-05:00",
+    "tithi": "Panchami",
+    "tithi_end": "2026-11-28T17:27-05:00",
+    "paksha": "krishna",
+    "sunrise": "06:58",
+    "sunset": "16:31",
+    "rahu_kalam": [
+     "09:21",
+     "10:32"
+    ],
+    "reason": "Poosam nakshatram, Panchami, Saturday",
+    "needs": [
+     "saturday",
+     "extra_nakshatra"
+    ]
+   },
+   {
+    "date": "2026-12-05",
+    "weekday": "Saturday",
+    "weekday_tamil": "Sani",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Swathi",
+    "nakshatra_pada": 1,
+    "nakshatra_end": "2026-12-06T03:08-05:00",
+    "tithi": "Dwadasi",
+    "tithi_end": "2026-12-05T14:22-05:00",
+    "paksha": "krishna",
+    "sunrise": "07:05",
+    "sunset": "16:29",
+    "rahu_kalam": [
+     "09:26",
+     "10:36"
+    ],
+    "reason": "Swathi nakshatram, Dwadasi, Saturday",
+    "needs": [
+     "saturday"
+    ]
+   },
+   {
+    "date": "2026-12-13",
+    "weekday": "Sunday",
+    "weekday_tamil": "Nyayiru",
+    "tamil_month": "Karthigai",
+    "nakshatra": "Thiruvonam",
+    "nakshatra_pada": 2,
+    "nakshatra_end": "2026-12-13T22:42-05:00",
+    "tithi": "Panchami",
+    "tithi_end": "2026-12-14T08:46-05:00",
+    "paksha": "shukla",
+    "sunrise": "07:11",
+    "sunset": "16:29",
+    "rahu_kalam": [
+     "15:20",
+     "16:29"
+    ],
+    "reason": "Thiruvonam nakshatram, Panchami, Sunday",
+    "needs": [
+     "extra_nakshatra"
+    ]
+   }
+  ],
+  "relaxations": {
+   "pournami": {
+    "label": "Pournami (full moon)",
+    "note": "Some families do hold a muhurtham on Pournami. Off by default because most Tamil houses avoid it."
+   },
+   "saturday": {
+    "label": "Saturday",
+    "note": "Most Tamil families avoid Saturday for the muhurtham itself. A minority accept it, usually for a morning ceremony."
+   },
+   "extra_nakshatra": {
+    "label": "Poosam and Thiruvonam nakshatram",
+    "note": "Two nakshatras admitted for weddings by some houses and not others. Ask your purohit before using these dates."
+   }
+  }
  }
 }

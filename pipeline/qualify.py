@@ -52,6 +52,7 @@ def load_rules() -> dict:
                 raise RuleError(f"{path.name}: criterion '{name}' has no basis "
                                 "citation — every rule row must carry one")
             check_values(path.name, name, body)
+        check_relaxations(path.name, spec)
         rules[spec["event"]] = spec
     if not rules:
         raise RuleError(f"no rules found in {RULES_DIR}")
@@ -79,6 +80,55 @@ def check_values(filename: str, name: str, body: dict) -> None:
     if unknown:
         raise RuleError(f"{filename}: criterion '{name}' has unknown value(s) "
                         f"{unknown}; allowed: {VOCAB[name]}")
+
+
+def check_relaxations(filename: str, spec: dict) -> None:
+    """A relaxation is a named, off-by-default loosening of this event's rules.
+
+    It exists because the honest answer to several rules is "families differ".
+    Rather than pick one convention and hide the other, the strict reading is
+    the default and the visitor can switch the looser one on. Same discipline
+    as the rules themselves: it is data, it carries a basis citation, and a
+    typo fails the run instead of silently widening a wedding list.
+    """
+    for key, body in spec.get("relaxations", {}).items():
+        where = f"{filename}: relaxation '{key}'"
+        for field in ("label", "note", "basis", "patch"):
+            if field not in body:
+                raise RuleError(f"{where} is missing '{field}'")
+        for name, ops in body["patch"].items():
+            if name not in spec["criteria"]:
+                raise RuleError(f"{where} patches '{name}', which this event "
+                                "does not use")
+            if not set(ops) <= {"add", "remove"}:
+                raise RuleError(f"{where}: patch ops must be add/remove")
+            for op, values in ops.items():
+                current = spec["criteria"][name]["values"]
+                missing = [v for v in values if op == "remove" and v not in current]
+                if missing:
+                    raise RuleError(f"{where}: cannot remove {missing} from "
+                                    f"'{name}' — not there to begin with")
+                already = [v for v in values if op == "add" and v in current]
+                if already:
+                    raise RuleError(f"{where}: {already} already allowed by "
+                                    f"'{name}' — the toggle would do nothing")
+            check_values(filename, name, {"values": apply_patch(
+                spec["criteria"][name]["values"], ops)})
+
+
+def apply_patch(values: list, ops: dict) -> list:
+    out = [v for v in values if v not in ops.get("remove", [])]
+    return out + [v for v in ops.get("add", []) if v not in out]
+
+
+def relaxed(spec: dict, keys) -> dict:
+    """`spec` with the named relaxations applied. Criteria only — cheap copy."""
+    criteria = {n: dict(b) for n, b in spec["criteria"].items()}
+    for key in keys:
+        for name, ops in spec["relaxations"][key]["patch"].items():
+            criteria[name] = dict(criteria[name],
+                                  values=apply_patch(criteria[name]["values"], ops))
+    return dict(spec, criteria=criteria)
 
 
 # ---------------------------------------------------------------------------
@@ -181,14 +231,39 @@ def qualify_city_year(payload: dict, rules: dict) -> dict:
     ctx = {"eclipses": payload["eclipses"]}
     out = {}
     for event, spec in rules.items():
-        dates = [q for q in (qualify_day(d, spec, ctx) for d in payload["days"]) if q]
+        keys = list(spec.get("relaxations", {}))
+        # A day is optional-only if it fails the strict rules but passes with
+        # every relaxation on. Which ones it actually needs is then found by
+        # switching each back off in turn — one pass per relaxation, so at most
+        # five extra evaluations for a day that was rejected anyway.
+        full = relaxed(spec, keys)
+        without = {k: relaxed(spec, [j for j in keys if j != k]) for k in keys}
+
+        dates, optional = [], []
+        for day in payload["days"]:
+            hit = qualify_day(day, spec, ctx)
+            if hit:
+                dates.append(hit)
+            elif keys and qualify_day(day, full, ctx):
+                hit = qualify_day(day, full, ctx)
+                hit["needs"] = [k for k in keys if not qualify_day(day, without[k], ctx)]
+                optional.append(hit)
+
         out[event] = {
             "label": spec["label"],
             "short": spec.get("short", spec["label"]),
             "blurb": " ".join(spec["blurb"].split()),
+            # `count` stays the strict count: it is what the city pages, the
+            # PDFs and every "N dates in 2027" sentence mean. Optional dates are
+            # additive and opt-in, never folded into the headline number.
             "count": len(dates),
             "dates": dates,
         }
+        if keys:
+            out[event]["optional"] = optional
+            out[event]["relaxations"] = {
+                k: {"label": v["label"], "note": " ".join(v["note"].split())}
+                for k, v in spec["relaxations"].items()}
     return out
 
 

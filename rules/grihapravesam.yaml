@@ -66,6 +66,20 @@ criteria:
     basis: "[standard] Grahan day and the day either side."
     window_days: 1
 
+relaxations:
+
+  krishna_paksha:
+    label: Waning fortnight (krishna paksha)
+    note: >-
+      The waxing fortnight is preferred for entering a house. Families whose
+      closing date will not move often use the waning one instead — this
+      roughly doubles the list.
+    basis: >-
+      [varies] Shukla paksha is the standard preference; krishna paksha is
+      accepted by many families when the date is not free to move.
+    patch:
+      allow_paksha: {add: [krishna]}
+
 warn:
   rahu_kalam:
     basis: >-
