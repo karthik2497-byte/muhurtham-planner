@@ -103,9 +103,14 @@ const report = readFileSync(join(repo, 'verification/REPORT.md'), 'utf8');
 const signed = !/NOT SIGNED OFF/.test(report);
 const verification = signed
   ? `<p>Every published year is sampled (n=40, all cities, both years) and each sample’s
-     tithi and nakshatram checked against two independent published panchangams. The full
-     report, including every disagreement and its root cause, is in the public pipeline
-     repository.</p>`
+     tithi and nakshatram checked against two independent panchangam sources. All 40 agreed
+     on both elements. The full report — including the sources, the sunrise differences
+     between them, and what has <em>not</em> been checked — is in the public pipeline
+     repository.</p>
+     <p>One limit worth stating here rather than burying: both sources compute by
+     drik-ganita, as we do. That confirms the arithmetic. It does not test these dates
+     against a printed vakya almanac, which is the check that could genuinely disagree, and
+     it is still outstanding.</p>`
   : `<p><strong>Cross-check in progress.</strong> A sample of 40 dates spanning all 12
      cities and both years is being checked against two independent published panchangams,
      and the full result — including every disagreement and its cause — will be published

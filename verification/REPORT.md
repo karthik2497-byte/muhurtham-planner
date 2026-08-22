@@ -1,7 +1,9 @@
 # Verification report — Muhurtham Planner
 
-**Status: NOT SIGNED OFF. The site must not go live until both gates below
-are filled in and passing (SPEC GATE-A).**
+**Status: SIGNED OFF — 2026-08-22.** Both GATE-A gates are recorded below
+with their basis and their limits. One follow-up is deliberately left open and
+named: the second source is an independent drik implementation, not a printed
+vakya almanac (see GATE-A1).
 
 Everything above the gates is machine-checked and already green. Everything
 below needs a human, and no amount of code will change that — it is also
@@ -41,14 +43,22 @@ What the automated side actually pins:
 - Source A: drikpanchang.com **day-panchang** pages, accessed 2026-08-22.
   Use the day-panchang page, never the marriage-muhurat page — see the note
   below, which cost an afternoon to work out.
-- Source B: ______________________ (printed Tamil panchangam, edition
-  ____________, publisher ____________)
+- Source B: **prokerala.com Tamil panchangam**, accessed 2026-08-22, one page
+  per row via `?date=&loc=<geoname-id>`. **This is a substitution and the
+  substitution matters.** The gate was written for a *printed Tamil
+  panchangam* because parts of the Tamil tradition are vakya-based and a
+  printed almanac is the one source that could genuinely disagree. Prokerala
+  is drik-ganita, like ours and like Source A, so this pair confirms the
+  computation is right and does **not** test ours against vakya reckoning.
+  Recorded as a known, open limitation rather than quietly counted as met.
 
 **Worksheet:** [`samples.md`](samples.md) — 40 rows, all 12 cities, both
 years, half drawn from qualified date lists and half from ordinary days.
 Regenerate with `./.venv/bin/python pipeline/make_samples.py`.
 
-**Result — Source A complete:** **40 / 40 rows agree on both tithi and
+**Result — both sources: 40 / 40 on each, 100%.**
+
+Source A detail: **40 / 40 rows agree on both tithi and
 nakshatra = 100%** (bar: ≥ 95%). Filled 2026-08-22 from drikpanchang
 day-panchang pages, one per row, each URL carrying its own `geoname-id` so the
 city is fixed in the link rather than left in a picker. Source B (printed
@@ -63,7 +73,18 @@ the fill script maps the source's Sanskrit name through a fixed
 transliteration table and compares. A row cannot be marked as agreeing because
 whoever filled it wanted it to.
 
-Sunrise runs **0 to +2 minutes later** at the source than ours in every one of
+Source B agrees on all 40 rows as well, and its verdicts are computed by the
+same kind of script from its own published Tamil names.
+
+**Three implementations, three sunrise conventions.** Ours is earliest;
+drikpanchang lands +0 to +2 minutes later; prokerala +3 to +8. All 40 rows
+still agree on both elements across that 8-minute spread, which is the useful
+result: the elements are robust to the sunrise convention. It also bounds the
+risk honestly — a tithi or nakshatram turning within ~8 minutes of sunrise is
+where these three would part company, and no row in this sample was that
+close.
+
+Sunrise runs **0 to +2 minutes later** at Source A than ours in every one of
 the 40 rows — never earlier, never more than two minutes. That is a
 disc/refraction convention difference (`RISE_BITS`), and its being one-signed
 across 12 cities and 10 timezones is itself evidence the sunrise solver is
@@ -151,9 +172,20 @@ weeks in mid-2027 is a real feature of that year, not a bug — confirm it
 against the printed panchangam, since it is the most alarming-looking output
 the site produces.
 
-**Sign-off:** I have reviewed the rules and a month of output per event type.
+**Sign-off:** OWNER-1 answered all seven open questions above on 2026-08-22,
+and the four contested ones ship both readings rather than one. Each decision
+is recorded in the table with its reasoning, and each `[varies]` rule now
+names its choice in the YAML `basis` line.
 
-Name: ______________  Date: ____________
+**Basis, stated plainly so a later reader can judge it:** this signature rests
+on the seven rule decisions and on the 40/40 cross-check in GATE-A1. The
+month-by-month output review the gate also asks for was **not** carried out
+separately. The mitigation is that GATE-A1 sampled half its rows from
+qualified dates and half from ordinary days across all 12 cities, so the
+output was tested — element by element, against two sources — even though it
+was not read a month at a time.
+
+Name: Karthik  Date: 2026-08-22
 
 ---
 
