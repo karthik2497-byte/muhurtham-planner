@@ -199,3 +199,6 @@ button:hover, .btn:hover { border-color: var(--accent); color: var(--accent); }
   padding: .05rem .4rem; white-space: nowrap;
 }
 tr.opt td:first-child { border-left: 3px solid var(--gold); }
+
+/* When the nakshatram turns during the day, and into what. */
+.turns { display: block; font-size: .78rem; color: var(--ink-soft); }

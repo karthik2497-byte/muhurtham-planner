@@ -206,6 +206,11 @@ def qualify_day(day: dict, spec: dict, ctx: dict) -> dict | None:
         "nakshatra": nakshatra,
         "nakshatra_pada": day["nakshatra_pada"],
         "nakshatra_end": day["nakshatra_end"],
+        # The nakshatram that takes over. On a day where the qualifying one
+        # turns an hour after sunrise, this is the one the ceremony would
+        # actually be held under, so the page shows both rather than implying
+        # the sunrise reading holds all day.
+        "nakshatra_next": core.NAKSHATRA_NAMES[day["nakshatra"] % 27],
         "tithi": tithi,
         "tithi_end": day["tithi_end"],
         "paksha": PAKSHA_NAMES[day["paksha"]],

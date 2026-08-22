@@ -98,6 +98,20 @@ relaxations:
     patch:
       block_tithi: {remove: [Pournami]}
 
+  chathurthi:
+    label: Chathurthi (a rikta tithi)
+    note: >-
+      Chathurthi is one of the rikta tithis, avoided for weddings in standard
+      Tamil practice. Two published date lists do print weddings on it.
+    basis: >-
+      [varies] Blocked as rikta by the Tamil convention this site follows, but
+      drikpanchang and tamildailycalendar both publish 2027 wedding dates on
+      Chathurthi (REPORT.md, GATE-A1 list comparison, 2026-08-22). Offered as
+      an opt-in rather than unblocked, since no Tamil source was found that
+      admits it.
+    patch:
+      block_tithi: {remove: [Chathurthi]}
+
   saturday:
     label: Saturday
     note: >-

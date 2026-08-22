@@ -13,6 +13,16 @@ const pretty = (iso) => {
   });
 };
 
+// What the nakshatram actually does over the day. Sunrise attribution is
+// correct for reading a panchangam, but a nakshatram that turns 40 minutes
+// after sunrise is not the one the ceremony happens under, and a table that
+// prints only the sunrise value quietly implies otherwise.
+const changeover = (r) => {
+  if (r.nakshatra_end.slice(0, 10) !== r.date) return 'all day';
+  const t = r.nakshatra_end.slice(11, 16);
+  return `until ${t}, then ${r.nakshatra_next}`;
+};
+
 const groupByMonth = (dates) => {
   const groups = new Map();
   for (const d of dates) {
@@ -120,7 +130,8 @@ export function eventPage({ year, city, event, data, events, cities }) {
 ${rows.map((r) => `      <tr${r.needs ? ` class="opt" hidden data-needs="${r.needs.join(' ')}"` : ''} data-date="${r.date}" data-title="${esc(label)} — ${esc(cityName)}" data-desc="${esc(`${r.reason}. Sunrise ${r.sunrise}, sunset ${r.sunset}. Avoid rahu kalam ${r.rahu_kalam[0]}–${r.rahu_kalam[1]}. ${PUROHIT_LINE}`)}">
         <td><time datetime="${r.date}">${pretty(r.date)}</time>${r.needs ? ' <span class="tag">optional</span>' : ''}</td>
         <td>${esc(r.weekday)} <span class="ta">${esc(r.weekday_tamil)}</span></td>
-        <td>${esc(r.nakshatra)} <span class="pada">pada ${r.nakshatra_pada}</span></td>
+        <td>${esc(r.nakshatra)} <span class="pada">pada ${r.nakshatra_pada}</span>
+          <span class="turns">${esc(changeover(r))}</span></td>
         <td>${esc(r.tithi)} <span class="ta">${esc(r.paksha)}</span></td>
         <td class="rahu">${esc(r.rahu_kalam[0])}–${esc(r.rahu_kalam[1])}</td>
         <td><button class="ics" type="button">Add to calendar</button></td>
@@ -383,6 +394,12 @@ and months are avoided — and every rule records where it comes from. The lists
 against family practice before publication, and where families genuinely differ the page
 says so rather than pretending there is one answer. The rules are public, so anything you
 disagree with, you can see and tell us about.</p>
+<p><strong>Combustion (moudhyam).</strong> Weddings are suspended while Sukra or Guru is
+combust. We treat a planet as combust inside <strong>10&deg; for Venus</strong> (8&deg; when
+retrograde) and <strong>11&deg; for Jupiter</strong> — the conventional muhurtham orbs. Some
+published lists use a tighter orb and so keep printing dates for a few days after we stop.
+That is a difference of convention, not of arithmetic: the orb we use is stated here so you
+can see exactly where our list ends and why.</p>
 <p>Where a rule is one families split on — Pournami and Saturday for a wedding, the waning
 fortnight for a housewarming — the date lists follow the stricter reading, and the looser
 one is offered as a switch on the page itself. Turning it on adds dates, each marked
