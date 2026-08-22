@@ -24,7 +24,7 @@ Nothing below can be done by the pipeline. They are in the order they must
 happen — **1 and 2 gate the launch and are the reason this project has a moat
 at all.** Everything from 3 on is mechanical, roughly one evening.
 
-### 1. Cultural review of the rules — ~2 hours (GATE-A2)
+### 1. Cultural review of the rules — ✅ DONE 2026-08-22 (GATE-A2)
 
 Open `verification/REPORT.md` and work down the seven open questions in the
 GATE-A2 table (Pournami for weddings? Saturday? krishna paksha for a
@@ -48,7 +48,7 @@ early July and late September** in Chennai. That is Sukra moudhyam
 confirm it against the printed panchangam before publishing, because it is the
 result most likely to make a reader think the site is broken.
 
-### 2. Cross-check 40 dates — ~1 evening (GATE-A1)
+### 2. Cross-check 40 dates — ✅ DONE 2026-08-22, 40/40 on two sources (GATE-A1)
 
 `verification/samples.md` is already generated: 40 rows, all 12 cities, both
 years, our tithi and nakshatram pre-filled, each row deep-linked to
@@ -61,7 +61,7 @@ When both gates are signed, the methodology page automatically stops saying
 "cross-check in progress" and starts describing a completed check; the build
 reads `REPORT.md` to decide which. There is no separate flag to flip.
 
-### 3. Domain and config — 15 minutes
+### 3. Domain and config — ✅ muhurthamdates.com bought 2026-08-22
 
 Buy the domain (Cloudflare Registrar, ~$10). Then edit `site/site.config.mjs`:
 

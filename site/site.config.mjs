@@ -1,6 +1,8 @@
 // Everything an owner might change without touching a template.
 export const SITE = {
-  name: 'Muhurtham Planner',
+  // "Dates", not "Planner". The site finds dates; it does not plan a wedding,
+  // and a name that promises planning promises work this does not do.
+  name: 'Muhurtham Dates',
   // Set to the real domain before the first deploy — it is used for canonical
   // URLs, the sitemap and JSON-LD, and a wrong value here is invisible in dev
   // and wrong in Search Console.
