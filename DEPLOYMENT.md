@@ -82,10 +82,19 @@ picker; that inserts the canonical text, which is the only version worth having.
 
 Cloudflare Pages → Create project → connect the repo:
 
-- Build command: `npm run build`
-- Build output directory: `site/dist`
 - Root directory: `site`
-- Node version: 22
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Environment variable: `NODE_VERSION` = `22`
+
+The output directory is **relative to the root directory**. Setting root to
+`site` and output to `site/dist` makes Pages look for `site/site/dist` and the
+deploy fails with an empty-output error that does not name the cause.
+
+`build.mjs` reads `../data`, `../cities.json` and `../verification/REPORT.md`,
+which sit outside the root directory. That is fine — Pages checks out the whole
+repo and only changes the working directory. There are no dependencies to
+install and no Python in the build; `data/` and the PDFs are committed.
 
 Add the apex and `www`; HTTPS is automatic. `data/` and the PDFs are committed,
 so the build needs no Python and no secrets.
