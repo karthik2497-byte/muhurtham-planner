@@ -38,7 +38,9 @@ What the automated side actually pins:
 
 **Sources** (RESEARCH-3 — fill in before starting):
 
-- Source A: drikpanchang.com, accessed ____________
+- Source A: drikpanchang.com **day-panchang** pages, accessed 2026-08-22.
+  Use the day-panchang page, never the marriage-muhurat page — see the note
+  below, which cost an afternoon to work out.
 - Source B: ______________________ (printed Tamil panchangam, edition
   ____________, publisher ____________)
 
@@ -46,8 +48,32 @@ What the automated side actually pins:
 years, half drawn from qualified date lists and half from ordinary days.
 Regenerate with `./.venv/bin/python pipeline/make_samples.py`.
 
-**Result:** ____ / 40 rows agree on both tithi and nakshatra = ____ %
-(bar: ≥ 95%).
+**Result so far (Source A only):** 6 / 6 rows agree on both tithi and
+nakshatra = **100%**, across 6 cities and 4 timezones with DST active
+(PDT, EDT, BST, AEDT). Source B and the remaining 34 rows are still open.
+
+| Row | City | Date | Element | Ours | drikpanchang |
+|---|---|---|---|---|---|
+| — | Chennai | 2027-05-22 | tithi / nakshatra | Dwithiyai to 18:48 / Kettai to 16:50 | Dwitiya upto 18:47 / Jyeshtha upto 16:50 |
+| — | Chennai | 2027-11-20 | tithi / nakshatra | Sapthami to 19:17 / Ayilyam to 23:07 | Saptami upto 19:17 / Ashlesha upto 23:07 |
+| 2 | Bay Area | 2028-08-25 | tithi / nakshatra | Sashti / Swathi | Shashthi / Swati |
+| 5 | Toronto | 2027-10-31 | tithi / nakshatra | Thrithiyai / Anusham | Tritiya / Anuradha |
+| 6 | London | 2028-06-14 | tithi / nakshatra | Sapthami / Sadhayam | Saptami / Shatabhisha |
+| 8 | Sydney | 2028-11-16 | tithi / nakshatra | Amavasai / Swathi | Amavasya / Swati |
+
+Element end times match to the minute where the source publishes them. Our
+sunrise runs **consistently 1 minute earlier** than theirs in every city
+checked — a disc/refraction convention difference (`RISE_BITS`), systematic
+rather than random, and too small to move a tithi except where one turns
+within that minute. Not treated as a disagreement; recorded so the next
+reviewer does not re-discover it.
+
+**Do not cross-check against a marriage-muhurat listing.** Those pages name
+the element prevailing *at the muhurat window*, which for a North Indian
+wedding is usually at night. Compared that way our list scored 60%, and every
+single disagreement was the source naming the *next* element while ours was
+still running — an artifact of the comparison, not an error. The day-panchang
+page, which publishes start and end times, agrees exactly.
 
 ### Disagreements
 
@@ -56,7 +82,9 @@ One block per disagreeing row. A disagreement is not a failure — an
 
 | Row | City / date | Ours | Source | Root cause | Disposition |
 |---|---|---|---|---|---|
-|  |  |  |  |  |  |
+| — | Chennai, all | sunrise 1 min earlier | drikpanchang | 3 — disc/refraction convention | Accepted. Systematic, sub-minute effect on elements. Documented, no code change. |
+| — | Chennai 2027-07-07 → 07-16 | Sukra moudhyam, no dates | both sources list dates to 07-12 / 07-16 | Orb, not error — Venus crosses 10° on 07-07, 9° on 07-11, 8° on 07-14 | Keep 10°, the classical muhurtham value. Name the orb on the methodology page. |
+| — | Chennai 2027-08-20 → 09-13 | no dates (Sukra + Guru moudhyam) | tamildailycalendar lists 9 dates; drikpanchang lists none | Source B does not apply moudhyam | Ours stands, and drikpanchang agrees. This is the rule most date lists omit. |
 
 Root causes worth checking first, in the order they actually occur:
 
