@@ -48,32 +48,33 @@ What the automated side actually pins:
 years, half drawn from qualified date lists and half from ordinary days.
 Regenerate with `./.venv/bin/python pipeline/make_samples.py`.
 
-**Result so far (Source A only):** 6 / 6 rows agree on both tithi and
-nakshatra = **100%**, across 6 cities and 4 timezones with DST active
-(PDT, EDT, BST, AEDT). Source B and the remaining 34 rows are still open.
+**Result — Source A complete:** **40 / 40 rows agree on both tithi and
+nakshatra = 100%** (bar: ≥ 95%). Filled 2026-08-22 from drikpanchang
+day-panchang pages, one per row, each URL carrying its own `geoname-id` so the
+city is fixed in the link rather than left in a picker. Source B (printed
+panchangam) is still open.
 
-| Row | City | Date | Element | Ours | drikpanchang |
-|---|---|---|---|---|---|
-| — | Chennai | 2027-05-22 | tithi / nakshatra | Dwithiyai to 18:48 / Kettai to 16:50 | Dwitiya upto 18:47 / Jyeshtha upto 16:50 |
-| — | Chennai | 2027-11-20 | tithi / nakshatra | Sapthami to 19:17 / Ayilyam to 23:07 | Saptami upto 19:17 / Ashlesha upto 23:07 |
-| 2 | Bay Area | 2028-08-25 | tithi / nakshatra | Sashti / Swathi | Shashthi / Swati |
-| 5 | Toronto | 2027-10-31 | tithi / nakshatra | Thrithiyai / Anusham | Tritiya / Anuradha |
-| 6 | London | 2028-06-14 | tithi / nakshatra | Sapthami / Sadhayam | Saptami / Shatabhisha |
-| 8 | Sydney | 2028-11-16 | tithi / nakshatra | Amavasai / Swathi | Amavasya / Swati |
+Coverage: all 12 cities, both published years, 10 timezones, including rows
+inside PDT, EDT, CDT, BST and AEDT. Half the rows are qualified dates and half
+ordinary days, so the sample tests the panchangam and not just the rule set.
 
-Element end times match to the minute where the source publishes them. Our
-sunrise runs **consistently 1 minute earlier** than theirs in every city
-checked — a disc/refraction convention difference (`RISE_BITS`), systematic
-rather than random, and too small to move a tithi except where one turns
-within that minute. Not treated as a disagreement; recorded so the next
-reviewer does not re-discover it.
+The verdict column in [`samples.md`](samples.md) is **computed**, not typed:
+the fill script maps the source's Sanskrit name through a fixed
+transliteration table and compares. A row cannot be marked as agreeing because
+whoever filled it wanted it to.
+
+Sunrise runs **0 to +2 minutes later** at the source than ours in every one of
+the 40 rows — never earlier, never more than two minutes. That is a
+disc/refraction convention difference (`RISE_BITS`), and its being one-signed
+across 12 cities and 10 timezones is itself evidence the sunrise solver is
+right: a bug would scatter.
 
 **Do not cross-check against a marriage-muhurat listing.** Those pages name
 the element prevailing *at the muhurat window*, which for a North Indian
-wedding is usually at night. Compared that way our list scored 60%, and every
+wedding is usually at night. Compared that way this list scored 60%, and every
 single disagreement was the source naming the *next* element while ours was
 still running — an artifact of the comparison, not an error. The day-panchang
-page, which publishes start and end times, agrees exactly.
+page, which publishes start and end times, agrees on all 40.
 
 ### Disagreements
 
