@@ -12,7 +12,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { SITE } from '../site.config.mjs';
-import { homePage, yearPage, cityPage, eventPage, methodologyPage } from '../src/templates/pages.mjs';
+import { homePage, yearPage, cityPage, eventPage, methodologyPage, notFoundPage } from '../src/templates/pages.mjs';
 import { esc, setYears } from '../src/templates/layout.mjs';
 
 const here = dirname(new URL(import.meta.url).pathname);
@@ -71,6 +71,10 @@ const thisYear = new Date().getFullYear();
 const planningYear = years.includes(thisYear + 1) ? thisYear + 1 : years.at(-1);
 
 emit('/', homePage({ years, cities, planningYear }));
+
+// Written directly, not via emit(): a 404 must stay out of the sitemap, and it
+// lives at dist/404.html rather than dist/404/index.html for Pages to find it.
+writeFileSync(join(OUT, '404.html'), notFoundPage({ years, cities, planningYear }));
 
 for (const year of years) {
   emit(`/${year}/`, yearPage({ year, cities, years, counts: counts[year] }));

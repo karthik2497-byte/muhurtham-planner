@@ -423,3 +423,33 @@ shortlisting tool: it narrows a year to the dates worth discussing.</p>
     jsonld: [breadcrumbLd(crumbs)],
   });
 }
+
+// ---------------------------------------------------------------------------
+
+// Cloudflare Pages serves the root index.html with a 200 for any unmatched
+// path unless a 404.html exists. Our URLs are guessable (/2029/mumbai/wedding/),
+// so without this every wrong guess is indexed as a duplicate homepage.
+export function notFoundPage({ years, cities, planningYear }) {
+  const body = `
+<h1>No dates at this address</h1>
+<p class="lede">That page doesn’t exist — most likely the year or the city isn’t one we
+publish yet. Everything we do have is one click away.</p>
+
+<h2>Years</h2>
+<div class="cta-years">${years.map((y) =>
+  `<a class="btn big${y === planningYear ? ' primary' : ''}" href="/${y}/">${y} dates</a>`).join('')}</div>
+
+<h2>Cities</h2>
+<div class="chips wide">${cities.map((c) =>
+  `<a href="/${planningYear}/${c.slug}/">${esc(c.short || c.name)}<span class="ta">${esc(c.country)}</span></a>`).join('')}</div>
+
+<p><a href="/how-dates-are-computed/">How these dates are computed →</a></p>`;
+
+  return layout({
+    title: `Page not found — ${SITE.name}`,
+    description: 'That page does not exist. Browse the years and cities we publish.',
+    path: '/404',
+    body,
+    noindex: true,
+  });
+}

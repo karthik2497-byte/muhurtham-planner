@@ -20,7 +20,7 @@ const ga = () =>
 const adSlot = (id) =>
   SITE.adsEnabled ? `<div class="ad-slot" id="${id}"></div>` : '';
 
-export function layout({ title, description, path, body, jsonld = [], scripts = '' }) {
+export function layout({ title, description, path, body, jsonld = [], scripts = '', noindex = false }) {
   const canonical = SITE.origin + path;
   return `<!doctype html>
 <html lang="en">
@@ -29,7 +29,7 @@ export function layout({ title, description, path, body, jsonld = [], scripts = 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="canonical" href="${canonical}">
+${noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${canonical}">`}
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${canonical}">

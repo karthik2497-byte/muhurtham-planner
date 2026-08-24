@@ -24,7 +24,8 @@ function walk(dir) {
 }
 
 const files = walk(OUT);
-const htmls = files.map((f) => f).filter((f) => f.endsWith('.html'));
+const notFound = join(OUT, '404.html');
+const htmls = files.filter((f) => f.endsWith('.html') && f !== notFound);
 const routes = new Set(htmls.map((f) =>
   f.slice(OUT.length).replace(/index\.html$/, '').replace(/\\/g, '/') || '/'));
 const assets = new Set(files.map((f) => f.slice(OUT.length)));
@@ -104,6 +105,17 @@ for (const required of ['sitemap.xml', 'robots.txt', 'favicon.svg', 'site.css'])
 const sitemap = readFileSync(join(OUT, 'sitemap.xml'), 'utf8');
 if ((sitemap.match(/<loc>/g) || []).length !== htmls.length)
   fail('sitemap entry count does not match page count');
+
+// Without dist/404.html, Cloudflare Pages answers every unmatched path with the
+// homepage and a 200 — soft 404s on guessable URLs like /2029/mumbai/wedding/.
+if (!existsSync(notFound)) {
+  fail('missing 404.html — Pages would serve the homepage with a 200 for dead URLs');
+} else {
+  const nf = readFileSync(notFound, 'utf8');
+  if (!/<meta name="robots" content="noindex">/.test(nf)) fail('404.html is not noindex');
+  if (/rel="canonical"/.test(nf)) fail('404.html must not declare a canonical');
+  if (sitemap.includes('/404')) fail('404 must not appear in the sitemap');
+}
 
 if (fails.length) {
   console.log(`FAIL: ${fails.length} problem(s)`);
