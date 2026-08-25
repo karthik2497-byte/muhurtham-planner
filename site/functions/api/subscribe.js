@@ -5,6 +5,8 @@
 // records the contact. Everything else about the site stays static.
 
 const FROM = 'Muhurtham Dates <dates@muhurthamdates.com>';
+// dates@ has no inbox. Without this, a reply vanishes with no bounce.
+const REPLY_TO = 'ckventurestech@gmail.com';
 const API = 'https://api.resend.com';
 
 const seeOther = (url) => new Response(null, { status: 303, headers: { Location: url } });
@@ -45,6 +47,7 @@ export async function onRequestPost({ request, env }) {
     headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
       from: FROM,
+      reply_to: REPLY_TO,
       to: [email],
       subject: `Your ${year} ${pretty} muhurtham dates`,
       html: `<p>Here are the ${year} dates for ${pretty}:</p>
