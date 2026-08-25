@@ -69,7 +69,7 @@ Buy the domain (Cloudflare Registrar, ~$10). Then edit `site/site.config.mjs`:
 |---|---|
 | `origin` | `https://yourdomain.com` — used for canonicals, sitemap and JSON-LD. Wrong here is invisible locally and wrong in Search Console. |
 | `ga4Id` | Your GA4 measurement ID, or leave empty for no analytics at all |
-| `email.action` | The provider's form POST URL (see 5) |
+| `email.action` | `/api/subscribe` to turn signup on, empty to keep it off (see 5) |
 | `storeBanner.href` / `.image` / `.line` | The saree store's international page. Leave `href` empty and no banner renders anywhere. |
 
 ### 4. Repo and hosting — 20 minutes
@@ -115,15 +115,64 @@ CNAME flattening handles the apex. HTTPS provisions itself once the records
 resolve. Until then the deployed pages still declare canonicals pointing at the
 custom domain, so the `.pages.dev` copy will not be indexed in its place.
 
-### 5. Email capture — 20 minutes
+### 5. Email capture — ✅ live 2026-08-26
 
-Create the audience in Resend (or Buttondown) with a `city` and `year` tag —
-the form already posts both as hidden fields. Set `email.action` to the form
-URL. Point the delivery automation at the committed PDFs, which Pages serves at
-`https://yourdomain.com/pdf/2027-<city>.pdf`.
+There is no hosted signup form. `functions/api/subscribe.js` is the site's only
+server-side code: it validates the submission, sends the PDF through Resend and
+records the contact. Everything else stays static.
 
-Test three cities end to end, including one that is not Chennai, and confirm
-the PDF that arrives matches the city that was submitted.
+**Verify the sending domain first.** Resend → Domains → Add, apex only, region
+`us-east-1`, Return-Path `send`, Tracking Subdomain empty and both tracking
+options off — click tracking rewrites the PDF link through a redirect domain,
+which is what phishing looks like coming from a domain with no reputation.
+Resend's Cloudflare auto-configure writes the three records; take it rather than
+retyping a 216-character DKIM key by hand.
+
+Resend does not add DMARC. Add it yourself or a new domain gets treated with
+suspicion by Gmail and Yahoo:
+
+| Type | Name | Content |
+|---|---|---|
+| TXT | `_dmarc` | `v=DMARC1; p=none` |
+
+`p=none` is monitoring only and cannot bounce real mail. Skip `rua` — reports to
+an address on another domain need that domain to publish an authorisation record
+(RFC 7489 §7.1), which Gmail will not do for you, so you would get silently
+partial data you were never going to read.
+
+Then the API key, scoped to **Sending access** on this domain only:
+
+```sh
+npx wrangler pages secret put RESEND_API_KEY --project-name muhurtham-dates
+```
+
+The name goes **on the command line**. Run it bare and wrangler prompts for the
+name first, so the key lands in the name field — and secret names are stored in
+clear text and printed by `secret list`. That happened here; the key had to be
+revoked. If the prompt asks for anything but a secret value, Ctrl-C.
+
+`RESEND_AUDIENCE_ID` is optional; set it to file contacts in a specific audience
+rather than the team default.
+
+Only then set `email.action` to `/api/subscribe`. That one string is the switch —
+empty renders "Sign-up opens shortly", so the form cannot exist before the key
+does. Rebuild, deploy, and check the endpoint's whole matrix against production,
+not just the happy path:
+
+| POST | Expected |
+|---|---|
+| malformed email | `303 → /thank-you/?state=bad-email` |
+| `company` filled (honeypot) | `303 → /thank-you/`, no send |
+| city not in `cities.json` | `303 → /` |
+| year with no data | `303 → /` |
+| GET | `303 → /` |
+| valid | `303 → /thank-you/?pdf=…`, mail sent |
+
+A `405` means that request hit the static handler instead of the Function —
+usually deploy propagation. Retry before debugging it.
+
+Finally, open the delivered mail on **Gmail web** (the iOS and Android apps have
+no "Show original") and confirm SPF, DKIM and DMARC all say PASS.
 
 ### 6. Search — 20 minutes
 
