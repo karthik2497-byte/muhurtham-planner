@@ -339,6 +339,7 @@ export function homePage({ years, cities, planningYear }) {
 <h2>Your city</h2>
 <div class="chips wide">${cities.map((c) =>
   `<a href="/${planningYear}/${c.slug}/">${esc(c.short || c.name)}<span class="ta">${esc(c.country)}</span></a>`).join('')}</div>
+<p class="fine">Every city&rsquo;s dates are also available as a printable PDF, free, on that city&rsquo;s page.</p>
 
 <section class="explain">
   <h2>Why a separate list per city</h2>
