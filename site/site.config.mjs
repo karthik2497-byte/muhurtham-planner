@@ -26,7 +26,7 @@ export const SITE = {
     // Set to '/api/subscribe' to turn signup on. That single string is the
     // switch: empty renders "Sign-up opens shortly" instead of a form, so the
     // form never exists while Resend is unverified. See functions/api/subscribe.js.
-    action: '',
+    action: '/api/subscribe',
     hiddenFields: {}, // e.g. { 'audience': 'xxx' }
     heading: 'Get the {year} {city} dates as a PDF',
     blurb: 'One email, the PDF attached, nothing else. Unsubscribe in a click.',
