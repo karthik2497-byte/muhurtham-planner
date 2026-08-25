@@ -80,24 +80,40 @@ whose entire pitch is shown work. Add the licence with GitHub's own "Add file �
 Create new file → LICENSE" flow and pick **GNU AGPLv3** from the template
 picker; that inserts the canonical text, which is the only version worth having.
 
-Cloudflare Pages → Create project → connect the repo:
+Deploy from the CLI, not the Git integration — HOSTING.md explains why, and the
+other apps in the account are wired the same way. Cloudflare is then never
+granted access to the repo at all.
 
-- Root directory: `site`
-- Build command: `npm run build`
-- Build output directory: `dist`
-- Environment variable: `NODE_VERSION` = `22`
+```sh
+cd site
+npm run check                 # build + invariants + ics tests
+npx wrangler pages deploy dist --project-name muhurtham-dates --branch main
+```
 
-The output directory is **relative to the root directory**. Setting root to
-`site` and output to `site/dist` makes Pages look for `site/site/dist` and the
-deploy fails with an empty-output error that does not name the cause.
+The project was created once with:
 
-`build.mjs` reads `../data`, `../cities.json` and `../verification/REPORT.md`,
-which sit outside the root directory. That is fine — Pages checks out the whole
-repo and only changes the working directory. There are no dependencies to
-install and no Python in the build; `data/` and the PDFs are committed.
+```sh
+npx wrangler pages project create muhurtham-dates --production-branch main
+```
 
-Add the apex and `www`; HTTPS is automatic. `data/` and the PDFs are committed,
-so the build needs no Python and no secrets.
+There is no build on Cloudflare's side, so no root directory, no build command
+and no `NODE_VERSION` to set. `build.mjs` reads `../data`, `../cities.json` and
+`../verification/REPORT.md`; it runs locally where those always exist. `data/`
+and the PDFs are committed, so the build needs no Python and no secrets.
+
+**Custom domain.** Attaching the domain to the project does *not* create the DNS
+record, even when the zone is in the same Cloudflare account — the domain sits
+at `status: pending` indefinitely until the record exists. Add both in
+DNS → Records:
+
+| Type | Name | Target | Proxy |
+|---|---|---|---|
+| CNAME | `@` | `muhurtham-dates.pages.dev` | Proxied |
+| CNAME | `www` | `muhurtham-dates.pages.dev` | Proxied |
+
+CNAME flattening handles the apex. HTTPS provisions itself once the records
+resolve. Until then the deployed pages still declare canonicals pointing at the
+custom domain, so the `.pages.dev` copy will not be indexed in its place.
 
 ### 5. Email capture — 20 minutes
 
