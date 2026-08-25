@@ -61,6 +61,7 @@ const emailCapture = (city, year) => {
     ${hidden}
     <input type="hidden" name="city" value="${esc(city.slug)}">
     <input type="hidden" name="year" value="${year}">
+    <input class="sr" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
     <label class="sr" for="em">Email address</label>
     <input id="em" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
     <button type="submit">Send me the PDF</button>
@@ -451,5 +452,52 @@ publish yet. Everything we do have is one click away.</p>
     path: '/404',
     body,
     noindex: true,
+  });
+}
+
+// ---------------------------------------------------------------------------
+
+// Where /api/subscribe sends the browser. Kept out of the sitemap: it is a
+// destination, not a page anyone should arrive at from search.
+export function thanksPage() {
+  const body = `
+<h1>Check your inbox</h1>
+<p class="lede">The PDF is on its way. If it hasn’t arrived in a few minutes,
+look in spam — and the direct link below works either way.</p>
+
+<p><a class="btn big primary" id="pdf" href="/">Download the PDF</a></p>
+
+<p id="note" hidden></p>
+
+<p><a href="/">Back to all cities and years</a> ·
+<a href="/how-dates-are-computed/">How these dates are computed</a></p>`;
+
+  // The query string is attacker-controlled, so the path is matched against the
+  // exact shape the build emits before it is ever put in an href.
+  const script = `<script>
+(function () {
+  var q = new URLSearchParams(location.search);
+  var p = q.get('pdf') || '';
+  var a = document.getElementById('pdf');
+  if (/^\\/pdf\\/\\d{4}-[a-z-]+\\.pdf$/.test(p)) { a.href = p; } else { a.hidden = true; }
+  var note = document.getElementById('note');
+  var state = q.get('state');
+  if (state === 'bad-email') {
+    note.textContent = 'That address did not look right, so nothing was sent. Try again from your city’s page.';
+    note.hidden = false;
+  } else if (state === 'mail-failed') {
+    note.textContent = 'The email could not be sent just now — use the link above, and do try again later.';
+    note.hidden = false;
+  }
+}());
+</script>`;
+
+  return layout({
+    title: `Check your inbox — ${SITE.name}`,
+    description: 'Your dates PDF is on its way.',
+    path: '/thank-you/',
+    body,
+    noindex: true,
+    scripts: script,
   });
 }

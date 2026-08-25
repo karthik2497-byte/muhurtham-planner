@@ -45,10 +45,15 @@ for (const file of htmls) {
   else if (titles.has(title)) fail(`${route}: duplicate title with ${titles.get(title)}`);
   else titles.set(title, route);
 
-  if (!/<meta name="description" content="[^"]{60,}"/.test(html))
+  // Both of these serve search results. A noindex page has none, and requiring
+  // a canonical on one would contradict the rule that it must not declare one.
+  const indexable = !/<meta name="robots" content="noindex">/.test(html);
+  if (indexable && !/<meta name="description" content="[^"]{60,}"/.test(html))
     fail(`${route}: missing or too-short meta description`);
-  if (!/<link rel="canonical" href="https:\/\/[^"]+"/.test(html))
+  if (indexable && !/<link rel="canonical" href="https:\/\/[^"]+"/.test(html))
     fail(`${route}: no canonical`);
+  if (!indexable && /rel="canonical"/.test(html))
+    fail(`${route}: noindex page must not declare a canonical`);
   if ((html.match(/<h1[ >]/g) || []).length !== 1)
     fail(`${route}: needs exactly one <h1>`);
 
@@ -103,8 +108,17 @@ for (const required of ['sitemap.xml', 'robots.txt', 'favicon.svg', 'site.css'])
   if (!existsSync(join(OUT, required))) fail(`missing ${required}`);
 }
 const sitemap = readFileSync(join(OUT, 'sitemap.xml'), 'utf8');
-if ((sitemap.match(/<loc>/g) || []).length !== htmls.length)
-  fail('sitemap entry count does not match page count');
+const listed = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname));
+
+// A page belongs in the sitemap if and only if it is indexable. Counting is not
+// enough: one page dropping out as another is added would net to zero.
+for (const file of htmls) {
+  const route = file.slice(OUT.length).replace(/index\.html$/, '') || '/';
+  const noindex = /<meta name="robots" content="noindex">/.test(readFileSync(file, 'utf8'));
+  if (noindex && listed.has(route)) fail(`${route}: noindex page is listed in the sitemap`);
+  if (!noindex && !listed.has(route)) fail(`${route}: indexable page missing from the sitemap`);
+}
+for (const r of listed) if (!routes.has(r)) fail(`sitemap lists ${r}, which was not built`);
 
 // Without dist/404.html, Cloudflare Pages answers every unmatched path with the
 // homepage and a 200 — soft 404s on guessable URLs like /2029/mumbai/wedding/.

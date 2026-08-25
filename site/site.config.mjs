@@ -23,6 +23,9 @@ export const SITE = {
   // FR-6. Empty action = the form renders as a plain "coming soon" note rather
   // than a broken POST. Fill in when the provider audience exists.
   email: {
+    // Set to '/api/subscribe' to turn signup on. That single string is the
+    // switch: empty renders "Sign-up opens shortly" instead of a form, so the
+    // form never exists while Resend is unverified. See functions/api/subscribe.js.
     action: '',
     hiddenFields: {}, // e.g. { 'audience': 'xxx' }
     heading: 'Get the {year} {city} dates as a PDF',

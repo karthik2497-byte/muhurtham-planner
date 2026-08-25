@@ -12,7 +12,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { SITE } from '../site.config.mjs';
-import { homePage, yearPage, cityPage, eventPage, methodologyPage, notFoundPage } from '../src/templates/pages.mjs';
+import { homePage, yearPage, cityPage, eventPage, methodologyPage, notFoundPage, thanksPage } from '../src/templates/pages.mjs';
 import { esc, setYears } from '../src/templates/layout.mjs';
 
 const here = dirname(new URL(import.meta.url).pathname);
@@ -25,12 +25,12 @@ rmSync(OUT, { recursive: true, force: true });
 
 const urls = [];
 let pages = 0;
-function emit(path, html) {
+function emit(path, html, listed = true) {
   const file = path === '/' ? 'index.html' : join(path.replace(/^\/|\/$/g, ''), 'index.html');
   const dest = join(OUT, file);
   mkdirSync(dirname(dest), { recursive: true });
   writeFileSync(dest, html);
-  urls.push(path);
+  if (listed) urls.push(path);
   pages++;
 }
 
@@ -75,6 +75,9 @@ emit('/', homePage({ years, cities, planningYear }));
 // Written directly, not via emit(): a 404 must stay out of the sitemap, and it
 // lives at dist/404.html rather than dist/404/index.html for Pages to find it.
 writeFileSync(join(OUT, '404.html'), notFoundPage({ years, cities, planningYear }));
+
+// Unlisted: /api/subscribe redirects here, nobody should reach it from search.
+emit('/thank-you/', thanksPage(), false);
 
 for (const year of years) {
   emit(`/${year}/`, yearPage({ year, cities, years, counts: counts[year] }));
