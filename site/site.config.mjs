@@ -20,6 +20,12 @@ export const SITE = {
   // FR-9. Empty string = no analytics injected at all.
   ga4Id: '',
 
+  // Cloudflare Web Analytics. Public site identifier, not a credential — it
+  // ships in the HTML of every page by design. Empty = nothing injected.
+  // Automatic edge injection does not work on this Pages custom domain, so the
+  // beacon has to be in the markup; see DEPLOYMENT.md.
+  cfBeaconToken: '061b20bad9e140d68c605b9a8b6107ff',
+
   // FR-6. Empty action = the form renders as a plain "coming soon" note rather
   // than a broken POST. Fill in when the provider audience exists.
   email: {

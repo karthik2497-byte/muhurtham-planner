@@ -16,6 +16,13 @@ const ga = () =>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${SITE.ga4Id}')</script>`
     : '';
 
+// Cookieless, sets nothing on the device, so no consent banner. Loaded from
+// Cloudflare's CDN, so it stays out of the build's own JS budget.
+const cfBeacon = () =>
+  SITE.cfBeaconToken
+    ? `<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${SITE.cfBeaconToken}"}'></script>`
+    : '';
+
 // FR-8: reserved, fixed-height, empty. Adding ad code later cannot shift text.
 const adSlot = (id) =>
   SITE.adsEnabled ? `<div class="ad-slot" id="${id}"></div>` : '';
@@ -37,7 +44,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" hr
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/site.css">
 ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('\n')}
-${ga()}
+${ga()}${cfBeacon()}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
