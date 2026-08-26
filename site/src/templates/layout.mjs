@@ -36,6 +36,7 @@ export function layout({ title, description, path, body, jsonld = [], scripts = 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
+${SITE.bingVerification ? `<meta name="msvalidate.01" content="${SITE.bingVerification}">` : ''}
 ${noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${canonical}">`}
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">

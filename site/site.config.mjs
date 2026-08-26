@@ -26,6 +26,11 @@ export const SITE = {
   // beacon has to be in the markup; see DEPLOYMENT.md.
   cfBeaconToken: '061b20bad9e140d68c605b9a8b6107ff',
 
+  // Bing Webmaster Tools site verification. Public identifier, same as above.
+  // Bing's Search Console import was declined: it grants Microsoft read access
+  // to every property on the Google account, not just this one.
+  bingVerification: '2E29644381775A9E0F061FBE3CCB60FC',
+
   // FR-6. Empty action = the form renders as a plain "coming soon" note rather
   // than a broken POST. Fill in when the provider audience exists.
   email: {
