@@ -174,11 +174,27 @@ usually deploy propagation. Retry before debugging it.
 Finally, open the delivered mail on **Gmail web** (the iOS and Android apps have
 no "Show original") and confirm SPF, DKIM and DMARC all say PASS.
 
-### 6. Search — 20 minutes
+### 6. Search — ✅ both submitted 2026-08-26
 
-Search Console: verify the domain, submit `https://yourdomain.com/sitemap.xml`.
-Bing Webmaster Tools: same, it imports from Search Console in two clicks. This
-audience uses default browsers more than you would guess.
+**Google Search Console.** A *Domain* property needs the full sitemap URL —
+`https://yourdomain.com/sitemap.xml`, not the relative path a URL-prefix
+property accepts. "Couldn't fetch" straight after submitting usually means
+Google has not crawled yet, not that anything is wrong; check the sitemap
+returns 200 and parses, then leave it.
+
+**Bing Webmaster Tools.** Bing's import-from-Search-Console button is two
+clicks, but it grants Microsoft read access to *every* property on the Google
+account. Add the site manually instead and verify with the meta tag —
+`bingVerification` in `site.config.mjs` puts it in every page's `<head>`, so
+it costs one config field and grants nothing. Bing's DNS alternative uses a
+CNAME to `verify.bing.com`, not a TXT record like Google's.
+
+Sitemaps are submitted separately in each tool; they share nothing. Both
+submissions are idempotent, so resubmitting is harmless. `robots.txt` already
+advertises the sitemap, so both engines find it eventually either way.
+
+This audience uses default browsers more than you would guess, which is the
+whole reason Bing is worth the five minutes.
 
 ### 7. Calendar reminders — 5 minutes
 
