@@ -196,37 +196,50 @@ confirmed the computation without testing it against vakya reckoning. That test
 has now been run against a printed *Pambu Panchangam* (Parapava 2026-27), whose
 cover states சுத்த வாக்கிய பஞ்சாங்கம் — pure vakya.
 
-Two samples, both Chennai:
+Three samples, all Chennai:
 
 | Sample | n | tithi | nakshatram |
 |---|---|---|---|
 | Page 2 muhurtham list | 19 | — | 12/19 agree on **both** elements |
 | Karthigai daily table, 17 Nov – 15 Dec 2026 | 29 | 24/29 | 26/29 |
+| drikpanchang **vakyam**, 17 Nov 2026 – 15 Feb 2027 | 91 | 76/91 | 85/91 |
+
+drikpanchang serves either arithmetic from one URL — its "Change to Vakyam"
+button just sets a cookie — which gives both a control and a scale test:
+
+- **ours vs drikpanchang drik: 91/91 on both elements, every ending within
+  ±1 minute.** With GATE-A1's n=40 against two drik sources, our computation
+  is not the variable in any of this.
+- **printed Pambu vs drikpanchang vakyam: nakshatram 29/29, tithi 28/29** on
+  the Karthigai days, so the scraped source is a fair stand-in for the print
+  at the element level (its *times* run ~30-50 min ahead of the almanac).
 
 **Every disagreement in either sample is exactly one step.** No disagreement
 anywhere was larger.
 
-The daily tables also carry ending times, so the divergence could be measured
-rather than inferred. Where both almanacs name the same element, the difference
-between their endings traces **a single smooth cycle per lunar month, amplitude
-about ±4 hours**, fitted by one sinusoid with under 10% residual. That is the
-lunar equation of centre showing through vakya's mean-motion tables — a known,
-bounded, periodic property of the system, not error on either side. It changes
-a published date only when a boundary happens to fall within about four hours
-of sunrise.
+The daily tables carry ending times, so the divergence could be measured rather
+than inferred. Where both sources name the same element, the difference between
+their endings traces **one dominant cycle of about 29.5–29.9 days, amplitude
+±4.5 hours**, fitted by a single sinusoid at under 10% residual. The amplitude
+reproduces across both sources independently (±240 min transcribed from print,
+±274 min scraped). This is a bounded, periodic property of vakya reckoning, not
+error on either side; it changes a published date only when a boundary happens
+to land within that window of sunrise.
 
-Applying that window to our own output: **1240 of 1585 wedding dates (78.2%)
-are robust to the full ±4 h**; 21.8% is the *ceiling* on disagreement, assuming
-peak drift in the unfavourable direction. The observed nakshatram rate on
-Karthigai was 3/29.
+Applying the fitted window to our own output: **1190 of 1585 wedding dates
+(75.1%) are robust to the full ±274 min**; 24.9% is the *ceiling* on
+disagreement, assuming peak drift in the unfavourable direction on every date.
+Observed rates were 3/29 (Karthigai nakshatram) and 6/91 (drikpanchang vakyam
+nakshatram).
 
 Worksheet, drift table, reading validation and limits:
 [`vakya-crosscheck.md`](vakya-crosscheck.md).
 
-This is **not** a cleared gate. It is one city, two samples, read by Claude from
-a compressed scan at ~75 dpi; eleven further monthly pages in the same file are
-untranscribed, and the divergent rows in the page-2 sample still want confirming
-against the print. It is recorded here so the finding is not lost and so
+This is **not** a cleared gate. It is one city; the printed samples were read by
+Claude from a compressed scan at ~75 dpi and eleven further monthly pages are
+untranscribed; the divergent rows in the page-2 sample still want confirming
+against the print; and the scraped leg is one website, an independent
+implementation rather than an independent tradition. It is recorded here so the finding is not lost and so
 GATE-A1's open item has a home.
 
 Name: ______________  Date: ____________

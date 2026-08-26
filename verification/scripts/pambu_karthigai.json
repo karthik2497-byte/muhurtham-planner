@@ -1,0 +1,234 @@
+{
+"2026-11-17": {
+"tamil_day": 1,
+"weekday": "Tue",
+"tithi": "Ashtami",
+"tithi_naz": "50-37",
+"nakshatra": "Avittam",
+"nak_naz": "49-16"
+},
+"2026-11-18": {
+"tamil_day": 2,
+"weekday": "Wed",
+"tithi": "Navami",
+"tithi_naz": "52-20",
+"nakshatra": "Sadhayam",
+"nak_naz": "52-24"
+},
+"2026-11-19": {
+"tamil_day": 3,
+"weekday": "Thu",
+"tithi": "Dasami",
+"tithi_naz": "52-44",
+"nakshatra": "Poorattathi",
+"nak_naz": "54-16"
+},
+"2026-11-20": {
+"tamil_day": 4,
+"weekday": "Fri",
+"tithi": "Ekadasi",
+"tithi_naz": "51-49",
+"nakshatra": "Uthirattathi",
+"nak_naz": "54-51"
+},
+"2026-11-21": {
+"tamil_day": 5,
+"weekday": "Sat",
+"tithi": "Dwadasi",
+"tithi_naz": "49-44",
+"nakshatra": "Revathi",
+"nak_naz": "54-18"
+},
+"2026-11-22": {
+"tamil_day": 6,
+"weekday": "Sun",
+"tithi": "Thrayodasi",
+"tithi_naz": "46-33",
+"nakshatra": "Ashwini",
+"nak_naz": "52-40"
+},
+"2026-11-23": {
+"tamil_day": 7,
+"weekday": "Mon",
+"tithi": "Chathurdasi",
+"tithi_naz": "42-31",
+"nakshatra": "Bharani",
+"nak_naz": "50-14"
+},
+"2026-11-24": {
+"tamil_day": 8,
+"weekday": "Tue",
+"tithi": "Pournami",
+"tithi_naz": "37-45",
+"nakshatra": "Karthigai",
+"nak_naz": "47-04"
+},
+"2026-11-25": {
+"tamil_day": 9,
+"weekday": "Wed",
+"tithi": "Prathamai",
+"tithi_naz": "32-26",
+"nakshatra": "Rohini",
+"nak_naz": "43-23"
+},
+"2026-11-26": {
+"tamil_day": 10,
+"weekday": "Thu",
+"tithi": "Dwithiyai",
+"tithi_naz": "26-44",
+"nakshatra": "Mrigasheersham",
+"nak_naz": "39-22"
+},
+"2026-11-27": {
+"tamil_day": 11,
+"weekday": "Fri",
+"tithi": "Thrithiyai",
+"tithi_naz": "20-53",
+"nakshatra": "Thiruvathirai",
+"nak_naz": "35-15"
+},
+"2026-11-28": {
+"tamil_day": 12,
+"weekday": "Sat",
+"tithi": "Chathurthi",
+"tithi_naz": "15-02",
+"nakshatra": "Punarpoosam",
+"nak_naz": "31-12"
+},
+"2026-11-29": {
+"tamil_day": 13,
+"weekday": "Sun",
+"tithi": "Panchami",
+"tithi_naz": "09-25",
+"nakshatra": "Poosam",
+"nak_naz": "27-28"
+},
+"2026-11-30": {
+"tamil_day": 14,
+"weekday": "Mon",
+"tithi": "Sashti",
+"tithi_naz": "04-13",
+"nakshatra": "Ayilyam",
+"nak_naz": "24-12"
+},
+"2026-12-01": {
+"tamil_day": 15,
+"weekday": "Tue",
+"tithi": "Ashtami",
+"tithi_naz": "55-44",
+"nakshatra": "Magham",
+"nak_naz": "21-33"
+},
+"2026-12-02": {
+"tamil_day": 16,
+"weekday": "Wed",
+"tithi": "Navami",
+"tithi_naz": "52-55",
+"nakshatra": "Pooram",
+"nak_naz": "19-44"
+},
+"2026-12-03": {
+"tamil_day": 17,
+"weekday": "Thu",
+"tithi": "Dasami",
+"tithi_naz": "51-11",
+"nakshatra": "Uthiram",
+"nak_naz": "18-55"
+},
+"2026-12-04": {
+"tamil_day": 18,
+"weekday": "Fri",
+"tithi": "Ekadasi",
+"tithi_naz": "50-42",
+"nakshatra": "Hastham",
+"nak_naz": "19-16"
+},
+"2026-12-05": {
+"tamil_day": 19,
+"weekday": "Sat",
+"tithi": "Dwadasi",
+"tithi_naz": "51-29",
+"nakshatra": "Chithirai",
+"nak_naz": "20-49"
+},
+"2026-12-06": {
+"tamil_day": 20,
+"weekday": "Sun",
+"tithi": "Thrayodasi",
+"tithi_naz": "53-35",
+"nakshatra": "Swathi",
+"nak_naz": "23-38"
+},
+"2026-12-07": {
+"tamil_day": 21,
+"weekday": "Mon",
+"tithi": "Chathurdasi",
+"tithi_naz": "56-49",
+"nakshatra": "Visakam",
+"nak_naz": "27-39"
+},
+"2026-12-08": {
+"tamil_day": 22,
+"weekday": "Tue",
+"tithi": "Amavasai",
+"tithi_naz": "60-00",
+"nakshatra": "Anusham",
+"nak_naz": "32-39"
+},
+"2026-12-09": {
+"tamil_day": 23,
+"weekday": "Wed",
+"tithi": "Amavasai",
+"tithi_naz": "01-07",
+"nakshatra": "Kettai",
+"nak_naz": "38-31"
+},
+"2026-12-10": {
+"tamil_day": 24,
+"weekday": "Thu",
+"tithi": "Prathamai",
+"tithi_naz": "06-07",
+"nakshatra": "Moolam",
+"nak_naz": "44-49"
+},
+"2026-12-11": {
+"tamil_day": 25,
+"weekday": "Fri",
+"tithi": "Dwithiyai",
+"tithi_naz": "11-22",
+"nakshatra": "Pooradam",
+"nak_naz": "51-11"
+},
+"2026-12-12": {
+"tamil_day": 26,
+"weekday": "Sat",
+"tithi": "Thrithiyai",
+"tithi_naz": "16-32",
+"nakshatra": "Uthiradam",
+"nak_naz": "57-19"
+},
+"2026-12-13": {
+"tamil_day": 27,
+"weekday": "Sun",
+"tithi": "Chathurthi",
+"tithi_naz": "21-17",
+"nakshatra": "Thiruvonam",
+"nak_naz": "60-00"
+},
+"2026-12-14": {
+"tamil_day": 28,
+"weekday": "Mon",
+"tithi": "Panchami",
+"tithi_naz": "25-14",
+"nakshatra": "Thiruvonam",
+"nak_naz": "02-46"
+},
+"2026-12-15": {
+"tamil_day": 29,
+"weekday": "Tue",
+"tithi": "Sashti",
+"tithi_naz": "28-08",
+"nakshatra": "Avittam",
+"nak_naz": "07-19"
+}
+}

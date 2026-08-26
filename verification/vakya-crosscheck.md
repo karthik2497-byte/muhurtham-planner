@@ -82,27 +82,24 @@ Where both almanacs name the same element, its ending is the same event on
 both sides, so the difference is directly comparable. Rebuilding Pambu's
 ending from the printed nazhikai and our sunrise:
 
-| | n | period | amplitude | offset | residual RMS |
-|---|---|---|---|---|---|
-| tithi end | 23 | 30.0 d | ±243 min | +37 min | 53 min (9.3% of spread) |
-| nakshatram end | 25 | 26.9 d | ±240 min | +103 min | 41 min (7.4% of spread) |
+| | n | amplitude | residual RMS |
+|---|---|---|---|
+| tithi end | 23 | ±243 min | 53 min (9.3% of spread) |
+| nakshatram end | 25 | ±240 min | 41 min (7.4% of spread) |
 
 The series is not scatter. It rises monotonically from −184 min on 18 Nov to
 +374 min on 29 Nov and falls monotonically back to −155 by 15 Dec: one clean
 cycle per lunar month, amplitude about **±4 hours**, fitted by a single
 sinusoid with under 10% residual.
 
-That is the expected shape. Vakya advances the moon by memorised mean-motion
-tables with a coarse correction; the residual against true longitude is
-dominated by the lunar equation of centre, which cycles once per anomalistic
-month with an amplitude of a few hours in time-of-crossing. Twenty-nine days
-of data constrain the amplitude well and the period poorly — the recovered
-26.9 d and 30.0 d bracket the anomalistic month (27.55 d), and should not be
-read as measuring it.
-
 **This is the headline result. The divergence is not error on either side.
-It is a known, bounded, periodic property of vakya reckoning, and it only
-becomes visible when a boundary lands within about four hours of sunrise.**
+It is a bounded, periodic property of vakya reckoning, and it becomes visible
+only when a boundary lands within about four hours of sunrise.**
+
+Twenty-nine days is one cycle, which pins the amplitude but not the period.
+§7 repeats the measurement over 91 days against an independent source and
+does constrain it — to the synodic month, not, as an earlier draft of this
+file asserted, the anomalistic one.
 
 ## 4. Muhurtham list, page 2 — n = 19
 
@@ -164,7 +161,7 @@ that happened to sit next to sunrise.
 
 ## 6. What this costs the site
 
-Applying the measured ±4 h window to every published date — a boundary within
+Applying the fitted ±274 min window (§7) to every published date — a boundary within
 that distance of sunrise on either side can move across it:
 
 | Event | Dates | Boundary <1 h | <2 h | <4 h |
@@ -180,21 +177,100 @@ But a shift only matters if it lands somewhere the rules reject. Most do not
 — the adjacent nakshatram is often also on the allowlist, and the user sees
 no difference. For wedding dates specifically:
 
-- **1240 of 1585 (78.2%) are robust**: a vakya reader gets the same verdict
-  even at the full ±4 h.
-- **345 (21.8%) could read as a blocked nakshatram** (193 forward, 152
+- **1190 of 1585 (75.1%) are robust**: a vakya reader gets the same verdict
+  even at the full ±274 min.
+- **395 (24.9%) could read as a blocked nakshatram** (218 forward, 177
   backward). This is a **ceiling**, not an estimate: it assumes the drift is
   at peak amplitude in the unfavourable direction, which holds only a few
   days per month. The measured rate on Karthigai was 3/29 for nakshatram.
 
-The most common vulnerable shifts are Uthirattathi→Poorattathi (36),
-Magham→Pooram (29) and Mrigasheersham→Thiruvathirai (28).
+The most common vulnerable shifts are Uthirattathi→Poorattathi (43),
+Mrigasheersham→Thiruvathirai (33) and Magham→Pooram (31).
+
+## 7. drikpanchang, both arithmetics — n = 91 days
+
+drikpanchang's Tamil panchangam computes drik by default and switches to the
+older reckoning with a **Change to Vakyam** button. That button only sets a
+cookie, `drik-arithmetic=suryasiddhanta`, so one URL serves either system and
+both are scriptable. Chennai, 17 Nov 2026 – 15 Feb 2027, 91 consecutive days,
+each fetched twice.
+
+Values were read from the page's machine-readable `data-element-info`
+attributes rather than the rendered text. Two traps, both hit and both fixed:
+the stamp carries no AM/PM, so `drik-time-format=24hour` has to be set as well
+or every afternoon ending reads twelve hours early; and an element spanning
+the whole day has a string id where the time should be — dp's "Full Night",
+the same case as the almanac's `60-00 (முழு)`.
+
+### 7a. The control: is any of this ours?
+
+| ours vs drikpanchang **drik** | result |
+|---|---|
+| tithi | 91/91 |
+| nakshatram | 91/91 |
+| ending times, all 87 comparable rows | within **±1 minute** |
+
+No disagreement of any size in three months. Taken with GATE-A1 (n=40 against
+two drik sources), our computation is not the variable in anything below.
+
+### 7b. Is dp-vakyam a fair stand-in for the printed almanac?
+
+It had to be asked: drikpanchang calls its mode Surya Siddhantic, while Pambu
+is the Tamil vakya (Parahita) lineage. These are not the same tradition. Tested
+against the 29 Karthigai days transcribed from the print:
+
+| printed Pambu vs dp **vakyam** | result |
+|---|---|
+| nakshatram | 29/29 |
+| tithi | 28/29 |
+| nakshatram ending gap | median −33 min, range −95 .. −4 |
+| tithi ending gap | median −53 min, range −95 .. −20 |
+
+So the two vakya sources agree on **which** element, essentially always, while
+dp runs a consistent half-hour or so ahead of the print. The single tithi
+disagreement (2026-12-09, Amavasai vs Prathamai) is a boundary case of exactly
+that size. dp-vakyam is a sound stand-in at the element level, and should not
+be used as a proxy for the almanac's *times*.
+
+### 7c. The divergence at scale
+
+| ours vs dp **vakyam**, 91 days | result |
+|---|---|
+| tithi | 76/91 (84%) |
+| nakshatram | 85/91 (93%) |
+| flips | 21 of 182 element-days (11.5%) |
+
+And the drift, refitted over three lunar cycles instead of one:
+
+| period tested | amplitude | residual RMS |
+|---|---|---|
+| anomalistic month, 27.55 d | ±250 min | 99 min |
+| **synodic month, 29.53 d** | **±273 min** | **61 min** |
+| evection, 31.81 d | ±267 min | 83 min |
+| best grid fit, 29.90 d | ±274 min | 60 min |
+
+**The amplitude reproduces** — ±274 min here against ±240 min from the printed
+Karthigai page, two independent sources, one transcribed by eye from a 75 dpi
+scan and the other scraped.
+
+**The period does not match what §3's first draft claimed.** That draft
+attributed the cycle to the lunar equation of centre and therefore to the
+anomalistic month. On 29 days that was an untestable guess; on 91 it is
+measurable, and the synodic month fits distinctly better (RMS 61 vs 99). The
+term responsible is not identified here and 91 days is not enough to identify
+it — the 60 min residual is itself structured, so this is one dominant cycle
+and not the whole story. What the doc should claim is the empirical shape:
+**one dominant cycle of about 29.5–29.9 days, amplitude ±4.5 hours.**
 
 ## Limits — read before citing this
 
-- Two samples, both Chennai: the page-2 muhurtham list (n=19, one Tamil year)
-  and the Karthigai daily table (n=29 consecutive days). Eleven further
-  monthly pages are in the same file and are not yet transcribed.
+- Three samples, all Chennai: the page-2 muhurtham list (n=19, one Tamil
+  year), the Karthigai daily table (n=29 consecutive days), and drikpanchang
+  in both arithmetics (n=91 days). Eleven further monthly pages are in the
+  PDF and are not yet transcribed.
+- §7 is one website. It is an independent implementation, not an independent
+  tradition, and its vakyam mode is Surya Siddhantic rather than Parahita —
+  §7b measures the gap rather than assuming it away, but on one month only.
 - The page-2 list is a *selection* of prime muhurthams with lagna windows;
   ours is every date passing the rule set. Set equality is not the test and
   was not measured. Only rows present in both were compared.
@@ -206,8 +282,12 @@ Magham→Pooram (29) and Mrigasheersham→Thiruvathirai (28).
   should still be confirmed against print or a better scan. §2 and §3 are
   more robust to this, because a misread would break the smooth curve.
 - §6 is arithmetic on our own data under a measured assumption, not an
-  observation. It has not been checked against the almanac for any month
-  other than Karthigai.
+  observation. It applies the worst-case amplitude uniformly, whereas the
+  drift is near that amplitude only a few days a month, so the true figure is
+  well inside the stated ceiling. It has not been checked against the almanac
+  for any month other than Karthigai.
+- The period in §7c is measured, but the term producing it is not identified.
+  Do not repeat the equation-of-centre story from the first draft.
 
 ## If accepted, what changes
 
