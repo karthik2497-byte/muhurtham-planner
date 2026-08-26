@@ -189,6 +189,28 @@ Name: Karthik  Date: 2026-08-22
 
 ---
 
+## GATE-A1 follow-up — printed vakya almanac (DRAFT, not signed off)
+
+GATE-A1 recorded one open limitation: both its sources were drik-ganita, so it
+confirmed the computation without testing it against vakya reckoning. That test
+has now been run against a printed *Pambu Panchangam* (Parapava 2026-27), whose
+cover states சுத்த வாக்கிய பஞ்சாங்கம் — pure vakya.
+
+**Result: 12 of 19 sampled wedding dates agree on both tithi and nakshatram.
+Every one of the seven disagreements is exactly one step.** No disagreement
+anywhere in the sample was larger.
+
+Worksheet, reading validation and limits: [`vakya-crosscheck.md`](vakya-crosscheck.md).
+
+This is **not** a cleared gate. It is one city, one occasion, n=19, read by
+Claude from a compressed scan, and the seven divergent rows still need
+confirming against the print. It is recorded here so the finding is not lost
+and so GATE-A1's open item has a home.
+
+Name: ______________  Date: ____________
+
+---
+
 ## GATE-B (post-launch, ≈ Jan 2027)
 
 ≥ 2,000 sessions/mo or the project freezes per IMPLEMENTATION.md. Recorded
