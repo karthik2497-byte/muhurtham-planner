@@ -196,16 +196,38 @@ confirmed the computation without testing it against vakya reckoning. That test
 has now been run against a printed *Pambu Panchangam* (Parapava 2026-27), whose
 cover states சுத்த வாக்கிய பஞ்சாங்கம் — pure vakya.
 
-**Result: 12 of 19 sampled wedding dates agree on both tithi and nakshatram.
-Every one of the seven disagreements is exactly one step.** No disagreement
-anywhere in the sample was larger.
+Two samples, both Chennai:
 
-Worksheet, reading validation and limits: [`vakya-crosscheck.md`](vakya-crosscheck.md).
+| Sample | n | tithi | nakshatram |
+|---|---|---|---|
+| Page 2 muhurtham list | 19 | — | 12/19 agree on **both** elements |
+| Karthigai daily table, 17 Nov – 15 Dec 2026 | 29 | 24/29 | 26/29 |
 
-This is **not** a cleared gate. It is one city, one occasion, n=19, read by
-Claude from a compressed scan, and the seven divergent rows still need
-confirming against the print. It is recorded here so the finding is not lost
-and so GATE-A1's open item has a home.
+**Every disagreement in either sample is exactly one step.** No disagreement
+anywhere was larger.
+
+The daily tables also carry ending times, so the divergence could be measured
+rather than inferred. Where both almanacs name the same element, the difference
+between their endings traces **a single smooth cycle per lunar month, amplitude
+about ±4 hours**, fitted by one sinusoid with under 10% residual. That is the
+lunar equation of centre showing through vakya's mean-motion tables — a known,
+bounded, periodic property of the system, not error on either side. It changes
+a published date only when a boundary happens to fall within about four hours
+of sunrise.
+
+Applying that window to our own output: **1240 of 1585 wedding dates (78.2%)
+are robust to the full ±4 h**; 21.8% is the *ceiling* on disagreement, assuming
+peak drift in the unfavourable direction. The observed nakshatram rate on
+Karthigai was 3/29.
+
+Worksheet, drift table, reading validation and limits:
+[`vakya-crosscheck.md`](vakya-crosscheck.md).
+
+This is **not** a cleared gate. It is one city, two samples, read by Claude from
+a compressed scan at ~75 dpi; eleven further monthly pages in the same file are
+untranscribed, and the divergent rows in the page-2 sample still want confirming
+against the print. It is recorded here so the finding is not lost and so
+GATE-A1's open item has a home.
 
 Name: ______________  Date: ____________
 
