@@ -47,7 +47,7 @@ export const SITE = {
   // other edit. It only ever renders on wedding and engagement pages.
   storeBanner: {
     href: 'https://www.mangaisignature.com/shop?category=bridal-edits',
-    image: '',
+    image: '/store.jpg',
     line: 'Temple harams and bridal sets from Mangai Signature — skin-safe imitation jewellery.',
     cta: 'Browse bridal sets',
     utm: '?utm_source=muhurtham&utm_medium=banner&utm_campaign=dates',
