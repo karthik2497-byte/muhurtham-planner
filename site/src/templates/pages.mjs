@@ -42,7 +42,7 @@ const storeBanner = (event) => {
   return `<aside class="banner">
   ${b.image ? `<img src="${esc(b.image)}" alt="" width="96" height="96" loading="lazy">` : ''}
   <p>${esc(b.line)}</p>
-  <a class="btn" href="${esc(b.href + b.utm)}" rel="sponsored noopener" target="_blank">${esc(b.cta)}</a>
+  <a class="btn" href="${esc(b.href + (b.href.includes('?') ? b.utm.replace('?', '&') : b.utm))}" rel="sponsored noopener" target="_blank">${esc(b.cta)}</a>
 </aside>`;
 };
 

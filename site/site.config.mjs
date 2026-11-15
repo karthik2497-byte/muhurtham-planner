@@ -46,10 +46,10 @@ export const SITE = {
   // FR-7. Empty `href` removes the banner site-wide, on every page, with no
   // other edit. It only ever renders on wedding and engagement pages.
   storeBanner: {
-    href: '',
+    href: 'https://www.mangaisignature.com/shop?category=bridal-edits',
     image: '',
-    line: '',
-    cta: 'Browse',
+    line: 'Temple harams and bridal sets from Mangai Signature — skin-safe imitation jewellery.',
+    cta: 'Browse bridal sets',
     utm: '?utm_source=muhurtham&utm_medium=banner&utm_campaign=dates',
   },
 
