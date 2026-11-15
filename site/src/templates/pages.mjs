@@ -40,7 +40,7 @@ const storeBanner = (event, n = 0) => {
   const b = SITE.storeBanner;
   if (!b.href || !['wedding', 'engagement'].includes(event)) return '';
   const image = b.images.length ? b.images[n % b.images.length] : '';
-  // No lazy-loading: the banner sits above the dates, inside the first screen.
+  // No lazy-loading: after one short month table this is often still on the first screen.
   return `<aside class="banner">
   ${image ? `<img src="${esc(image)}" alt="" width="96" height="96">` : ''}
   <p>${esc(b.line)}</p>
@@ -119,7 +119,9 @@ export function eventPage({ year, city, event, data, events, cities }) {
   const all = [...data.dates, ...optional].sort((a, b) => a.date.localeCompare(b.date));
 
   const groups = groupByMonth(all);
-  const tables = groups.map(([month, rows]) => `
+  // After the first month, so the visitor reaches real dates before the store.
+  const banner = storeBanner(event, cities.findIndex((c) => c.slug === city.slug) + Number(year) + (event === 'engagement' ? 1 : 0));
+  const tables = groups.map(([month, rows], i) => `
 <section class="month" data-strict="${rows.filter((r) => !r.needs).length}">
   <h3>${esc(month)} <span class="count">${rows.filter((r) => !r.needs).length} date${rows.filter((r) => !r.needs).length === 1 ? '' : 's'}</span></h3>
   <div class="scroll">
@@ -142,7 +144,7 @@ ${rows.map((r) => `      <tr${r.needs ? ` class="opt" hidden data-needs="${r.nee
     </tbody>
   </table>
   </div>
-</section>`).join('\n');
+</section>${i === 0 ? banner : ''}`).join('\n');
 
   // Only offer a switch that would actually reveal something in this city-year.
   // A checkbox that does nothing is worse than no checkbox — it reads as broken.
@@ -208,9 +210,8 @@ ${breadcrumbs(crumbs)}
 <p class="meta"><strong id="total">${data.count}</strong> dates in ${year}, computed at ${esc(cityName)} sunrise.
 ${data.count === 0 ? 'None this year — see the explanation below.' : ''}</p>
 ${purohit()}
-${storeBanner(event, cities.findIndex((c) => c.slug === city.slug) + Number(year) + (event === 'engagement' ? 1 : 0))}
 ${optionsPanel}
-${all.length ? tables : '<p class="empty">No dates qualify in this city for this year under the rules on the <a href="/how-dates-are-computed/">methodology page</a>. That is a real result, not a missing file — the month blocks and the planetary combustion periods can close out a whole year.</p>'}
+${all.length ? tables : '<p class="empty">No dates qualify in this city for this year under the rules on the <a href="/how-dates-are-computed/">methodology page</a>. That is a real result, not a missing file — the month blocks and the planetary combustion periods can close out a whole year.</p>' + banner}
 ${emailCapture(city, year)}
 <section class="explain">
   <h2>Why these dates</h2>
