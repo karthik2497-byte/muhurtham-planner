@@ -36,11 +36,13 @@ const groupByMonth = (dates) => {
 };
 
 // FR-7 — wedding and engagement only, and only when configured.
-const storeBanner = (event) => {
+const storeBanner = (event, n = 0) => {
   const b = SITE.storeBanner;
   if (!b.href || !['wedding', 'engagement'].includes(event)) return '';
+  const image = b.images.length ? b.images[n % b.images.length] : '';
+  // No lazy-loading: the banner sits above the dates, inside the first screen.
   return `<aside class="banner">
-  ${b.image ? `<img src="${esc(b.image)}" alt="" width="96" height="96" loading="lazy">` : ''}
+  ${image ? `<img src="${esc(image)}" alt="" width="96" height="96">` : ''}
   <p>${esc(b.line)}</p>
   <a class="btn" href="${esc(b.href + (b.href.includes('?') ? b.utm.replace('?', '&') : b.utm))}" rel="sponsored noopener" target="_blank">${esc(b.cta)}</a>
 </aside>`;
@@ -206,9 +208,9 @@ ${breadcrumbs(crumbs)}
 <p class="meta"><strong id="total">${data.count}</strong> dates in ${year}, computed at ${esc(cityName)} sunrise.
 ${data.count === 0 ? 'None this year — see the explanation below.' : ''}</p>
 ${purohit()}
+${storeBanner(event, cities.findIndex((c) => c.slug === city.slug) + Number(year) + (event === 'engagement' ? 1 : 0))}
 ${optionsPanel}
 ${all.length ? tables : '<p class="empty">No dates qualify in this city for this year under the rules on the <a href="/how-dates-are-computed/">methodology page</a>. That is a real result, not a missing file — the month blocks and the planetary combustion periods can close out a whole year.</p>'}
-${storeBanner(event)}
 ${emailCapture(city, year)}
 <section class="explain">
   <h2>Why these dates</h2>
