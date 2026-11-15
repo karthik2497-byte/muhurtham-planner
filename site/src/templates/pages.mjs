@@ -89,8 +89,8 @@ const scope = () => `
   <p><strong>North Indian families:</strong> your practice is built around
   Chaturmas and a different month reckoning, so these dates will not match. Please
   don’t plan from them.</p>
-  <p><strong>Not one of the 12 cities?</strong> Use the nearest city in your own
-  timezone — Houston reads with Dallas, Boston with New York, Perth with Sydney.
+  <p><strong>Your city not listed?</strong> Use the nearest city in your own
+  timezone — Philadelphia reads with New York, San Diego with Los Angeles, Perth with Sydney.
   Dates only shift when a tithi ends close to sunrise, and every page shows the
   sunrise it used so you can check.</p>
 </section>`;
@@ -320,7 +320,7 @@ ${purohit()}`;
 
   return layout({
     title: `Tamil muhurtham dates ${year} — by city, for the diaspora`,
-    description: `Tamil wedding, engagement, housewarming, seemantham and venture dates for ${year} across 12 cities, each computed at local sunrise.`,
+    description: `Tamil wedding, engagement, housewarming, seemantham and venture dates for ${year} across ${cities.length} cities, each computed at local sunrise.`,
     path: `/${year}/`,
     body,
     jsonld: [breadcrumbLd(crumbs)],

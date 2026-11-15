@@ -40,6 +40,66 @@
     "tz": "America/Chicago"
   },
   {
+    "slug": "houston",
+    "name": "Houston",
+    "short": "Houston",
+    "country": "USA",
+    "lat": 29.7604,
+    "lon": -95.3698,
+    "elevation_m": 13,
+    "tz": "America/Chicago"
+  },
+  {
+    "slug": "atlanta",
+    "name": "Atlanta",
+    "short": "Atlanta",
+    "country": "USA",
+    "lat": 33.7490,
+    "lon": -84.3880,
+    "elevation_m": 320,
+    "tz": "America/New_York"
+  },
+  {
+    "slug": "washington-dc",
+    "name": "Washington, D.C.",
+    "short": "Washington DC",
+    "country": "USA",
+    "lat": 38.9072,
+    "lon": -77.0369,
+    "elevation_m": 22,
+    "tz": "America/New_York"
+  },
+  {
+    "slug": "boston",
+    "name": "Boston",
+    "short": "Boston",
+    "country": "USA",
+    "lat": 42.3601,
+    "lon": -71.0589,
+    "elevation_m": 14,
+    "tz": "America/New_York"
+  },
+  {
+    "slug": "seattle",
+    "name": "Seattle",
+    "short": "Seattle",
+    "country": "USA",
+    "lat": 47.6062,
+    "lon": -122.3321,
+    "elevation_m": 53,
+    "tz": "America/Los_Angeles"
+  },
+  {
+    "slug": "los-angeles",
+    "name": "Los Angeles",
+    "short": "Los Angeles",
+    "country": "USA",
+    "lat": 34.0522,
+    "lon": -118.2437,
+    "elevation_m": 87,
+    "tz": "America/Los_Angeles"
+  },
+  {
     "slug": "toronto",
     "name": "Toronto",
     "short": "Toronto",
@@ -48,6 +108,16 @@
     "lon": -79.3832,
     "elevation_m": 76,
     "tz": "America/Toronto"
+  },
+  {
+    "slug": "vancouver",
+    "name": "Vancouver",
+    "short": "Vancouver",
+    "country": "Canada",
+    "lat": 49.2827,
+    "lon": -123.1207,
+    "elevation_m": 22,
+    "tz": "America/Vancouver"
   },
   {
     "slug": "london",
@@ -88,6 +158,16 @@
     "lon": 144.9631,
     "elevation_m": 31,
     "tz": "Australia/Melbourne"
+  },
+  {
+    "slug": "auckland",
+    "name": "Auckland",
+    "short": "Auckland",
+    "country": "New Zealand",
+    "lat": -36.8485,
+    "lon": 174.7633,
+    "elevation_m": 26,
+    "tz": "Pacific/Auckland"
   },
   {
     "slug": "dubai",
