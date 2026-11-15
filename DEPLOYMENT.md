@@ -70,7 +70,7 @@ Buy the domain (Cloudflare Registrar, ~$10). Then edit `site/site.config.mjs`:
 | `origin` | `https://yourdomain.com` — used for canonicals, sitemap and JSON-LD. Wrong here is invisible locally and wrong in Search Console. |
 | `ga4Id` | Your GA4 measurement ID, or leave empty for no analytics at all |
 | `email.action` | `/api/subscribe` to turn signup on, empty to keep it off (see 5) |
-| `storeBanner.href` / `.image` / `.line` | The saree store's international page. Leave `href` empty and no banner renders anywhere. |
+| `storeBanner.href` / `.images` / `.line` | The jewellery store's bridal page, and the photos rotated across pages. Leave `href` empty and no banner renders anywhere. |
 
 ### 4. Repo and hosting — 20 minutes
 
